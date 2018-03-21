@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="47" positionY="38" securityCode="*" backColor="silver" titleBar="true" titleBarText="" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="330" height="445" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="black" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="black" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="TagIdentifier" height="20" width="20" left="310" top="425" visible="true" wallpaper="false" toolTipText="Logix Tag:  /*LS:0 #1L_Redun*/" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="silver" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="silver" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="VersionIdentifier" height="20" width="20" left="0" top="425" visible="true" wallpaper="false" toolTipText="Process Library L_Redun Faceplate &#xA;Version 3.0-00 Release&#xA;(RA-BAS) L_Redun-Faceplate.gfx&#xA;Copyright © Rockwell Automation, Inc.  All Rights Reserved" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="silver" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="silver" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group_TabButtons" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false"/>
+    <group name="Group_HelpAndCloseButtons" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="GO_ButtonClose" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.GO_ButtonClose" linkToolTipText="false">
+            <button name="ButtonClose1" height="35" width="35" left="290" top="5" visible="true" toolTipText="Close Window" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.ButtonClose" linkToolTipText="false" style="3d" captureCursor="false" highlightOnFocus="true" tabIndex="1">
+                <command pressAction="" repeatAction="" releaseAction="abort me" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#E0E0E0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#ECE9D8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </button>
+            <image name="ImageCloseIcon" height="26" width="26" left="294" top="9" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.ImageCloseIcon" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="NavIcon_Close"/>
+        </group>
+    </group>
+    <group name="TabPanelGrp_Home" visible="false" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false">
+        <group name="TabBackground_Home" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="TabPanel_Home" height="396" width="320" left="5" top="44" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="raised" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="GO_CurTabHome" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.GO_CurTabHome" linkToolTipText="true">
+                <roundedRectangle name="CurTabBack_Home" height="44" width="39" left="5" top="5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.CurTabBack_Home" linkToolTipText="true" backStyle="solid" backColor="#E0E0E0" foreColor="white" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" roundingWidth="12" roundingHeight="12" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <rectangle name="CurTabBlank_Home" height="5" width="38" left="6" top="45" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.CurTabBlank_Home" linkToolTipText="true" backStyle="solid" backColor="#E0E0E0" foreColor="#E0E0E0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <image name="Image_HomeIcon1" height="39" width="38" left="6" top="6" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Common Faceplate Objects.Image_HomeIcon1" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="TabIcon_Operator"/>
+            </group>
+        </group>
+        <group name="Group4" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="GroupQualificationProgress" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <group name="PercentCompleteDisplay" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <group name="Group_PercentComplete" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                        <panel name="Panel_PercentComplete" height="22" width="280" left="25" top="407" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                        <rectangle name="AnimatedPolygon_PercentComplete" height="20" width="278" left="26" top="408" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="blue" foreColor="blue" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="#C000C0" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <animations>
+                                <animateFill expression="{#1L_Redun.Val_QualProgress}" fillMin="0" fillMax="100" fillDirection="right" insideOnly="false">
+                                    <constantExpressionRange min="0" max="100"/>
+                                </animateFill>
+                            </animations>
+                        </rectangle>
+                    </group>
+                    <text name="Text_PercentComplete" height="16" width="34" left="148" top="410" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#00C000" foreColor="white" wordWrap="false" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*N:3 {#1L_Redun.Val_QualProgress} NOFILL DP:0*/%"/>
+                </group>
+                <group name="GroupQualificationProgressHeader" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <panel name="Panel_QualificationProgress" height="2" width="310" left="10" top="393" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="white" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <text name="Text_QualificationProgress" height="16" width="145" left="10" top="386" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#E0E0E0" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Qualification Progress "/>
+                </group>
+                <animations>
+                    <animateVisibility expression="{#1L_Redun.Val_QualProgress} &lt; 0" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <group name="Group14" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <panel name="SyncPanel" height="2" width="310" left="10" top="231" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="white" blink="false" description="" borderColor="navy" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <group name="Group2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <group name="GO_SyncButton" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_SyncButton" linkToolTipText="true">
+                        <group name="InactiveButtonSync" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.InactiveButtonSync" linkToolTipText="true">
+                            <group name="NoPrivSync" visible="true" toolTipText="Sync Primary to Secondary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.NoPrivSync" linkToolTipText="true">
+                                <image name="CmdBtnFaceDisabled2" height="40" width="40" left="243" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceDisabled1" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_Disabled"/>
+                                <image name="ImageSyncProcessorsIconDisabled" height="32" width="32" left="247" top="278" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImageSyncProcessorsIconDisabled" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_SyncProcessors_Disabled"/>
+                            </group>
+                            <group name="PressedButtonSync" visible="true" toolTipText="Syncronizing Primary to Secondary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PressedButtonSync" linkToolTipText="true">
+                                <image name="CmdBtnFaceNormalPressed3" height="40" width="40" left="243" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceNormalPressed3" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_NormalPressed"/>
+                                <image name="ImageSyncProcessorsIcon1" height="32" width="32" left="247" top="278" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImageSyncProcessorsIcon1" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_SyncProcessors"/>
+                                <animations>
+                                    <animateVisibility expression="{#1.Sts_SyncBusy}" expressionTrueState="visible"/>
+                                </animations>
+                            </group>
+                        </group>
+                        <group name="ActiveButtonSync" visible="true" toolTipText="Sync Primary to Secondary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ActiveButtonSync" linkToolTipText="true">
+                            <button name="Button_Sync" height="40" width="40" left="243" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.Button_Sync" linkToolTipText="true" style="raised" captureCursor="false" highlightOnFocus="true" tabIndex="2">
+                                <action type="setToOne" tag="{#1.OCmd_Sync}"/>
+                                <up patternColor="black" patternStyle="none" backColor="#80FF80" backStyle="solid" foreColor="#80FF80" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                                    <imageSettings imageReference="noImage"/>
+                                </up>
+                                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#ECE9D8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                                    <imageSettings imageReference="noImage"/>
+                                </down>
+                                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                                    <imageSettings imageReference="noImage"/>
+                                </confirm>
+                            </button>
+                            <image name="CmdBtnFaceNormalReady" height="40" width="40" left="243" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceNormalReady" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_NormalReady"/>
+                            <image name="CmdBtnFaceNormalRdyActive" height="40" width="40" left="243" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceNormalRdyActive" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_NormalRdyActive">
+                                <animations>
+                                    <animateVisibility expression="{#1.Sts_SyncBusy}" expressionTrueState="visible"/>
+                                </animations>
+                            </image>
+                            <image name="ImageSyncProcessorsIcon" height="32" width="32" left="247" top="278" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImageSyncProcessorsIcon" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_SyncProcessors"/>
+                            <animations>
+                                <animateVisibility expression="CurrentUserHasCode( A ) and {#1.Rdy_Sync}" expressionTrueState="visible"/>
+                            </animations>
+                        </group>
+                    </group>
+                    <multistateIndicator name="GO_msi_SyncStatus" height="22" width="135" left="98" top="283" visible="true" toolTipText="Controller OK Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_SyncStatus" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="4">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync Idle" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="1" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync Done" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="2" backColor="cyan" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync Busy" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="3" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync Error" color="white" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="if ( {#1.Sts_SyncDone} ) then 1&#xA;else if ( {#1.Sts_SyncBusy} ) then 2&#xA;else if ( {#1.Sts_SyncErr} ) then 3&#xA;else 0"/>
+                        </connections>
+                    </multistateIndicator>
+                </group>
+                <group name="GO_XferSizeGraph" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_XferSizeGraph" linkToolTipText="true">
+                    <panel name="PanelXfer" height="102" width="12" left="30" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PanelXfer" linkToolTipText="true" backStyle="solid" patternStyle="none" backColor="white" patternColor="white" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    <rectangle name="PolygonXferActual" height="100" width="10" left="31" top="275" visible="true" toolTipText="Percent Memory currently used for I/O" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PolygonXferActual" linkToolTipText="true" backStyle="solid" backColor="gray" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="gray" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <animations>
+                            <animateHeight expression="if ( {#1.Val_XferSizeMax} &gt; 0 ) then&#xA;   {#1.Val_XferSizeLast}/{#1.Val_XferSizeMax}&#xA;else 0" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                                <constantExpressionRange min="0" max="1"/>
+                            </animateHeight>
+                        </animations>
+                    </rectangle>
+                    <group name="GroupXferScale" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GroupXferScale" linkToolTipText="true">
+                        <rectangle name="PolygonXferGreen" height="75" width="6" left="24" top="299" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PolygonXferGreen" linkToolTipText="true" backStyle="solid" backColor="lime" foreColor="lime" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                        <rectangle name="PolygonXferYellow" height="10" width="6" left="24" top="290" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PolygonXferYellow" linkToolTipText="true" backStyle="solid" backColor="yellow" foreColor="yellow" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                        <rectangle name="PolygonXferRed" height="15" width="6" left="24" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PolygonXferRed" linkToolTipText="true" backStyle="solid" backColor="red" foreColor="red" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                        <scale name="ScaleXfer" height="101" width="10" left="20" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ScaleXfer" linkToolTipText="true" backColor="navy" backStyle="transparent" borderStyle="none" borderUsesBackColor="true" borderWidth="2" borderColor="navy" tickDirection="left" foreColor="navy" lineStyle="solid" lineWidth="1" majorTicks="5" minorTicks="0" description="" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    </group>
+                </group>
+                <multistateIndicator name="GO_msi_Compatability" height="22" width="135" left="175" top="242" visible="true" toolTipText="Compatibility Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_Compatability" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="3" captionOnBorder="false" setLastStateId="4">
+                    <states>
+                        <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="0" value="0" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="1" value="1" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Not Compatible" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="2" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Fully Compatible" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="3" value="3" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Standby Compatible" color="#3F3F3F" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                    </states>
+                    <connections>
+                        <connection name="Indicator" expression="{#1.Val_Compat}"/>
+                    </connections>
+                </multistateIndicator>
+                <group name="Group3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <group name="ndd_Val_XferSizeMax" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                        <numericDisplay name="ndd_NumericDisplay77" height="16" width="81" left="229" top="344" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="black" backStyle="transparent" foreColor="blue" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="9" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" decimalPlaceType="fixed">
+                            <connections>
+                                <connection name="Value" expression="{#1L_Redun.Val_XferSizeMax}"/>
+                            </connections>
+                        </numericDisplay>
+                        <text name="ndd_Text77" height="16" width="138" left="73" top="344" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Maximum Transfer Size"/>
+                    </group>
+                    <group name="Group1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                        <group name="ndd_Val_XferSizeLast" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                            <numericDisplay name="ndd_NumericDisplay91" height="16" width="81" left="229" top="324" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="black" backStyle="transparent" foreColor="blue" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="9" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" decimalPlaceType="fixed">
+                                <connections>
+                                    <connection name="Value" expression="{#1L_Redun.Val_XferSizeLast}"/>
+                                </connections>
+                            </numericDisplay>
+                            <text name="ndd_Text91" height="16" width="120" left="73" top="324" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Size of Last Transfer"/>
+                        </group>
+                        <rectangle name="PolygonLastXferLegend" height="15" width="15" left="53" top="324" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PolygonMemUsedLegend1" linkToolTipText="true" backStyle="solid" backColor="gray" foreColor="#3F3F3F" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                    </group>
+                </group>
+                <multistateIndicator name="GO_msi_SwitchoverStatus" height="22" width="135" left="20" top="242" visible="true" toolTipText="Controller OK Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_SwitchoverStatus" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="1" captionOnBorder="false" setLastStateId="4">
+                    <states>
+                        <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Switchover Idle" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="1" value="1" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Switchover Done" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="2" value="2" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Switchover Busy" color="white" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="3" value="3" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Switchover Error" color="white" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                    </states>
+                    <connections>
+                        <connection name="Indicator" expression="if ( {#1.Sts_SwitchoverDone} ) then 1&#xA;else if ( {#1.Sts_SwitchoverBusy} ) then 2&#xA;else if ( {#1.Sts_SwitchoverErr} ) then 3&#xA;else 0"/>
+                    </connections>
+                </multistateIndicator>
+            </group>
+            <group name="Group28" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <group name="GroupChassisB" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <group name="GO_MinorFaultIndicatorsDIntB" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_MinorFaultIndicatorsDInt" linkToolTipText="true">
+                        <multistateIndicator name="msi_MinorFault_Batt2" height="22" width="30" left="280" top="199" visible="true" toolTipText="Battery Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Batt1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Bat" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Bat" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Bat" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.10}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <multistateIndicator name="msi_MinorFault_Port2" height="22" width="30" left="245" top="199" visible="true" toolTipText="Port Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Port1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Prt" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prt" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prt" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.9}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <multistateIndicator name="msi_MinorFault_Task2" height="22" width="30" left="210" top="199" visible="true" toolTipText="Task Overlap Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Task1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tsk" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Tsk" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Tsk" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.6}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <multistateIndicator name="msi_MinorFault_Prog2" height="22" width="30" left="175" top="199" visible="true" toolTipText="Program Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Prog1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Prg" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prg" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prg" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.4}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="B"/>
+                        </parameters>
+                    </group>
+                    <multistateIndicator name="GO_msi_RedunKeySwitchB" height="22" width="135" left="175" top="174" visible="true" toolTipText="Redundant Controller Key-Switch position" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunKeySwitch" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="3" captionOnBorder="false" setLastStateId="4">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="0" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="1" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="2" backColor="cyan" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program" color="black" backColor="cyan" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="3" backColor="white" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Remote" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_KeySwitch#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="B"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <multistateIndicator name="GO_msi_RedunCtrlrStateB" height="22" width="135" left="175" top="149" visible="true" toolTipText="Redundant Controller State" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunCtrlrState" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="4" captionOnBorder="false" setLastStateId="9">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="1" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="3" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w DQ Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="4" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w No Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="4" value="6" backColor="black" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Synchronizing" color="cyan" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="5" value="7" backColor="black" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Synchronizing" color="cyan" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="6" value="8" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="7" value="9" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Disqualified" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="8" value="14" backColor="white" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="None" color="black" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_CtrlrState#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="B"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <multistateIndicator name="GO_msi_RedunControllerModeB" height="22" width="135" left="175" top="124" visible="true" toolTipText="Redundant Controller Mode" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunControllerMode" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="11" captionOnBorder="false" setLastStateId="12">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="0" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Power Up" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="1" backColor="cyan" borderColor="cyan" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="3" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Test Run" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="4" value="4" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Faulted" color="white" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="5" value="5" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run &gt; Program" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="6" value="6" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Test &gt; Program" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="7" value="7" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program &gt; Run" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="8" value="8" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Test &gt; Run" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="9" value="9" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run &gt; Test" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="10" value="10" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program &gt; Test" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="11" value="11" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Faulting" color="white" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_CtrlrMode#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="B"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <multistateIndicator name="GO_msi_RedunChassisStateB" height="22" width="135" left="175" top="99" visible="true" toolTipText="Redundant Chassis State" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunChassisState" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="5" captionOnBorder="false" setLastStateId="6">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="1" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="3" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w DQ Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="4" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w No Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="4" value="8" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="5" value="9" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Disqualified" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_ChasState#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Chassis A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="B"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <text name="TextChassisB" height="32" width="95" left="225" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="/*S:0 #1L_Redun.Cfg_ChasBLoc*/"/>
+                    <group name="GO_MCmd_Switchover_B" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_MCmd_Switchover_B" linkToolTipText="true">
+                        <group name="PressedButtonSwitchover_B" visible="true" toolTipText="Controller in Chassis B is Primary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PressedButtonSwitchover_B" linkToolTipText="true">
+                            <image name="CmdBtnFaceNormalPressed2" height="40" width="40" left="175" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceNormalPressed2" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_NormalPressed"/>
+                            <image name="ImagePrimaryBIcon1" height="32" width="32" left="179" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImagePrimaryBIcon1" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_PrimaryB"/>
+                        </group>
+                        <group name="GroupButton_Switchover_B" visible="true" toolTipText="Switchover - Make Controller in Chassis B Primary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GroupButton_Switchover_B" linkToolTipText="true">
+                            <group name="NoPrivSwitchover_B" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.NoPrivSwitchover_B" linkToolTipText="true">
+                                <image name="CmdBtnFaceDisabled3" height="40" width="40" left="175" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceDisabled3" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_Disabled"/>
+                                <image name="ImagePrimaryBIconDisabled" height="32" width="32" left="179" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImagePrimaryBIconDisabled" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_PrimaryB_Disabled"/>
+                            </group>
+                            <group name="ActiveButtonSwitchover_B" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ActiveButtonSwitchover_B" linkToolTipText="true">
+                                <button name="Button_Switchover_B" height="40" width="40" left="175" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.Button_Switchover_B" linkToolTipText="true" style="raised" captureCursor="false" highlightOnFocus="true" tabIndex="4">
+                                    <action type="setToOne" tag="{#1.MCmd_Switchover}"/>
+                                    <up patternColor="black" patternStyle="none" backColor="#FFFF80" backStyle="solid" foreColor="#FFFF80" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                                        <imageSettings imageReference="noImage"/>
+                                    </up>
+                                    <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#ECE9D8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                                        <imageSettings imageReference="noImage"/>
+                                    </down>
+                                    <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                                        <imageSettings imageReference="noImage"/>
+                                    </confirm>
+                                </button>
+                                <image name="CmdBtnFaceManualActionReady1" height="40" width="40" left="175" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceManualActionReady1" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_ManualActionReady"/>
+                                <image name="ImagePrimaryBIcon" height="32" width="32" left="179" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImagePrimaryBIcon" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_PrimaryB"/>
+                                <animations>
+                                    <animateVisibility expression="{#1.Rdy_Switchover}  AND CurrentUserHasCode( C )" expressionTrueState="visible"/>
+                                </animations>
+                            </group>
+                            <animations>
+                                <animateVisibility expression="{#1.Sts_PriChassis}" expressionTrueState="invisible"/>
+                            </animations>
+                        </group>
+                    </group>
+                </group>
+                <group name="GroupChassisA" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                    <group name="GO_MinorFaultIndicatorsDIntA" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_MinorFaultIndicatorsDInt" linkToolTipText="true">
+                        <multistateIndicator name="msi_MinorFault_Batt1" height="22" width="30" left="125" top="199" visible="true" toolTipText="Battery Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Batt1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Bat" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Bat" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Bat" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.10}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <multistateIndicator name="msi_MinorFault_Port1" height="22" width="30" left="90" top="199" visible="true" toolTipText="Port Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Port1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Prt" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prt" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prt" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.9}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <multistateIndicator name="msi_MinorFault_Task1" height="22" width="30" left="55" top="199" visible="true" toolTipText="Task Overlap Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Task1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tsk" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Tsk" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Tsk" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.6}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <multistateIndicator name="msi_MinorFault_Prog1" height="22" width="30" left="20" top="199" visible="true" toolTipText="Program Minor Fault Indicator" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.msi_MinorFault_Prog1" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="true" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="0" captionOnBorder="false" setLastStateId="2">
+                            <states>
+                                <state stateId="Error" backColor="#E0E0E0" borderColor="navy" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Prg" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prg" color="#A0A0A4" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                                <state stateId="1" value="1" backColor="yellow" borderColor="yellow" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Prg" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                    <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                                </state>
+                            </states>
+                            <connections>
+                                <connection name="Indicator" expression="{#1.Val_MinorFaults#101.4}"/>
+                            </connections>
+                        </multistateIndicator>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="A"/>
+                        </parameters>
+                    </group>
+                    <multistateIndicator name="GO_msi_RedunKeySwitchA" height="22" width="135" left="20" top="174" visible="true" toolTipText="Redundant Controller Key-Switch position" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunKeySwitch" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="3" captionOnBorder="false" setLastStateId="4">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="0" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="1" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="2" backColor="cyan" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program" color="black" backColor="cyan" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="3" backColor="white" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Remote" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_KeySwitch#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="A"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <multistateIndicator name="GO_msi_RedunCtrlrStateA" height="22" width="135" left="20" top="149" visible="true" toolTipText="Redundant Controller State" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunCtrlrState" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="4" captionOnBorder="false" setLastStateId="9">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="1" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="3" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w DQ Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="4" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w No Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="4" value="6" backColor="black" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Synchronizing" color="cyan" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="5" value="7" backColor="black" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Synchronizing" color="cyan" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="6" value="8" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="7" value="9" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Disqualified" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="8" value="14" backColor="white" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="None" color="black" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_CtrlrState#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="A"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <multistateIndicator name="GO_msi_RedunControllerModeA" height="22" width="135" left="20" top="124" visible="true" toolTipText="Redundant Controller Mode" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunControllerMode" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="11" captionOnBorder="false" setLastStateId="12">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="0" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Power Up" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="1" backColor="cyan" borderColor="cyan" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="3" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Test Run" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="4" value="4" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Faulted" color="white" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="5" value="5" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run &gt; Program" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="6" value="6" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Test &gt; Program" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="7" value="7" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program &gt; Run" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="8" value="8" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Test &gt; Run" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="9" value="9" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Run &gt; Test" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="10" value="10" backColor="blue" borderColor="blue" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Program &gt; Test" color="white" backColor="blue" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="11" value="11" backColor="red" borderColor="red" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Faulting" color="white" backColor="red" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_CtrlrMode#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Controller A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="A"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <multistateIndicator name="GO_msi_RedunChassisStateA" height="22" width="135" left="20" top="99" visible="true" toolTipText="Redundant Chassis State" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_msi_RedunChassisState" linkToolTipText="true" backStyle="solid" borderStyle="inset" borderUsesBackColor="false" borderWidth="2" description="" shape="rectangle" triggerType="value" currentStateId="5" captionOnBorder="false" setLastStateId="6">
+                        <states>
+                            <state stateId="Error" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Error" color="#C000C0" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="0" value="1" backColor="white" borderColor="#C000C0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="???? Unknown" color="#C000C0" backColor="white" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="1" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary" color="green" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="2" value="3" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w DQ Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="3" value="4" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Primary /w No Sec" color="black" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="4" value="8" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sync" color="gray" backColor="#E0E0E0" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                            <state stateId="5" value="9" backColor="yellow" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Disqualified" color="black" backColor="yellow" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                                <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="false" blink="false"/>
+                            </state>
+                        </states>
+                        <connections>
+                            <connection name="Indicator" expression="{#1.Val_ChasState#101}"/>
+                        </connections>
+                        <parameters>
+                            <parameter name="#101" description="Chassis A or B (Enter &quot;A&quot; or &quot;B&quot;)" value="A"/>
+                        </parameters>
+                    </multistateIndicator>
+                    <text name="TextChassisA" height="32" width="95" left="70" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="/*S:0 #1L_Redun.Cfg_ChasALoc*/"/>
+                    <group name="GO_MCmd_Switchover_A" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GO_MCmd_Switchover_A" linkToolTipText="true">
+                        <group name="PressedButtonSwitchover_A" visible="true" toolTipText="Controller in Chassis A is Primary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.PressedButtonSwitchover_A" linkToolTipText="true">
+                            <image name="CmdBtnFaceNormalPressed" height="40" width="40" left="20" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceNormalPressed" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_NormalPressed"/>
+                            <image name="ImagePrimaryAIcon1" height="32" width="32" left="24" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImagePrimaryAIcon1" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_PrimaryA"/>
+                        </group>
+                        <group name="GroupButton_Switchover_A" visible="true" toolTipText="Switchover - Make Controller in Chassis A Primary" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.GroupButton_Switchover_A" linkToolTipText="true">
+                            <group name="NoPrivSwitchover_A" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.NoPrivSwitchover_A" linkToolTipText="true">
+                                <image name="CmdBtnFaceDisabled4" height="40" width="40" left="20" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceDisabled2" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_Disabled"/>
+                                <image name="ImagePrimaryAIcon2" height="32" width="32" left="24" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImagePrimaryAIcon2" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_PrimaryA_Disabled"/>
+                            </group>
+                            <group name="ActiveButtonSwitchover_A" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ActiveButtonSwitchover_A" linkToolTipText="true">
+                                <button name="Button_Switchover_A" height="40" width="40" left="20" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.Button_Switchover_A" linkToolTipText="true" style="raised" captureCursor="false" highlightOnFocus="true" tabIndex="3">
+                                    <action type="setToOne" tag="{#1.MCmd_Switchover}"/>
+                                    <up patternColor="black" patternStyle="none" backColor="#FFFF80" backStyle="solid" foreColor="#FFFF80" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                                        <imageSettings imageReference="noImage"/>
+                                    </up>
+                                    <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#ECE9D8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                                        <imageSettings imageReference="noImage"/>
+                                    </down>
+                                    <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                                        <imageSettings imageReference="noImage"/>
+                                    </confirm>
+                                </button>
+                                <image name="CmdBtnFaceManualActionReady3" height="40" width="40" left="20" top="54" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.CmdBtnFaceManualActionReady3" linkToolTipText="true" imageBackStyle="solid" imageBackColor="#E0E0E0" imageColor="white" imageBlink="false" description="" imageName="CmdBtnFace_ManualActionReady"/>
+                                <image name="ImagePrimaryAIcon" height="32" width="32" left="24" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Logix FacePlate Objects.ImagePrimaryAIcon" linkToolTipText="true" imageBackStyle="transparent" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="CmdBtnIcon_PrimaryA"/>
+                                <animations>
+                                    <animateVisibility expression="{#1.Rdy_Switchover}  AND CurrentUserHasCode( C )" expressionTrueState="visible"/>
+                                </animations>
+                            </group>
+                            <animations>
+                                <animateVisibility expression="{#1.Sts_PriChassis}" expressionTrueState="visible"/>
+                            </animations>
+                        </group>
+                    </group>
+                </group>
+                <multistateIndicator name="GO_MSI_AlarmState" height="20" width="20" left="155" top="101" visible="true" toolTipText="/*S:0 {#1.#102.Cfg_Cond}*/&#xA;Alarm State" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="(RA-BAS) Process Alarm Objects.GO_MSI_AlarmState" linkToolTipText="true" backStyle="transparent" borderStyle="none" borderUsesBackColor="false" borderWidth="1" description="" shape="rectangle" triggerType="value" currentStateId="5" captionOnBorder="false" setLastStateId="7">
+                    <states>
+                        <state stateId="Error" backColor="silver" borderColor="silver" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_Active" alignment="middleCenter" backStyle="transparent" color="white" backColor="silver" scaled="true" blink="false"/>
+                        </state>
+                        <state stateId="0" value="0" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="" alignment="middleCenter" backStyle="transparent" color="#E0E0E0" backColor="navy" scaled="false" blink="false"/>
+                        </state>
+                        <state stateId="1" value="1" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_Disabled" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="true" blink="false"/>
+                        </state>
+                        <state stateId="2" value="2" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_Shelved" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="true" blink="false"/>
+                        </state>
+                        <state stateId="3" value="3" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_Suppressed" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="true" blink="false"/>
+                        </state>
+                        <state stateId="4" value="4" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="" color="black" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_ActiveAcked" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="true" blink="false"/>
+                        </state>
+                        <state stateId="5" value="5" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_Active" alignment="middleCenter" backStyle="transparent" color="white" backColor="red" scaled="true" blink="true"/>
+                        </state>
+                        <state stateId="6" value="6" backColor="#E0E0E0" borderColor="#E0E0E0" patternColor="white" patternStyle="none" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="" color="white" backColor="navy" backStyle="transparent" alignment="middleCenter" wordWrap="true" blink="false"/>
+                            <imageSettings imageName="State_Inactive" alignment="middleCenter" backStyle="transparent" color="white" backColor="navy" scaled="true" blink="true"/>
+                        </state>
+                    </states>
+                    <connections>
+                        <connection name="Indicator" expression="if (NOT {#1.#102.Cfg_Exists}) then 0 else&#xA;If ({#1.#102.Alm} and (not {#1.#102.Ack})) Then 5 else&#xA;If (not {#1.#102.Ack}) Then 6 else&#xA;If ({#1.#102.Alm} and {#1.#102.Ack}) Then 4 else&#xA;If {#1.#102.Disabled} then 1 else&#xA;If {#1.#102.Suppressed} Then 3 else&#xA;if {#1.#102.Shelved} Then 2 else&#xA;0"/>
+                    </connections>
+                    <parameters>
+                        <parameter name="#102" description="Alarm Abbr.  (ie. &quot;HiHi&quot; for .Alm_HiHi)" value="SecNotRdy"/>
+                    </parameters>
+                </multistateIndicator>
+            </group>
+            <animations>
+                <animateVisibility expression="if ( {#2@Mode} = &quot;Program&quot; ) then 0&#xA;else if ( {#2@Mode} = &quot;Remote Program&quot; ) then 0&#xA;else if ( {#2@Mode} = &quot;Remote Run&quot; ) then 1&#xA;else if ( {#2@Mode} = &quot;Run&quot; ) then 1&#xA;else if ( {#2@Mode} = &quot;Debug&quot; ) then 1&#xA;else 0" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="NoData" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="PolygonNoData" height="41" width="309" left="11" top="163" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#E0E0E0" foreColor="yellow" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="TextNoData" height="32" width="300" left="16" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="#E0E0E0" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Redundancy data is not available because the controller is not running.  "/>
+            <animations>
+                <animateVisibility expression="if ( {#2@Mode} = &quot;Program&quot; ) then 0&#xA;else if ( {#2@Mode} = &quot;Remote Program&quot; ) then 0&#xA;else if ( {#2@Mode} = &quot;Remote Run&quot; ) then 1&#xA;else if ( {#2@Mode} = &quot;Run&quot; ) then 1&#xA;else if ( {#2@Mode} = &quot;Debug&quot; ) then 1&#xA;else 0" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Dim ActivePanel As Panel ' This variable stores the 'Active' or visible panel
+
+' This routine is run when the graphic is displayed.  This routine makes sure that the home panel is visible.
+' It sets the active panel to the visible panel
+Private Sub Display_AnimationStart()
+   On Error GoTo ErrHandler
+
+   TabPanelGrp_Home.Visible = True
+   Set ActivePanel = Me.TabPanelGrp_Home
+
+Exit Sub
+
+ErrHandler:
+    Application.LogDiagnosticsMessage "Error occurred in " & ThisDisplay.FullName & _
+        " Display_AnimationStart().  Error # " & Err.Number & ": " & Err.Description, ftDiagSeverityError
+End Sub
+
+
+' This routine is called to change panels to the New Panel that is passed to it.  If the passed New Panel
+' is not the Avtive Panel, then the New Panel will be made visible; the current active panel will be made
+' not visible; and finally, the New Panel becomes the Active Panel
+Private Sub ChangePanel(ByRef NewPanel As Panel)
+   On Error GoTo ErrHandler
+
+   If (NewPanel <> ActivePanel) Then
+      NewPanel.Visible = True
+      ActivePanel.Visible = False
+      Set ActivePanel = NewPanel
+   End If
+
+Exit Sub
+
+ErrHandler:
+    Application.LogDiagnosticsMessage "Error occurred in " & ThisDisplay.FullName & _
+        " ChangePanel().  Error # " & Err.Number & ": " & Err.Description, ftDiagSeverityError
+End Sub
+
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

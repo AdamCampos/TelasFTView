@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="200" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA HVAC SIMPLES" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="435" height="410" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="Polygon7" height="45" width="67" left="121" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="121 55 165 55 187 99 121 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaAlmHistorico" height="45" width="67" left="121" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="121 55 165 55 187 99 121 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Operacao.Visible(False);&#xA;Invoke Me.AlmSumario.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(True);&#xA;Invoke Me.FactoryTalkAlarmandEventLogViewer1.Visible(True);&#xA;Invoke Me.AbaOperacao.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(True);&#xA;Invoke Me.AbaAlmHistorico.Visible(False);" repeatAction="" releaseAction="" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </polygon>
+    <polygon name="Polygon6" height="45" width="67" left="63" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="63 55 107 55 129 99 63 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaAlmSumario" height="45" width="67" left="63" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="63 55 107 55 129 99 63 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Operacao.Visible(False);&#xA;Invoke Me.AlmSumario.Visible(True);&#xA;Invoke Me.AlmHistorico.Visible(False);&#xA;Invoke Me.AlarmEventSummary1.Visible(True);&#xA;Invoke Me.AbaOperacao.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(False);&#xA;Invoke Me.AbaAlmHistorico.Visible(True);" repeatAction="" releaseAction="" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </polygon>
+    <group name="Group7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <polygon name="Polygon8" height="29" width="39" left="129" top="63" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="129 67 133 67 137 63 147 63 151 67 167 67 167 91 129 91 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <ellipse name="Ellipse1" height="15" width="15" left="141" top="72" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line2" height="6" width="1" left="149" top="75" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="149 75 149 80 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <line name="Line9" height="4" width="4" left="149" top="80" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="149 80 152 83 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon13" height="4" width="32" left="75" top="66" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon18" height="4" width="4" left="69" top="66" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon19" height="4" width="32" left="75" top="76" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon20" height="4" width="4" left="69" top="76" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon21" height="4" width="32" left="75" top="86" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon22" height="4" width="4" left="69" top="86" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <polygon name="Polygon3" height="45" width="67" left="3" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="3 55 47 55 69 99 3 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaOperacao" height="45" width="67" left="3" top="55" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="3 55 47 55 69 99 3 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Operacao.Visible(True);&#xA;Invoke Me.AlmSumario.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(False);&#xA;Invoke Me.AbaOperacao.Visible(False);&#xA;Invoke Me.AbaAlmSumario.Visible(True);&#xA;Invoke Me.AbaAlmHistorico.Visible(True);" repeatAction="" releaseAction="" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </polygon>
+    <polygon name="Polygon5" height="31" width="31" left="10" top="62" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="14 77 10 77 25 62 40 77 36 77 36 92 29 92 29 77 21 77 21 92 14 92 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="22" width="410" left="7" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+    <text name="Text5" height="16" width="420" left="7" top="29" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+    <group name="AlmHistorico" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon24" height="311" width="430" left="3" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line8" height="1" width="58" left="130" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="130 98 187 98 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <activeX name="FactoryTalkAlarmandEventLogViewer1" height="306" width="425" left="5" top="98" visible="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" classId="{4D769ACD-8F36-464D-9092-41B290B4CC2C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="5">
+            <data progId="FTLogViewer.FTLogViewer.1" fileName="FTAELogViewer.ocx" fileVersion="2.90.0.207" typeLibrary="{3DEACC9C-310B-4735-AA79-FA05F41DCF9C}" typeLibVersion="1.0" data="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&#xA;//8CAP//AgD//wIA//8DAPX///8IACAAAABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEA&#xA;bgAAABEAABEAABEAABMAkAEAAAIA//8CAP//AgD//wIAAAAIAL4AAABEAFIASQBWAEUAUgA9&#xA;AHsAUwBRAEwAIABTAGUAcgB2AGUAcgB9ADsAUwBFAFIAVgBFAFIAPQA8AHMAZQByAHYAZQBy&#xA;ACAAbgBhAG0AZQA+ADsAVQBJAEQAPQA8AHUAcwBlAHIAIABJAEQAPgA7AFAAVwBEAD0APABw&#xA;AGEAcwBzAHcAbwByAGQAPgA7AEQAQQBUAEEAQgBBAFMARQA9ADwAZABhAHQAYQBiAGEAcwBl&#xA;ACAAbgBhAG0AZQA+AAAACAACAAAAAAACAAAAAwBQwwAAAwAAAAAAAQAAAAwAAAACAP//EwAA&#xA;AAAAEwDAwMAAAgAAAAgAAgAAAAAAAgD//wMA9f///wgAGgAAAE0AUwAgAFMAaABlAGwAbAAg&#xA;AEQAbABnAAAAEQAAEQAAEQAAAwCQAQAAAQAAAAgAAAATAAAAAAATAMDAwAADAPX///8IABoA&#xA;AABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAABMAkAEAAAEAAAAIAAAAAgAB&#xA;AAIA//8TAMDAwAATAISEhAACAP//AgD//wsA//8CAEheAQAAAAsAAAACAAAAAgAAAAMAAAAA&#xA;ABMAAAAAABMAwMDAAAMA9f///wgAGgAAAE0AUwAgAFMAaABlAGwAbAAgAEQAbABnAAAAEQAA&#xA;EQAAEQAAEwCQAQAAAQAAAAsAAAACAAAAAgAhABMAAAAAABMAhISEAAIA//8DAPX///8IABoA&#xA;AABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAABMAkAEAAAIAAAAKAAAAAQAA&#xA;AAgAFAAAAEIALQA1ADEAMQAxADUAMAAxAAAACABsAAAARQB2AGUAbgB0ACAAUwBvAHUAcgBj&#xA;AGUAIABMAEkASwBFACAAJwAlAC8ASAB1AGwAbAAvAEYAVABBAEUASABDAFMAOgA6AEIAWwBf&#xA;AF0ANQAxADEAMQA1ADAAMQBbAF8AXQAqACUAJwAgAAAAAgAAAAAAAgAAAAAAAAACAAAAAAAA&#xA;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&#xA;BAAAAwAWBAAAAwCsAAAACAAKAAAAUwB0AG8AcAAAAAIA//8IAAoAAABTAHQAbwBwAAAACABM&#xA;AAAAUwB0AG8AcAAgAHIAZQBhAGQAaQBuAGcAIABlAHYAZQBuAHQAcwAgAGYAcgBvAG0AIAB0&#xA;AGgAZQAgAGQAYQB0AGEAYgBhAHMAZQAAAAIAAwADAAAAAAADABcAAAADAGwCAAADAGcCAAAD&#xA;ABYEAAADABYEAAADAK0AAAAIAAoAAABGAGkAbgBkAAAAAgAAAAgACgAAAEYAaQBuAGQAAAAI&#xA;AAoAAABGAGkAbgBkAAAAAgAEAAMAAAAAAAMAFwAAAAMAbQIAAAMAaAIAAAMAFgQAAAMAFgQA&#xA;AAMArgAAAAgAGgAAAEQAZQB0AGEAaQBsAHMAIABQAGEAbgBlAAAAAgD//wgAGgAAAEQAZQB0&#xA;AGEAaQBsAHMAIABQAGEAbgBlAAAACAAuAAAAUwBoAG8AdwAvAEgAaQBkAGUAIABEAGUAdABh&#xA;AGkAbABzACAAUABhAG4AZQAAAAIABQADAAAAAAADABcAAAADAG4CAAADAGkCAAADABYEAAAD&#xA;ABYEAAADAK8AAAAIAAwAAABQAHIAaQBuAHQAAAACAAAACAAMAAAAUAByAGkAbgB0AAAACAAM&#xA;AAAAUAByAGkAbgB0AAAAAgAGAAMAAAAAAAMAFwAAAAMAbwIAAAMAagIAAAMAFgQAAAMAFgQA&#xA;AAIAAAAPAAAAAwAAAAMAvgAAAAMASgEAAAMAZAAAAAMAFgQAAAMAFgQAAAgAEAAAAEUAdgBl&#xA;AG4AdABzADoAAAADAIsCAAAIADQAAABOAHUAbQBiAGUAcgAgAG8AZgAgAHIAZQBjAG8AcgBk&#xA;AHMAIABpAG4AIABsAGkAcwB0AAAAAwCGAgAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAC&#xA;AAAAAAAAAAIAAAAAAAAAAgAAAAAAAwDBAAAAAwBNAQAAAwDIAAAAAwAWBAAAAwAWBAAACAAQ&#xA;AAAARgBpAGwAdABlAHIAOgAAAAMAjAIAAAgAPgAAAFQAaABlACAAZQB2AGUAbgB0ACAAbABp&#xA;AHMAdAAgAGkAcwAgAG4AbwB0ACAAZgBpAGwAdABlAHIAZQBkAAAAAwCHAgAACAAaAAAATgBv&#xA;AHQAIABGAGkAbAB0AGUAcgBlAGQAAAADAI0CAAAIAHoAAABBACAAYwB1AHMAdABvAG0AIABy&#xA;AHUAbgB0AGkAbQBlAC0AZABlAGYAaQBuAGUAZAAgAGYAaQBsAHQAZQByACAAaQBzACAAYQBw&#xA;AHAAbABpAGUAZAAgAHQAbwAgAHQAaABlACAAZQB2AGUAbgB0ACAAbABpAHMAdAAAAAMAiAIA&#xA;AAgAIAAAAEYAaQBsAHQAZQByAGUAZAAgAGIAeQA6ACAAJQBzAAAAAwCJAgAAAwCSAgAAAwCT&#xA;AgAAAwCQAQAAAwAWBAAAAwAWBAAACAA6AAAAUgBlAGEAZABpAG4AZwAgAGUAdgBlAG4AdABz&#xA;ACAAZgByAG8AbQAgAGQAYQB0AGEAYgBhAHMAZQAAAAMAjgIAAAgALAAAAEQAYQB0AGEAYgBh&#xA;AHMAZQAgAHEAdQBlAHIAeQAgAHMAdABhAHQAdQBzAAAAAwCKAgAAAAACAAAAAAAAAAIAAAAA&#xA;AAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAABQAAAA=="/>
+        </activeX>
+    </group>
+    <group name="AlmSumario" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon23" height="311" width="430" left="3" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <activeX name="AlarmEventSummary1" height="306" width="425" left="5" top="98" visible="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" classId="{E7A3BBDF-71DA-4688-8F39-671355104EA5}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="2">
+            <data progId="FTAlarmSummary.FTAlarmSummary.1" fileName="FTAlarmSummary.ocx" fileVersion="2.90.0.207" typeLibrary="{E9692737-F0FA-476B-B664-831812EBBCF4}" typeLibVersion="1.0" data="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&#xA;EQAAEQAAEQAAEwCQAQAAAwAAAAAACwD//wMAAAAAAAEAAAAMAAAACwABABMAAAAAABMA1NDI&#xA;AAsAAQAIAGIAAABBAGwAYQByAG0AUwB0AGEAdABlACAARABFAFMAQwAsACAAUwBlAHYAZQBy&#xA;AGkAdAB5ACAARABFAFMAQwAsACAASQBuAEEAbABhAHIAbQBUAGkAbQBlACAARABFAFMAQwAA&#xA;AAsAAQADAPX///8IABoAAABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAAAMA&#xA;kAEAAAEAAAAIAAAAEwD///8AEwAKJGoAAwD1////CAAaAAAATQBTACAAUwBoAGUAbABsACAA&#xA;RABsAGcAAAARAAARAAARAAATAJABAAABAAAACAAAAAsAAQALAAEAEwCgoKAAEwCEhIQACwAB&#xA;AAsAAQALAP//CwD//wEAAAAHAAAACwAAAAsAAAACAAAAEwAAAAAAEwDU0MgACAAMAAAAQQBy&#xA;AGkAYQBsAAAAAwAQAAAAAQAAAAsAAAALAAAAAgAnABMAAAAAABMA1NDIAAsAAQADAPX///8I&#xA;ABoAAABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAABMAkAEAAAIAAAAKAAAA&#xA;AQAAAAgAFAAAAEIALQA1ADEAMQAxADUAMAAxAAAACABYAAAARQB2AGUAbgB0AFMAbwB1AHIA&#xA;YwBlACAAPQAgACcALwBIAHUAbABsAC8ARgBUAEEARQBIAEMAUwA6ADoAQgBfADUAMQAxADEA&#xA;NQAwADEAXwAqACcAIAAAAAIAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAA&#xA;AgAAAAAAAAACAAAAAAAAAAIAAAAAAAIAAAAJAAAAAQAAAAgAEAAAAEQAZQBmAGEAdQBsAHQA&#xA;AAADAAQAAAADAAEAAAADAOgDAAADAOkDAAADAOgDAAADAOgDAAADAA4AAAAAAAIAAAAAAAIA&#xA;AAAKAAAAAQAAAAgAEAAAAEQAZQBmAGEAdQBsAHQAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAA&#xA;AAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAACAAAA&#xA;CgAAAAEAAAAIABAAAABEAGUAZgBhAHUAbAB0AAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAA&#xA;AAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAgAAAAoA&#xA;AAABAAAACAAQAAAARABlAGYAYQB1AGwAdAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAA&#xA;AgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAIAAAAmAAAA&#xA;AQAAAAgAEAAAAEQAZQBmAGEAdQBsAHQAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIA&#xA;AAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAA&#xA;AgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAA&#xA;AAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAA&#xA;AAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIA&#xA;AAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAIA&#xA;AAAJAAAADAAAAAgABAAAADEAAAADAAQAAAADAAEAAAADAAEAAAADAOgDAAADAP8AAAADAEZG&#xA;RgAEAAAAgD8DAAgAAAAIAAQAAAAyAAAAAwAEAAAAAwABAAAAAwABAAAAAwDoAwAAAwD/pgAA&#xA;AwBGRkYABAAAAAA/AwAEAAAACAAEAAAAMwAAAAMABAAAAAMAAQAAAAMAAQAAAAMA6AMAAAMA&#xA;//8AAAMARkZGAAQAAAAAPwMAAgAAAAgABAAAADQAAAADAAQAAAADAAEAAAADAAEAAAADAOgD&#xA;AAADAP///wADAEZGRgAEAAAAAAADAAEAAAAIAAQAAAA1AAAAAwAEAAAAAwACAAAAAwABAAAA&#xA;AwDoAwAAAwD/AAAAAwBGRkYABAAAAAAAAwAIAAAACAAEAAAANgAAAAMABAAAAAMAAgAAAAMA&#xA;AQAAAAMA6AMAAAMA/6YAAAMARkZGAAQAAAAAAAMABAAAAAgABAAAADcAAAADAAQAAAADAAIA&#xA;AAADAAEAAAADAOgDAAADAP//AAADAEZGRgAEAAAAAAADAAIAAAAIAAQAAAA4AAAAAwAEAAAA&#xA;AwACAAAAAwABAAAAAwDoAwAAAwD///8AAwBGRkYABAAAAAAAAwABAAAACAAEAAAAOQAAAAMA&#xA;BAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA/wAAAAMAAAAAAAQAAACAPwMACAAAAAgABgAAADEA&#xA;MAAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA/6YAAAMAAAAAAAQAAACAPwMABAAAAAgA&#xA;BgAAADEAMQAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA//8AAAMAAAAAAAQAAACAPwMA&#xA;AgAAAAgABgAAADEAMgAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA////AAMAAAAAAAQA&#xA;AAAAAAMAAQAAAAIAAAAMAAAAFQAAAAMApwAAAAgAGAAAAEEAYwBrAG4AbwB3AGwAZQBkAGcA&#xA;ZQAAAAIAAAAIAAgAAABBAGMAawAAAAgAJgAAAEEAYwBrACAAcwBlAGwAZQBjAHQAZQBkACAA&#xA;YQBsAGEAcgBtAAAAAgAAAAMAAAAAAAMAFwAAAAMA5QIAAAMA0AIAAAMAFgQAAAMAFgQAAAMA&#xA;qAAAAAgAMgAAAEEAYwBrAG4AbwB3AGwAZQBkAGcAZQAgAHcAaQB0AGgAIABDAG8AbQBtAGUA&#xA;bgB0AAAAAgAAAAgAGAAAAEEAYwBrACAAQwBvAG0AbQBlAG4AdAAAAAgAQAAAAEEAYwBrACAA&#xA;cwBlAGwAZQBjAHQAZQBkACAAYQBsAGEAcgBtACAAdwBpAHQAaAAgAGMAbwBtAG0AZQBuAHQA&#xA;AAACAAEAAwAAAAAAAwAXAAAAAwDmAgAAAwDRAgAAAwAWBAAAAwAWBAAAAwCpAAAACAAiAAAA&#xA;QQBjAGsAbgBvAHcAbABlAGQAZwBlACAAUABhAGcAZQAAAAIAAAAIABIAAABBAGMAawAgAFAA&#xA;YQBnAGUAAAAIACYAAABBAGMAawAgAHAAYQBnAGUAIABvAGYAIABhAGwAYQByAG0AcwAAAAIA&#xA;AgADAAAAAAADABcAAAADAOcCAAADANICAAADABYEAAADABYEAAADAKoAAAAIACAAAABBAGMA&#xA;awBuAG8AdwBsAGUAZABnAGUAIABBAGwAbAAAAAIAAAAIABAAAABBAGMAawAgAEEAbABsAAAA&#xA;CABCAAAAQQBjAGsAIABhAGwAbAAgAGEAbABhAHIAbQBzACAAYwBvAG4AdABhAGkAbgBlAGQA&#xA;IABpAG4AIABsAGkAcwB0AAAAAgADAAMAAAAAAAMAFwAAAAMA6AIAAAMA0wIAAAMAFgQAAAMA&#xA;FgQAAAMAjAEAAAgAHgAAAFMAdQBwAHAAcgBlAHMAcwAgAEEAbABhAHIAbQAAAAIAAAAIABIA&#xA;AABTAHUAcABwAHIAZQBzAHMAAAAIADAAAABTAHUAcABwAHIAZQBzAHMAIABzAGUAbABlAGMA&#xA;dABlAGQAIABhAGwAYQByAG0AAAACAAQAAwAAAAAAAwAXAAAAAwDpAgAAAwDUAgAAAwAWBAAA&#xA;AwAWBAAAAwCsAAAACAAcAAAARABpAHMAYQBiAGwAZQAgAEEAbABhAHIAbQAAAAIAAAAIABAA&#xA;AABEAGkAcwBhAGIAbABlAAAACAAuAAAARABpAHMAYQBiAGwAZQAgAHMAZQBsAGUAYwB0AGUA&#xA;ZAAgAGEAbABhAHIAbQAAAAIABQADAAAAAAADABcAAAADAOoCAAADANUCAAADABYEAAADABYE&#xA;AAADAI4BAAAIABgAAABSAGUAcwBlAHQAIABBAGwAYQByAG0AAAACAAAACAAMAAAAUgBlAHMA&#xA;ZQB0AAAACAAqAAAAUgBlAHMAZQB0ACAAcwBlAGwAZQBjAHQAZQBkACAAYQBsAGEAcgBtAAAA&#xA;AgAGAAMAAAAAAAMAFwAAAAMA6wIAAAMA1gIAAAMAFgQAAAMAFgQAAAMA6gIAAAgADgAAAFMA&#xA;aABlAGwAdgBlAAAAAgAAAAgADgAAAFMAaABlAGwAdgBlAAAACABSAAAAUwBoAGUAbAB2AGUA&#xA;IABzAGUAbABlAGMAdABlAGQAIABhAGwAYQByAG0AIABmAG8AcgAgAHMAcABlAGMAaQBmAGkA&#xA;ZQBkACAAdABpAG0AZQAAAAIABwADAAAAAAADABcAAAADAOwCAAADANcCAAADABYEAAADABYE&#xA;AAADAOsCAAAIABoAAABVAG4AcwBoAGUAbAB2AGUAIABBAGwAbAAAAAIAAAAIABoAAABVAG4A&#xA;cwBoAGUAbAB2AGUAIABBAGwAbAAAAAgAYgAAAFUAbgBzAGgAZQBsAHYAZQAgAGEAbABsACAA&#xA;YwB1AHIAcgBlAG4AdABsAHkAIABzAGgAZQBsAHYAZQBkACAAYQBsAGEAcgBtACAAYwBvAG4A&#xA;ZABpAHQAaQBvAG4AcwAuAAAAAgAIAAMAAAAAAAMAFwAAAAMA7QIAAAMA2AIAAAMAFgQAAAMA&#xA;FgQAAAMArQAAAAgALAAAAEEAbABhAHIAbQAgAFMAdABhAHQAdQBzACAARQB4AHAAbABvAHIA&#xA;ZQByAAAAAgAAAAgAGgAAAEEAbABhAHIAbQAgAFMAdABhAHQAdQBzAAAACABEAAAARABpAHMA&#xA;cABsAGEAeQAgAHQAaABlACAAQQBsAGEAcgBtACAAUwB0AGEAdAB1AHMAIABFAHgAcABsAG8A&#xA;cgBlAHIAAAACAAkAAwAAAAAAAwAXAAAAAwDuAgAAAwDZAgAAAwAWBAAAAwAWBAAAAwCTAgAA&#xA;CAAkAAAAUgB1AG4AIABBAGwAYQByAG0AIABDAG8AbQBtAGEAbgBkAAAAAgAAAAgAGAAAAFIA&#xA;dQBuACAAQwBvAG0AbQBhAG4AZAAAAAgAXgAAAEMAOgBcAEQATwBDAFUATQBFAH4AMQBcAEQA&#xA;RABWAGkAZQBpAHIAYQBcAEwATwBDAEEATABTAH4AMQBcAFQAZQBtAHAAXAB+AEQARgA3ADcA&#xA;NgA3AC4AdABtAHAAAAACAAoAAwAAAAAAAwAXAAAAAwDvAgAAAwDaAgAAAwAWBAAAAwAWBAAA&#xA;AwAjAwAACAAcAAAAQQBsAGEAcgBtACAARABlAHQAYQBpAGwAcwAAAAIAAAAIACYAAABWAGkA&#xA;ZQB3ACAAQQBsAGEAcgBtACAARABlAHQAYQBpAGwAcwAAAAgAQAAAAFMAaABvAHcAIABkAGUA&#xA;dABhAGkAbABzACAAZgBvAHIAIABzAGUAbABlAGMAdABlAGQAIABhAGwAYQByAG0AAAACAAsA&#xA;AwAAAAAAAwAXAAAAAwDwAgAAAwDbAgAAAwAWBAAAAwAWBAAAAwAmAwAACAAaAAAAQQBsAGEA&#xA;cgBtACAARgBhAHUAbAB0AHMAAAACAAAACAAkAAAAVgBpAGUAdwAgAEEAbABhAHIAbQAgAEYA&#xA;YQB1AGwAdABzAAAACAA8AAAAUwBoAG8AdwAgAHUAcAAgAHQAbwAgADUAMAAwACAAZgBhAHUA&#xA;bAB0AGUAZAAgAGEAbABhAHIAbQBzAAAAAgAMAAMAAAAAAAMAFwAAAAMA8QIAAAMA3AIAAAMA&#xA;FgQAAAMAFgQAAAMAtQAAAAgADAAAAFAAcgBpAG4AdAAAAAIAAAAIAAwAAABQAHIAaQBuAHQA&#xA;AAAIAAwAAABQAHIAaQBuAHQAAAACAA0AAwAAAAAAAwAXAAAAAwDyAgAAAwDdAgAAAwAWBAAA&#xA;AwAWBAAAAwC2AAAACAAKAAAAUwBvAHIAdAAAAAIAAAAIAAoAAABTAG8AcgB0AAAACAAkAAAA&#xA;QwBvAG4AZgBpAGcAdQByAGUAIABzAG8AcgB0AGkAbgBnAAAAAgAOAAMAAAAAAAMAFwAAAAMA&#xA;8wIAAAMA3gIAAAMAFgQAAAMAFgQAAAMAtwAAAAgAGAAAAEYAaQBsAHQAZQByACAATABpAHMA&#xA;dAAAAAIAAAAIABgAAAAoAGMAbwBtAGIAbwAgAGIAbwB4ACkAAAAIACAAAABTAGUAbABlAGMA&#xA;dAAgAGEAIABmAGkAbAB0AGUAcgAAAAIADwADAAAAAAACAGQAAwD/////AwDfAgAAAwAJBAAA&#xA;AwAWBAAAAwC5AAAACAAYAAAARQBkAGkAdAAgAEYAaQBsAHQAZQByAAAAAgAAAAgAGAAAAEUA&#xA;ZABpAHQAIABGAGkAbAB0AGUAcgAAAAgAGAAAAEUAZABpAHQAIABmAGkAbAB0AGUAcgAAAAIA&#xA;EAADAAAAAAADABcAAAADAPQCAAADAOACAAADABYEAAADABYEAAADALoAAAAIABoAAABDAGwA&#xA;ZQBhAHIAIABGAGkAbAB0AGUAcgAAAAIAAAAIABoAAABDAGwAZQBhAHIAIABGAGkAbAB0AGUA&#xA;cgAAAAgAGgAAAEMAbABlAGEAcgAgAGYAaQBsAHQAZQByAAAAAgARAAMAAAAAAAMAFwAAAAMA&#xA;9QIAAAMA4QIAAAMAFgQAAAMAFgQAAAMAuwAAAAgACgAAAEYAaQBuAGQAAAACAAAACAAKAAAA&#xA;RgBpAG4AZAAAAAgACgAAAEYAaQBuAGQAAAACABIAAwAAAAAAAwAXAAAAAwD2AgAAAwDiAgAA&#xA;AwAWBAAAAwAWBAAAAwC8AAAACAAaAAAARABlAHQAYQBpAGwAcwAgAFAAYQBuAGUAAAACAAAA&#xA;CAAaAAAARABlAHQAYQBpAGwAcwAgAFAAYQBuAGUAAAAIAC4AAABIAGkAZABlAC8AUwBoAG8A&#xA;dwAgAEQAZQB0AGEAaQBsAHMAIABQAGEAbgBlAAAAAgATAAMAAAAAAAMAFwAAAAMA9wIAAAMA&#xA;4wIAAAMAFgQAAAMAFgQAAAMAKQMAAAgAEAAAAFIAZQBmAHIAZQBzAGgAAAACAP//CAAQAAAA&#xA;UgBlAGYAcgBlAHMAaAAAAAgAJgAAAFIAZQBmAHIAZQBzAGgAIABhAGwAYQByAG0AIABsAGkA&#xA;cwB0AAAAAgAUAAMAAAAAAAMAFwAAAAMA+AIAAAMA5AIAAAMAFgQAAAMAFgQAAAIAAAAFAAAA&#xA;CQAAAAsA//8DAAAAAAAIABQAAABDAG8AbgBuAGUAYwB0AGUAZAAAAAMADgMAAAMAFgQAAAsA&#xA;AAADAAEAAAAIABoAAABEAGkAcwBjAG8AbgBuAGUAYwB0AGUAZAAAAAMADwMAAAMAFgQAAAsA&#xA;//8DAAIAAAAIAGwAAABOAHUAbQBiAGUAcgAgAG8AZgAgAGUAdgBlAG4AdABzACAAaQBuACAA&#xA;bABpAHMAdAAgACgAZQB4AGMAbAB1AGQAaQBuAGcAIABmAGkAbAB0AGUAcgBlAGQAIABlAHYA&#xA;ZQBuAHQAcwApAC4AAAADABADAAADABYEAAALAP//AwADAAAACABaAAAATgB1AG0AYgBlAHIA&#xA;IABvAGYAIABJAG4AIABBAGwAYQByAG0AIABhAG4AZAAgAFUAbgBhAGMAawBuAG8AdwBsAGUA&#xA;ZwBlAGQAIABhAGwAYQByAG0AcwAuAAAAAwARAwAAAwAWBAAACwD//wMABAAAAAgAWAAAAE4A&#xA;dQBtAGIAZQByACAAbwBmACAASQBuACAAQQBsAGEAcgBtACAAYQBuAGQAIABBAGMAawBuAG8A&#xA;dwBsAGUAZABnAGUAZAAgAGEAbABhAHIAbQBzAC4AAAADABIDAAADABYEAAALAP//AwAFAAAA&#xA;CABYAAAATgB1AG0AYgBlAHIAIABvAGYAIABOAG8AcgBtAGEAbAAgAGEAbgBkACAAVQBuAGEA&#xA;YwBrAG4AbwB3AGwAZQBkAGcAZQBkACAAYQBsAGEAcgBtAHMALgAAAAMAEwMAAAMAFgQAAAsA&#xA;//8DAAYAAAAIAJwAAABOAHUAbQBiAGUAcgAgAG8AZgAgAGYAYQB1AGwAdABzACAAZgBvAHIA&#xA;IABhAGwAbAAgAGEAbABhAHIAbQBzAC4AIAAgAEQAbwB1AGIAbABlAC0AYwBsAGkAYwBrACAA&#xA;dABvACAAZABpAHMAcABsAGEAeQAgAEEAbABhAHIAbQAgAEYAYQB1AGwAdAAgAEQAaQBhAGwA&#xA;bwBnAC4AAAADABQDAAADABYEAAALAAAAAwAHAAAACAAOAAAARgBpAGwAdABlAHIAAAADABUD&#xA;AAADABYEAAALAAAAAwAIAAAACAAUAAAAUwBvAHIAdABlAGQAIABiAHkAAAADABYDAAADABYE&#xA;AAABAAAAAgAAAAMAEAAAAAgADAAAAEEAcgBpAGEAbAAAAAEAAAAQAAAACwD//wsA//8LAP//&#xA;CwD//wsA//8DAP////8DAIUCAAADACcBAAADAP////8DAP////8DAP////8DAP////8IAAIA&#xA;AAAAAAMAAAAAAAgADAAAAC8ATQBpAG4AYQAAAAsA//8IAAAA"/>
+        </activeX>
+        <line name="Line7" height="1" width="60" left="70" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="70 98 129 98 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+    </group>
+    <group name="Operacao" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon12" height="311" width="430" left="3" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <panel name="Panel4" height="188" width="420" left="8" top="105" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <group name="Group1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <panel name="Panel3" height="105" width="420" left="8" top="298" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text10" height="16" width="96" left="12" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Override Manut.:"/>
+            <rectangle name="Polygon14" height="30" width="200" left="131" top="305" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text24" height="16" width="147" left="158" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="OM Atuado para Desligar">
+                <animations>
+                    <animateVisibility expression="{#1.Sts.OM_Desligar}" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <text name="Text25" height="16" width="128" left="167" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="OM Atuado para Ligar">
+                <animations>
+                    <animateVisibility expression="{#1.Sts.OM_Ligar}" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <text name="Text26" height="16" width="69" left="197" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Não Atuado">
+                <animations>
+                    <animateVisibility expression="(NOT {#1.Sts.OM_Ligar}) AND (NOT {#1.Sts.OM_Desligar})" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <group name="Group8" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <panel name="Panel2" height="50" width="95" left="131" top="346" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#D0D0D0" patternColor="white" blink="false" description="" borderColor="#D0D0D0" borderStyle="raised" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text27" height="32" width="59" left="149" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#999999" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ativar&#xA;OM Ligar"/>
+                <animations>
+                    <animateVisibility expression="{#1.Sts.OM_Desligar}" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <group name="Group5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <panel name="Panel1" height="50" width="95" left="236" top="346" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#D0D0D0" patternColor="white" blink="false" description="" borderColor="#D0D0D0" borderStyle="raised" borderWidth="2" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text28" height="32" width="78" left="244" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#999999" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ativar&#xA;OM Desligar"/>
+                <animations>
+                    <animateVisibility expression="{#1.Sts.OM_Ligar}" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <group name="Group4" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <button name="Button5" height="50" width="95" left="131" top="346" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="4">
+                    <command pressAction="Display hull_jan_ger_confirmacao_cmd_2 /T#1.Cmd.OM_Ligar" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                    <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                        <imageSettings imageReference="noImage"/>
+                    </up>
+                    <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                        <imageSettings imageReference="noImage"/>
+                    </down>
+                    <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </button>
+                <text name="Text29" height="32" width="59" left="149" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ativar&#xA;OM Ligar">
+                    <animations>
+                        <animateVisibility expression="{#1.Cmd.OM_Ligar}" expressionTrueState="invisible"/>
+                    </animations>
+                </text>
+                <text name="Text30" height="32" width="60" left="148" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Desativar&#xA;OM Ligar">
+                    <animations>
+                        <animateVisibility expression="{#1.Cmd.OM_Ligar}" expressionTrueState="visible"/>
+                    </animations>
+                </text>
+                <animations>
+                    <animateVisibility expression="{#1.Cmd.OM_Desligar}" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <group name="Group2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <button name="Button4" height="50" width="95" left="236" top="346" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="6">
+                    <command pressAction="Display hull_jan_ger_confirmacao_cmd_2 /T#1.Cmd.OM_Desligar" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                    <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                        <imageSettings imageReference="noImage"/>
+                    </up>
+                    <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                        <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                        <imageSettings imageReference="noImage"/>
+                    </down>
+                    <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </button>
+                <text name="Text19" height="32" width="78" left="244" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ativar&#xA;OM Desligar">
+                    <animations>
+                        <animateVisibility expression="{#1.Cmd.OM_Desligar}" expressionTrueState="invisible"/>
+                    </animations>
+                </text>
+                <text name="Text23" height="32" width="78" left="244" top="355" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Desativar&#xA;OM Desligar">
+                    <animations>
+                        <animateVisibility expression="{#1.Cmd.OM_Desligar}" expressionTrueState="visible"/>
+                    </animations>
+                </text>
+                <animations>
+                    <animateVisibility expression="{#1.Cmd.OM_Ligar}" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <animations>
+                <animateVisibility expression="{#1.Sts.OM_Hab} AND CurrentUserHasCode( G )" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <text name="Text8" height="16" width="80" left="12" top="118" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Estado Atual:"/>
+        <rectangle name="Polygon1" height="30" width="100" left="131" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <button name="Button1" height="30" width="90" left="241" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="true" highlightOnFocus="false" tabIndex="1">
+            <command pressAction="Display hull_jan_ger_confirmacao_cmd_1 /T#1.Cmd.Ligar /X645 /Y200" repeatAction="" releaseAction="" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ligar"/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+            <animations>
+                <animateVisibility expression="(NOT {#1.Sts.Ligado}) AND (NOT {#1.Sts.Falha})" expressionTrueState="visible"/>
+            </animations>
+        </button>
+        <text name="Text11" height="16" width="39" left="162" top="118" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Ligada">
+            <animations>
+                <animateVisibility expression="{#1.Sts.Ligado}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text12" height="16" width="58" left="152" top="118" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Desligada">
+            <animations>
+                <animateVisibility expression="{#1.Sts.Ligado}" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+        <button name="Button2" height="30" width="90" left="241" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="3">
+            <command pressAction="Display hull_jan_ger_confirmacao_cmd_1 /T#1.Cmd.Desligar /X645 /Y200" repeatAction="" releaseAction="" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Desligar"/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+            <animations>
+                <animateVisibility expression="{#1.Sts.Ligado} OR {#1.Sts.Falha}" expressionTrueState="visible"/>
+            </animations>
+        </button>
+        <text name="Text9" height="16" width="94" left="12" top="264" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Comando Atual:"/>
+        <rectangle name="Polygon9" height="30" width="100" left="131" top="257" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text13" height="16" width="29" left="167" top="264" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Ligar">
+            <animations>
+                <animateVisibility expression="{#1.Sts.Cmd_Ligar}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text14" height="16" width="48" left="157" top="264" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Desligar">
+            <animations>
+                <animateVisibility expression="{#1.Sts.Cmd_Desligar}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <group name="Group3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <polygon name="Polygon2" height="25" width="25" left="242" top="259" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#FFFFD2" foreColor="yellow" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="254 259 266 283 242 283 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text15" height="19" width="5" left="252" top="266" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="!"/>
+            <animations>
+                <animateVisibility expression="{#1.Sts.SLG_SLO}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group10" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon17" height="30" width="100" left="131" top="183" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text3" height="16" width="39" left="162" top="190" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Pronto">
+                <animations>
+                    <animateVisibility expression="{#1.Sts.PPP} AND (NOT {#1.Sts.Ligado})" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <text name="Text16" height="16" width="66" left="148" top="190" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Não Pronto">
+                <animations>
+                    <animateVisibility expression="(NOT {#1.Sts.PPP}) AND (NOT {#1.Sts.Ligado})" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <animations>
+                <animateVisibility expression="{#1.Sts.Ligado}" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+        <group name="Group9" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon15" height="30" width="100" left="131" top="220" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text20" height="16" width="43" left="160" top="227" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Manual">
+                <animations>
+                    <animateVisibility expression="{#1.Sts.AutoMan}" expressionTrueState="invisible"/>
+                </animations>
+            </text>
+            <text name="Text21" height="16" width="67" left="148" top="227" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Automático">
+                <animations>
+                    <animateVisibility expression="{#1.Sts.AutoMan}" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <text name="Text22" height="16" width="115" left="12" top="227" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Modo de Operação:"/>
+            <button name="Button6" height="30" width="90" left="241" top="220" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="7">
+                <command pressAction="Display hull_jan_ger_confirmacao_cmd_2 /T#1.Cmd.AutoMan /X645 /Y200" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Auto/Manual"/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </button>
+            <animations>
+                <animateVisibility expression="{#1.Sts.AutoMan_Hab}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <line name="Line1" height="1" width="66" left="4" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="4 98 69 98 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <rectangle name="Polygon4" height="30" width="100" left="131" top="147" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text6" height="16" width="22" left="170" top="154" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Trip">
+            <animations>
+                <animateVisibility expression="{#1.Sts.Trip}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text4" height="16" width="33" left="165" top="154" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Falha">
+            <animations>
+                <animateVisibility expression="{#1.Sts.Falha} AND (NOT {#1.Sts.Trip})" expressionTrueState="visible"/>
+            </animations>
+        </text>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Private Sub Display_AnimationStart()
+
+On Error GoTo ErrHandler
+
+Dim VAC_EQP As String
+
+VAC_EQP = Text1.Caption
+PONTEIRO = Mid(VAC_EQP, 3, 1)
+
+If PONTEIRO = "-" Then
+     VAC_EQP_TIPO = Left(VAC_EQP, 2)
+     VAC_EQP_NUMERO = Mid(VAC_EQP, 4, 7)
+    Else
+     VAC_EQP_TIPO = Left(VAC_EQP, 3)
+     VAC_EQP_NUMERO = Mid(VAC_EQP, 5, 7)
+End If
+
+AlarmEventSummary1.FilterDefinition = " EventSource LIKE '" & VAC_EQP_TIPO & "' And EventSource LIKE '" & VAC_EQP_NUMERO & "'"
+
+FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & VAC_EQP_TIPO & "%' And SourceName LIKE '%" & VAC_EQP_NUMERO & "%'"
+
+Exit Sub
+ErrHandler:
+
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

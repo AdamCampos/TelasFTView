@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="984" positionY="1031" securityCode="*" backColor="#848484" titleBar="false" maximumTagUpdateRate="1" focusHighlightColor="#646464" disableFocusHighlight="true" size="specifySizeInPixels" width="930" height="50" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#646464" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <panel name="Panel1" height="50" width="1920" left="0" top="0" visible="true" wallpaper="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <stringDisplay name="StringDisplay1" height="16" width="162" left="588" top="7" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="white" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="18" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="CurrentUserName(  )"/>
+            </connections>
+        </stringDisplay>
+        <line name="Line24" height="30" width="2" left="738" top="10" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="739 11 739 39 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="white"/>
+        <timeAndDateDisplay name="TimeDateDisplay1" height="38" width="117" left="725" top="6" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="navy" foreColor="white" backStyle="transparent" borderColor="navy" borderStyle="none" borderUsesBackColor="false" borderWidth="8" patternColor="white" patternStyle="none" description="" blink="false" wordWrap="true" alignment="middleCenter" timeAndDateFormat="shortDateTime" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line1" height="30" width="2" left="591" top="10" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="592 11 592 39 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="white"/>
+        <group name="Group3" visible="true" toolTipText="Login" exposeToVba="notExposed" isReferenceObject="false">
+            <image name="Image1" height="46" width="100" left="826" top="2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" imageBackStyle="solid" imageBackColor="navy" imageColor="white" imageBlink="false" description="" imageName="logo_petrobras"/>
+            <button name="Button4" height="46" width="100" left="826" top="2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="noborder" captureCursor="false" highlightOnFocus="false" tabIndex="1">
+                <command pressAction="Display jan_ger_rodape_menu_adm" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="transparent" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </button>
+        </group>
+        <text name="Text2" height="16" width="701" left="54" top="176" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:100 {#2}*/"/>
+        <group name="Group20" visible="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false">
+            <text name="txtServerName1" height="15" width="125" left="148" top="238" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName1" height="15" width="125" left="150" top="225" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName1" height="15" width="125" left="147" top="255" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName2" height="15" width="125" left="138" top="298" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName2" height="15" width="125" left="141" top="286" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName2" height="15" width="125" left="137" top="310" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName3" height="15" width="125" left="135" top="367" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName3" height="15" width="125" left="137" top="351" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName3" height="15" width="125" left="135" top="338" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName4" height="15" width="125" left="297" top="250" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName4" height="15" width="125" left="302" top="224" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName4" height="15" width="125" left="299" top="235" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName5" height="15" width="125" left="295" top="275" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName5" height="15" width="125" left="296" top="291" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName5" height="15" width="125" left="296" top="305" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName6" height="15" width="90" left="290" top="340" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName6" height="15" width="90" left="288" top="368" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName6" height="15" width="90" left="291" top="354" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName7" height="15" width="90" left="456" top="253" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName7" height="15" width="90" left="457" top="238" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName7" height="15" width="90" left="458" top="226" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName8" height="15" width="90" left="450" top="308" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName8" height="15" width="90" left="451" top="274" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName8" height="15" width="90" left="453" top="290" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtApplicationName" height="15" width="109" left="18" top="225" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="Application Name"/>
+            <text name="txtServerName9" height="15" width="125" left="451" top="339" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName9" height="15" width="125" left="449" top="350" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName9" height="15" width="125" left="448" top="363" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName10" height="15" width="125" left="597" top="226" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName10" height="15" width="125" left="595" top="237" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName10" height="15" width="125" left="594" top="250" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName11" height="15" width="125" left="588" top="278" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName11" height="15" width="125" left="586" top="289" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName11" height="15" width="125" left="585" top="302" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName12" height="15" width="125" left="588" top="340" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName12" height="15" width="125" left="586" top="351" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName12" height="15" width="125" left="585" top="364" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+            <text name="txtServerName13" height="15" width="125" left="715" top="224" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="servername"/>
+            <text name="txtAreaName13" height="15" width="125" left="713" top="235" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="areaname"/>
+            <text name="txtComputerName13" height="15" width="125" left="712" top="248" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="machine name"/>
+        </group>
+        <text name="txtPrimaryStatus1" height="14" width="21" left="7" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="FTD"/>
+        <text name="txtPrimaryStatus2" height="14" width="34" left="44" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PCS A"/>
+        <text name="txtSecondaryStatus2" height="14" width="33" left="44" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PCS B"/>
+        <text name="txtSecondaryStatus3" height="14" width="33" left="91" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PCS B"/>
+        <text name="txtSecondaryStatus4" height="14" width="46" left="129" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG B"/>
+        <text name="txtSecondaryStatus5" height="14" width="52" left="179" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG2 B"/>
+        <text name="txtPrimaryStatus6" height="14" width="26" left="233" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PU A"/>
+        <text name="txtSecondaryStatus6" height="14" width="25" left="233" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PU B"/>
+        <text name="txtPrimaryStatus7" height="14" width="49" left="261" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PUOPC A"/>
+        <text name="txtSecondaryStatus7" height="14" width="48" left="261" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PUOPC B"/>
+        <text name="txtPrimaryStatus8" height="14" width="55" left="314" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PUOPC2 A"/>
+        <text name="txtSecondaryStatus8" height="14" width="54" left="314" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PUOPC2 B"/>
+        <text name="Text19" height="15" width="30" left="44" top="1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="TELA"/>
+        <text name="Text20" height="15" width="42" left="209" top="1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="DADOS"/>
+        <text name="Text21" height="15" width="57" left="469" top="0" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="ALARMES"/>
+        <text name="txtSecondaryStatus1" height="14" width="21" left="7" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="FTD"/>
+        <stringDisplay name="StringDisplay2" height="16" width="162" left="588" top="27" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="white" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="18" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="If (NOT CurrentUserHasCode( A ) AND NOT CurrentUserHasCode( G ) AND NOT CurrentUserHasCode( O ) AND CurrentUserHasCode( N )) Then &quot;Visualizador&quot; Else &#xA;If (NOT CurrentUserHasCode( A ) AND NOT CurrentUserHasCode( G )) Then &quot;Operador&quot; Else &#xA;If (NOT CurrentUserHasCode( A ) AND CurrentUserHasCode( G )) Then &quot;Supervisor&quot; Else &#xA;If CurrentUserHasCode( A ) Then &quot;Administrador&quot; Else  &quot;&quot;"/>
+            </connections>
+        </stringDisplay>
+        <text name="txtPrimaryStatus3" height="14" width="34" left="91" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PCS A"/>
+        <text name="txtPrimaryStatus4" height="14" width="47" left="129" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG A"/>
+        <text name="txtPrimaryStatus5" height="14" width="53" left="179" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG2 A"/>
+        <text name="txtPrimaryStatus9" height="14" width="34" left="381" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PCS A"/>
+        <text name="txtSecondaryStatus9" height="14" width="33" left="381" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PCS B"/>
+        <numericDisplay name="pulso" height="16" width="45" left="382" top="148" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="system\Minute"/>
+            </connections>
+        </numericDisplay>
+        <line name="Line2" height="30" width="2" left="0" top="10" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="1 11 1 39 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="white"/>
+        <text name="txtSecondaryStatus10" height="14" width="46" left="417" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG B"/>
+        <text name="txtPrimaryStatus10" height="14" width="47" left="417" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG A"/>
+        <text name="txtSecondaryStatus11" height="14" width="52" left="467" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG2 B"/>
+        <text name="txtPrimaryStatus11" height="14" width="53" left="467" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PSDFG2 A"/>
+        <text name="txtSecondaryStatus12" height="14" width="25" left="523" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PU B"/>
+        <text name="txtPrimaryStatus12" height="14" width="26" left="523" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PU A"/>
+        <text name="txtSecondaryStatus13" height="14" width="31" left="554" top="32" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PU2 B"/>
+        <text name="txtPrimaryStatus13" height="14" width="32" left="554" top="16" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#FFFF80" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="PU2 A"/>
+        <line name="Line3" height="29" width="1" left="85" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="85 16 85 44 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="white"/>
+        <line name="Line4" height="29" width="1" left="32" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="32 16 32 44 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="white"/>
+        <line name="Line5" height="29" width="1" left="374" top="16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="374 16 374 44 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="white"/>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Option Explicit
+
+Private Declare Sub keybd_event Lib "user32" (ByVal bVk As Byte, ByVal bScan As Byte, ByVal dwFlags As Long, ByVal dwExtraInfo As Long)
+Private Const KEYEVENTF_KEYUP = &H2
+Private Const VK_SNAPSHOT = &H2C
+Private Const VK_MENU = &H12
+
+Private Const PastaPrntScrn = "c:\printscreen\"
+
+
+
+'Application Area
+Private Const ROOT_1 As String = "Topside"
+
+'HMI Server
+' sample area for HMI serverp
+' sample HMI server name
+Private Const HMIAREANAME_1 As String = ""
+Private Const HMISERVERNAME_1 As String = "Topside"
+
+
+
+'Data Server (includes Device-Based FTAE)
+' sample area for OPC Data server
+' default OPC Data server name
+Private Const DATAAREANAME_1 As String = "DSPCS"
+Private Const DATASERVERNAME_1 As String = "RSLinx Enterprise"
+Private Const DATAAREANAME_2 As String = "DSPSDFGS"
+Private Const DATASERVERNAME_2 As String = "RSLinx Enterprise"
+Private Const DATAAREANAME_3 As String = "DSPSDFGS2"
+Private Const DATASERVERNAME_3 As String = "RSLinx Enterprise"
+Private Const DATAAREANAME_4 As String = "DSPU"
+Private Const DATASERVERNAME_4 As String = "RSLinx Enterprise"
+Private Const DATAAREANAME_5 As String = "DSPU_OPC"
+Private Const DATASERVERNAME_5 As String = "Kepserver"
+Private Const DATAAREANAME_6 As String = "DSPU_OPC2"
+Private Const DATASERVERNAME_6 As String = "Kepserver"
+
+'Tag-Based FTAE Server, if defined
+' sample area for Tag-Based FTAE server
+' sample Tag-Based FTAE server name
+Private Const FTAETAGAREANAME_1 As String = "FTAEPCS"
+Private Const FTAETAGSERVERNAME_1 As String = "FTAEPCS"
+Private Const FTAETAGAREANAME_2 As String = "FTAEPSDFGS"
+Private Const FTAETAGSERVERNAME_2 As String = "FTAEPSDFGS"
+Private Const FTAETAGAREANAME_3 As String = "FTAEPSDFGS2"
+Private Const FTAETAGSERVERNAME_3 As String = "FTAEPSDFGS2"
+Private Const FTAETAGAREANAME_4 As String = "FTAEPU"
+Private Const FTAETAGSERVERNAME_4 As String = "FTAEPU"
+Private Const FTAETAGAREANAME_5 As String = "FTAEPU2"
+Private Const FTAETAGSERVERNAME_5 As String = "FTAEPU2"
+
+
+'Number of Servers
+Private Const NUMBEROFHMISERVERS = 1
+Private Const NUMBEROFDATASERVERS = 6
+Private Const NUMBEROFFTAETAGSERVERS = 5
+
+
+'Total number is the number of your servers + 1 for the FactoryTalk Directory.
+' For example: HMI Server, Data Server (RSLinx), Tag-Based A&E = 3 + 1 for txtPrimaryStatus1
+' Example total would be 4.
+Private Const NUMBEROFSERVERGROUPS = NUMBEROFHMISERVERS + NUMBEROFDATASERVERS + NUMBEROFFTAETAGSERVERS + 1
+
+
+'Max number of servers our screen is configured for.
+Private Const MAXNUMBEROFSERVERGROUPS = NUMBEROFSERVERGROUPS
+
+
+'Assignments of GRP constants used to display graphics
+' GRP_x assignments correspond to the graphic.  If you reorganize or
+' want to reassign, you'll have to go through the code reassign everywhere.
+
+' status-state indicator - txtPrimaryStatus1
+Private Const GRP_1 = 1
+' status-state indicator - HMI Server 1
+Private Const GRP_2 = 2
+' status-state indicator - Data Server 1
+Private Const GRP_3 = 3
+' status-state indicator - Data Server 2
+Private Const GRP_4 = 4
+' status-state indicator - Data Server 3
+Private Const GRP_5 = 5
+' status-state indicator - Data Server 4
+Private Const GRP_6 = 6
+' status-state indicator - Data Server 5
+Private Const GRP_7 = 7
+' status-state indicator - Data Server 6
+Private Const GRP_8 = 8
+' status-state indicator - FTAE Tag-Based 1
+Private Const GRP_9 = 9
+' status-state indicator - FTAE Tag-Based 2
+Private Const GRP_10 = 10
+' status-state indicator - FTAE Tag-Based 3
+Private Const GRP_11 = 11
+' status-state indicator - FTAE Tag-Based 4
+Private Const GRP_12 = 12
+' status-state indicator - FTAE Tag-Based 5
+Private Const GRP_13 = 13
+
+
+' default HMI area
+' default HMI server
+Private sHMIAREANAME_1 As String
+Private sHMISvrName_1 As String
+
+' default Data area
+' default Data server
+Private sDATAreaName_1 As String
+Private sDATSvrName_1 As String
+Private sDATAreaName_2 As String
+Private sDATSvrName_2 As String
+Private sDATAreaName_3 As String
+Private sDATSvrName_3 As String
+Private sDATAreaName_4 As String
+Private sDATSvrName_4 As String
+Private sDATAreaName_5 As String
+Private sDATSvrName_5 As String
+Private sDATAreaName_6 As String
+Private sDATSvrName_6 As String
+
+' default FTAE Area
+' default FTAE Server
+Private sFTAETagAreaName_1 As String
+Private sFTAETagSvrName_1 As String
+Private sFTAETagAreaName_2 As String
+Private sFTAETagSvrName_2 As String
+Private sFTAETagAreaName_3 As String
+Private sFTAETagSvrName_3 As String
+Private sFTAETagAreaName_4 As String
+Private sFTAETagSvrName_4 As String
+Private sFTAETagAreaName_5 As String
+Private sFTAETagSvrName_5 As String
+
+
+' adding 1 to array definition since all our indexing starts with 1 instead of 0.
+Private sAreaName(MAXNUMBEROFSERVERGROUPS + 1) As String
+Private sServername(MAXNUMBEROFSERVERGROUPS + 1) As String
+Private sFullServerName(MAXNUMBEROFSERVERGROUPS + 1) As String
+
+Private WithEvents appStatus As Application                    'app events used to update real time status
+Attribute appStatus.VB_VarHelpID = -1
+
+Private sHMIArray(NUMBEROFHMISERVERS + 1) As String            'array to search multiple HMI servers + 1 b/c search starts at 1
+Private sDATAArray(NUMBEROFDATASERVERS + 1) As String          'array to search multiple DATA servers  + 1 b/c search starts at 1
+Private sFTAETagArray(NUMBEROFFTAETAGSERVERS + 1) As String    'array to search multiple FTAE servers + 1 b/c search starts at 1
+
+
+
+Dim WithEvents Server_status As TagGroup
+Attribute Server_status.VB_VarHelpID = -1
+
+Dim TSFTDSVR_FTDirectory_sts As Tag
+Dim TSCSSVRA_hmi_sts As Tag
+Dim TSCSSVRA_data_sts As Tag
+Dim TSCSSVRA_ftae_sts As Tag
+Dim TSCSSVRB_hmi_sts As Tag
+Dim TSCSSVRB_data_sts As Tag
+Dim TSCSSVRB_ftae_sts As Tag
+Dim TSSDFGSSVRA_data_sts As Tag
+Dim TSSDFGSSVRA_ftae_sts As Tag
+Dim TSSDFGSSVRB_data_sts As Tag
+Dim TSSDFGSSVRB_ftae_sts As Tag
+Dim TSPCKSVRA_data_sts As Tag
+Dim TSPCKSVRA_ftae_sts As Tag
+Dim TSPCKSVRA_data_opc_sts As Tag
+Dim TSPCKSVRB_data_sts As Tag
+Dim TSPCKSVRB_ftae_sts As Tag
+Dim TSPCKSVRB_data_opc_sts As Tag
+
+
+Private Sub Display_AnimationStart()
+    Dim lGroup As Long
+    On Error GoTo ErrHandler
+Set Server_status = Nothing
+Err.Clear
+
+
+        Set Server_status = Application.CreateTagGroup(Me.AreaName, 500)
+        
+                'Tags do servidor FTD
+                Server_status.Add "Server\TSFTDSVR\FTDirectory_sts"
+                
+                'Tags do servidor de telas PCS-A
+                Server_status.Add "Server\TSCSSVRA\data_sts"
+                Server_status.Add "Server\TSCSSVRA\ftae_sts"
+                Server_status.Add "Server\TSCSSVRA\hmi_sts"
+                
+                'Tags do servidor de telas PCS-B
+                Server_status.Add "Server\TSCSSVRB\data_sts"
+                Server_status.Add "Server\TSCSSVRB\ftae_sts"
+                Server_status.Add "Server\TSCSSVRB\hmi_sts"
+                
+                'Tags do servidor de telas PSDFG-A
+                Server_status.Add "Server\TSSDFGSSVRA\data_sts"
+                Server_status.Add "Server\TSSDFGSSVRA\ftae_sts"
+                
+                'Tags do servidor de telas PSDFG-B
+                Server_status.Add "Server\TSSDFGSSVRB\data_sts"
+                Server_status.Add "Server\TSSDFGSSVRB\ftae_sts"
+                
+                'Tags do servidor de telas PU-A
+                Server_status.Add "Server\TSPCKSVRA\data_sts"
+                Server_status.Add "Server\TSPCKSVRA\data_OPC_sts"
+                Server_status.Add "Server\TSPCKSVRA\ftae_sts"
+                
+                'Tags do servidor de telas PU-B
+                Server_status.Add "Server\TSPCKSVRB\data_sts"
+                Server_status.Add "Server\TSPCKSVRB\data_OPC_sts"
+                Server_status.Add "Server\TSPCKSVRB\ftae_sts"
+                
+                
+                Server_status.Active = True
+                
+                
+                Set TSFTDSVR_FTDirectory_sts = Server_status.Item("Server\TSFTDSVR\FTDirectory_sts")
+                
+                Set TSCSSVRA_hmi_sts = Server_status.Item("Server\TSCSSVRA\hmi_sts")
+                Set TSCSSVRA_data_sts = Server_status.Item("Server\TSCSSVRA\data_sts")
+                Set TSCSSVRA_ftae_sts = Server_status.Item("Server\TSCSSVRA\ftae_sts")
+                
+                Set TSCSSVRB_hmi_sts = Server_status.Item("Server\TSCSSVRB\hmi_sts")
+                Set TSCSSVRB_data_sts = Server_status.Item("Server\TSCSSVRB\data_sts")
+                Set TSCSSVRB_ftae_sts = Server_status.Item("Server\TSCSSVRB\ftae_sts")
+                
+                Set TSSDFGSSVRA_data_sts = Server_status.Item("Server\TSSDFGSSVRA\data_sts")
+                Set TSSDFGSSVRA_ftae_sts = Server_status.Item("Server\TSSDFGSSVRA\ftae_sts")
+                
+                Set TSSDFGSSVRB_data_sts = Server_status.Item("Server\TSSDFGSSVRB\data_sts")
+                Set TSSDFGSSVRB_ftae_sts = Server_status.Item("Server\TSSDFGSSVRB\ftae_sts")
+                
+                Set TSPCKSVRA_data_sts = Server_status.Item("Server\TSPCKSVRA\data_sts")
+                Set TSPCKSVRA_ftae_sts = Server_status.Item("Server\TSPCKSVRA\ftae_sts")
+                Set TSPCKSVRA_data_opc_sts = Server_status.Item("Server\TSPCKSVRA\data_opc_sts")
+                
+                Set TSPCKSVRB_data_sts = Server_status.Item("Server\TSPCKSVRB\data_sts")
+                Set TSPCKSVRB_ftae_sts = Server_status.Item("Server\TSPCKSVRB\ftae_sts")
+                Set TSPCKSVRB_data_opc_sts = Server_status.Item("Server\TSPCKSVRB\data_opc_sts")
+
+     
+   
+   
+    'general initialization
+    'appStatus ServiceDisruption/ServiceRecovery events used to update real time status
+    Set appStatus = Me.Application
+        
+    'initialize for default servers
+    sHMIAREANAME_1 = "/" & ROOT_1 & "/" & HMIAREANAME_1
+    sHMISvrName_1 = HMISERVERNAME_1
+    
+    sDATAreaName_1 = "/" & ROOT_1 & "/" & DATAAREANAME_1
+    sDATSvrName_1 = DATASERVERNAME_1
+    sDATAreaName_2 = "/" & ROOT_1 & "/" & DATAAREANAME_2
+    sDATSvrName_2 = DATASERVERNAME_2
+    sDATAreaName_3 = "/" & ROOT_1 & "/" & DATAAREANAME_3
+    sDATSvrName_3 = DATASERVERNAME_3
+    sDATAreaName_4 = "/" & ROOT_1 & "/" & DATAAREANAME_4
+    sDATSvrName_4 = DATASERVERNAME_4
+    sDATAreaName_5 = "/" & ROOT_1 & "/" & DATAAREANAME_5
+    sDATSvrName_5 = DATASERVERNAME_5
+    sDATAreaName_6 = "/" & ROOT_1 & "/" & DATAAREANAME_6
+    sDATSvrName_6 = DATASERVERNAME_6
+    
+    sFTAETagAreaName_1 = "/" & ROOT_1 & "/" & FTAETAGAREANAME_1
+    sFTAETagSvrName_1 = FTAETAGSERVERNAME_1
+    sFTAETagAreaName_2 = "/" & ROOT_1 & "/" & FTAETAGAREANAME_2
+    sFTAETagSvrName_2 = FTAETAGSERVERNAME_2
+    sFTAETagAreaName_3 = "/" & ROOT_1 & "/" & FTAETAGAREANAME_3
+    sFTAETagSvrName_3 = FTAETAGSERVERNAME_3
+    sFTAETagAreaName_4 = "/" & ROOT_1 & "/" & FTAETAGAREANAME_4
+    sFTAETagSvrName_4 = FTAETAGSERVERNAME_4
+    sFTAETagAreaName_5 = "/" & ROOT_1 & "/" & FTAETAGAREANAME_5
+    sFTAETagSvrName_5 = FTAETAGSERVERNAME_5
+    
+    'set default status for GRP_1 server: txtPrimaryStatus1
+    sAreaName(GRP_1) = "Not Applicable"
+    sServername(GRP_1) = "FTDirectory"
+    sFullServerName(GRP_1) = sServername(GRP_1)
+      
+    'set default status for GRP_2 server: HMI Server 1
+    sAreaName(GRP_2) = sHMIAREANAME_1
+    sServername(GRP_2) = sHMISvrName_1
+    sFullServerName(GRP_2) = sAreaName(GRP_2) & ":" & sServername(GRP_2)
+    
+    'set default status for GRP_3 server: Data Server 1
+    sAreaName(GRP_3) = sDATAreaName_1
+    sServername(GRP_3) = sDATSvrName_1
+    sFullServerName(GRP_3) = sAreaName(GRP_3) & ":" & sServername(GRP_3)
+            
+    'set default status for GRP_4 server: Data Server 2
+    sAreaName(GRP_4) = sDATAreaName_2
+    sServername(GRP_4) = sDATSvrName_2
+    sFullServerName(GRP_4) = sAreaName(GRP_4) & ":" & sServername(GRP_4)
+    
+    'set default status for GRP_5 server: Data Server 3
+    sAreaName(GRP_5) = sDATAreaName_3
+    sServername(GRP_5) = sDATSvrName_3
+    sFullServerName(GRP_5) = sAreaName(GRP_5) & ":" & sServername(GRP_5)
+    
+    'set default status for GRP_6 server: Data Server 4
+    sAreaName(GRP_6) = sDATAreaName_4
+    sServername(GRP_6) = sDATSvrName_4
+    sFullServerName(GRP_6) = sAreaName(GRP_6) & ":" & sServername(GRP_6)
+    
+        'set default status for GRP_7 server: Data Server 5
+    sAreaName(GRP_7) = sDATAreaName_5
+    sServername(GRP_7) = sDATSvrName_5
+    sFullServerName(GRP_7) = sAreaName(GRP_7) & ":" & sServername(GRP_7)
+    
+            'set default status for GRP_8 server: Data Server 6
+    sAreaName(GRP_8) = sDATAreaName_6
+    sServername(GRP_8) = sDATSvrName_6
+    sFullServerName(GRP_8) = sAreaName(GRP_8) & ":" & sServername(GRP_8)
+    
+    
+    
+   
+    'set default status for GRP_8 server: FTAE Tag-Based 1
+    sAreaName(GRP_9) = sFTAETagAreaName_1
+    sServername(GRP_9) = sFTAETagSvrName_1
+    sFullServerName(GRP_9) = sAreaName(GRP_9) & ":" & sServername(GRP_9)
+    
+    'set default status for GRP_9 server: FTAE Tag-Based 2
+    sAreaName(GRP_10) = sFTAETagAreaName_2
+    sServername(GRP_10) = sFTAETagSvrName_2
+    sFullServerName(GRP_10) = sAreaName(GRP_10) & ":" & sServername(GRP_10)
+    
+    'set default status for GRP_10 server: FTAE Tag-Based 3
+    sAreaName(GRP_11) = sFTAETagAreaName_3
+    sServername(GRP_11) = sFTAETagSvrName_3
+    sFullServerName(GRP_11) = sAreaName(GRP_11) & ":" & sServername(GRP_11)
+    
+    'set default status for GRP_11 server: FTAE Tag-Based 3
+    sAreaName(GRP_12) = sFTAETagAreaName_4
+    sServername(GRP_12) = sFTAETagSvrName_4
+    sFullServerName(GRP_12) = sAreaName(GRP_12) & ":" & sServername(GRP_12)
+    
+        'set default status for GRP_12 server: FTAE Tag-Based 3
+    sAreaName(GRP_13) = sFTAETagAreaName_5
+    sServername(GRP_13) = sFTAETagSvrName_5
+    sFullServerName(GRP_13) = sAreaName(GRP_13) & ":" & sServername(GRP_13)
+    
+
+    
+    For lGroup = 1 To MAXNUMBEROFSERVERGROUPS
+        ConfigServerStatus lGroup
+        ConfigServerState lGroup
+    Next
+       
+    Exit Sub
+ErrHandler:
+    LogDiagnosticsMessage "VBA Error (Display_AnimationStart()): " & Hex(Err.Number) & " - " & Err.Description, ftDiagSeverityError
+End Sub
+
+Private Sub appStatus_ServerStateChanged(ByVal Area As String, ByVal ServerName As String, ByVal ComputerName As String, ByVal State As gfxServerStateConstants)
+    Dim lGroup As Long
+    
+    For lGroup = 1 To NUMBEROFSERVERGROUPS
+        ConfigServerState lGroup
+    Next
+End Sub
+
+Private Sub appStatus_ServiceDisruption(ByVal Area As String, ByVal ServerName As String, ByVal ComputerName As String)
+    Dim lGroup As Long
+    
+    For lGroup = 1 To NUMBEROFSERVERGROUPS
+        ConfigServerStatus lGroup
+    Next
+End Sub
+
+Private Sub appStatus_ServiceRecovery(ByVal Area As String, ByVal ServerName As String, ByVal ComputerName As String)
+    Dim lGroup As Long
+    
+    For lGroup = 1 To NUMBEROFSERVERGROUPS
+        ConfigServerStatus lGroup
+    Next
+End Sub
+
+Private Sub Display_BeforeAnimationStop()
+    Set appStatus = Nothing
+    Set Server_status = Nothing
+End Sub
+
+Public Sub SetServerStatus(lGroup As Long, sscStatus As gfxServerStatusConstants, bPrimaryServer As Boolean)
+    Dim sObjectName As String
+    On Error GoTo ErrHandler
+    
+    'determine whether primary or secondary
+    If bPrimaryServer Then
+        sObjectName = "txtPrimaryStatus"
+    Else
+        sObjectName = "txtSecondaryStatus"
+    End If
+    
+    'set status colour
+    If sscStatus = gfxServerStatusActive Then
+        Elements.Item(sObjectName & lGroup).BackColor = vbGreen
+        
+        
+    ElseIf sscStatus = gfxServerStatusStandby Then
+        Elements.Item(sObjectName & lGroup).BackColor = vbYellow
+        
+        
+    ElseIf sscStatus = gfxServerStatusOutOfService Then
+        Elements.Item(sObjectName & lGroup).BackColor = vbRed
+        
+        
+    Else
+        Elements.Item(sObjectName & lGroup).BackColor = vbBlack
+        
+        If sAreaName(lGroup) = "Not Applicable" Then
+            Elements.Item(sObjectName & lGroup).Visible = False
+        Else
+            Elements.Item(sObjectName & lGroup).Visible = True
+        End If
+    
+    End If
+    
+    Exit Sub
+ErrHandler:
+    LogDiagnosticsMessage "VBA Error (SetServerStatus()): " & Hex(Err.Number) & " - " & Err.Description, ftDiagSeverityError
+End Sub
+
+Public Sub ConfigServerStatus(lGroup As Long)
+    Dim strActiveComputerName As String
+    Dim sscPrimaryStatus As gfxServerStatusConstants
+    Dim sscSecondaryStatus As gfxServerStatusConstants
+    On Error GoTo ErrHandler
+          
+    'Display name of application
+    txtApplicationName.Caption = Application.ApplicationName
+          
+    'determining server status and name
+    GetServerStatus sFullServerName(lGroup), sscPrimaryStatus, sscSecondaryStatus, strActiveComputerName
+    
+    Elements.Item("txtAreaName" & lGroup).Caption = sAreaName(lGroup)
+    If sAreaName(lGroup) = "Not Applicable" Then
+        Elements.Item("txtAreaName" & lGroup).Visible = False
+    Else
+        Elements.Item("txtAreaName" & lGroup).Visible = True
+    End If
+    Elements.Item("txtServerName" & lGroup).Caption = sServername(lGroup)
+    Elements.Item("txtComputerName" & lGroup).Caption = strActiveComputerName
+    
+    SetServerStatus lGroup, sscPrimaryStatus, True
+    SetServerStatus lGroup, sscSecondaryStatus, False
+        
+    Exit Sub
+ErrHandler:
+    Select Case Hex(Err.Number)
+    Case 80040488
+        sscPrimaryStatus = gfxServerStatusOutOfService
+        sscSecondaryStatus = gfxServerStatusSecondaryNotDefined
+        strActiveComputerName = "Server NOT found!"
+        Resume Next
+    Case Else
+        LogDiagnosticsMessage "VBA Error (ConfigServerStatus()): " & Hex(Err.Number) & " - " & Err.Description, ftDiagSeverityError
+    End Select
+End Sub
+
+Public Sub ConfigServerState(lGroup As Long)
+    Dim sscPrimaryState As gfxServerStateConstants
+    Dim sscSecondaryState As gfxServerStateConstants
+    On Error GoTo ErrHandler
+    
+    GetServerState sFullServerName(lGroup), sscPrimaryState, sscSecondaryState
+            
+    SetServerState lGroup, sscPrimaryState, True
+    SetServerState lGroup, sscSecondaryState, False
+    
+    Exit Sub
+ErrHandler:
+    Select Case Hex(Err.Number)
+    Case 80040490
+        sscPrimaryState = gfxServerStateNotLoaded
+        sscSecondaryState = gfxServerStateSecondaryNotDefined
+        Resume Next
+    Case Else
+        LogDiagnosticsMessage "VBA Error (ConfigServerState()): " & Hex(Err.Number) & " - " & Err.Description, ftDiagSeverityError
+    End Select
+End Sub
+
+Public Sub SetServerState(lGroup As Long, sscState As gfxServerStateConstants, bPrimaryServer As Boolean)
+    
+    Dim gray, rgbValue As Integer
+    ' Return the value for red.
+    gray = RGB(100, 100, 100)
+   
+        
+    Dim sObjectName As String
+    Dim bFTServer As Boolean
+    On Error GoTo ErrHandler
+       
+    'determine whether primary or secondary
+    If bPrimaryServer Then
+        sObjectName = "txtPrimaryStatus"
+    Else
+        sObjectName = "txtSecondaryStatus"
+    End If
+    
+    'determine whether FTserver
+    If StrComp(UCase(Elements.Item("txtServerName" & lGroup).Caption), "FTDIRECTORY", vbTextCompare) = 0 Then
+        bFTServer = True
+    Else
+        bFTServer = False
+    End If
+    
+     With Elements.Item(sObjectName & lGroup)
+         Select Case sscState
+        Case gfxServerStateActive
+            .ForeColor = vbYellow
+            .ToolTipText = "Ativo"
+            
+        Case gfxServerStateStandby
+            .ForeColor = vbYellow
+            .ToolTipText = "Standby"
+            
+        Case gfxServerStateOutofService
+            .ForeColor = gray
+            .ToolTipText = "Fora de Serviço - Falha"
+            
+        Case gfxServerStateSecondaryNotDefined
+            .ForeColor = vbWhite
+            If bFTServer Then
+            .ToolTipText = "Não Aplicável"
+            Else
+            .ToolTipText = "Secundário Não Definido"
+            End If
+            
+        Case gfxServerStateNotInUse
+            .ForeColor = gray
+            .ToolTipText = "Fora de Serviço - Manual"
+            
+        Case gfxServerStateStandbySync
+            .ForeColor = gray
+            .ToolTipText = "Standby - Sincronizando"
+            
+        Case gfxServerStateActiveSync
+            .ForeColor = gray
+            .ToolTipText = "Ativo - Sincronizando"
+            
+        Case gfxServerStateActiveNoPartner
+            .ForeColor = vbYellow
+            
+            
+            If bFTServer Then
+                Else
+                .ToolTipText = "Ativo"
+                End If
+                .ToolTipText = "Ativo - Sem Parceiro"
+                
+                
+        Case gfxServerStateCommError
+            .ForeColor = gray
+            .ToolTipText = "Erro de Comunicação"
+            
+        Case gfxServerStateLoading
+            .ForeColor = gray
+            .ToolTipText = "Servidor Carregando"
+            
+        Case gfxServerStateStarting
+            .ForeColor = gray
+            .ToolTipText = "Servidor Iniciando"
+            
+        Case gfxServerStateReady
+            .ForeColor = gray
+            .ToolTipText = "Ready"
+            
+        Case gfxServerStateReadyToBeActive
+            .ForeColor = gray
+            .ToolTipText = "Pronto para ser o Ativo"
+            
+        Case gfxServerStateReadyToBeStandby
+            .ForeColor = gray
+            .ToolTipText = "Pronto para ser o Standby"
+            
+        Case gfxServerStateNotLoaded
+            .ForeColor = gray
+            .ToolTipText = "Servidor Não Carregado"
+            
+        Case Else
+            .ForeColor = vbWhite
+            .ToolTipText = "Não Definido"
+        End Select
+    End With
+    
+    Exit Sub
+ErrHandler:
+    LogDiagnosticsMessage "VBA Error (SetServerState()): " & Hex(Err.Number) & " - " & Err.Description, ftDiagSeverityError
+End Sub
+
+
+Private Sub Server_Alarmes()
+On Error GoTo ErrHandler
+
+TSFTDSVR_FTDirectory_sts.Value = txtPrimaryStatus1.ToolTipText
+
+'Linhas Modificadas By Luis 28-11-2017
+'TSCSSVRA_hmi_sts.Value = txtPrimaryStatus2.ToolTipText
+'TSCSSVRA_data_sts.Value = txtPrimaryStatus3.ToolTipText
+'TSCSSVRA_ftae_sts.Value = txtPrimaryStatus6.ToolTipText
+
+'TSCSSVRB_hmi_sts.Value = txtSecondaryStatus2.ToolTipText
+'TSCSSVRB_data_sts.Value = txtSecondaryStatus3.ToolTipText
+'TSCSSVRB_ftae_sts.Value = txtSecondaryStatus6.ToolTipText
+
+
+'TSSDFGSSVRA_data_sts.Value = txtPrimaryStatus4.ToolTipText
+'TSSDFGSSVRA_ftae_sts.Value = txtPrimaryStatus7.ToolTipText
+
+'TSSDFGSSVRB_data_sts.Value = txtSecondaryStatus4.ToolTipText
+'TSSDFGSSVRB_ftae_sts.Value = txtSecondaryStatus7.ToolTipText
+
+'TSPCKSVRA_data_sts.Value = txtPrimaryStatus5.ToolTipText
+'TSPCKSVRA_ftae_sts.Value = txtPrimaryStatus8.ToolTipText
+'TSPCKSVRA_data_opc_sts.Value = txtPrimaryStatus9.ToolTipText
+
+
+'TSPCKSVRB_data_sts.Value = txtSecondaryStatus5.ToolTipText
+'TSPCKSVRB_ftae_sts.Value = txtSecondaryStatus8.ToolTipText
+'TSPCKSVRB_data_opc_sts.Value = txtSecondaryStatus9.ToolTipText
+
+If TSCSSVRA_hmi_sts.Value <> txtPrimaryStatus2.ToolTipText Then TSCSSVRA_hmi_sts.Value = txtPrimaryStatus2.ToolTipText
+If TSCSSVRA_data_sts.Value <> txtPrimaryStatus3.ToolTipText Then TSCSSVRA_data_sts.Value = txtPrimaryStatus3.ToolTipText
+If TSCSSVRA_ftae_sts.Value <> txtPrimaryStatus6.ToolTipText Then TSCSSVRA_ftae_sts.Value = txtPrimaryStatus6.ToolTipText
+            
+If TSCSSVRB_hmi_sts.Value <> txtSecondaryStatus2.ToolTipText Then TSCSSVRB_hmi_sts.Value = txtSecondaryStatus2.ToolTipText
+If TSCSSVRB_data_sts.Value <> txtSecondaryStatus3.ToolTipText Then TSCSSVRB_data_sts.Value = txtSecondaryStatus3.ToolTipText
+If TSCSSVRB_ftae_sts.Value <> txtSecondaryStatus6.ToolTipText Then TSCSSVRB_ftae_sts.Value = txtSecondaryStatus6.ToolTipText
+            
+            
+If TSSDFGSSVRA_data_sts.Value <> txtPrimaryStatus4.ToolTipText Then TSSDFGSSVRA_data_sts.Value = txtPrimaryStatus4.ToolTipText
+If TSSDFGSSVRA_ftae_sts.Value <> txtPrimaryStatus7.ToolTipText Then TSSDFGSSVRA_ftae_sts.Value = txtPrimaryStatus7.ToolTipText
+            
+If TSSDFGSSVRB_data_sts.Value <> txtSecondaryStatus4.ToolTipText Then TSSDFGSSVRB_data_sts.Value = txtSecondaryStatus4.ToolTipText
+If TSSDFGSSVRB_ftae_sts.Value <> txtSecondaryStatus7.ToolTipText Then TSSDFGSSVRB_ftae_sts.Value = txtSecondaryStatus7.ToolTipText
+            
+If TSPCKSVRA_data_sts.Value <> txtPrimaryStatus5.ToolTipText Then TSPCKSVRA_data_sts.Value = txtPrimaryStatus5.ToolTipText
+If TSPCKSVRA_ftae_sts.Value <> txtPrimaryStatus8.ToolTipText Then TSPCKSVRA_ftae_sts.Value = txtPrimaryStatus8.ToolTipText
+If TSPCKSVRA_data_opc_sts.Value <> txtPrimaryStatus9.ToolTipText Then TSPCKSVRA_data_opc_sts.Value = txtPrimaryStatus9.ToolTipText
+            
+            
+If TSPCKSVRB_data_sts.Value <> txtSecondaryStatus5.ToolTipText Then TSPCKSVRB_data_sts.Value = txtSecondaryStatus5.ToolTipText
+If TSPCKSVRB_ftae_sts.Value <> txtSecondaryStatus8.ToolTipText Then TSPCKSVRB_ftae_sts.Value = txtSecondaryStatus8.ToolTipText
+If TSPCKSVRB_data_opc_sts.Value <> txtSecondaryStatus9.ToolTipText Then TSPCKSVRB_data_opc_sts.Value = txtSecondaryStatus9.ToolTipText
+
+
+Exit Sub
+
+ErrHandler:
+    LogDiagnosticsMessage "VBA Error (Server_Alarmes()): " & Hex(Err.Number) & " - " & Err.Description, ftDiagSeverityError
+End Sub
+
+
+
+Private Sub pulso_Change()
+    On Error GoTo ErrHandler
+        If (pulso.Value = 10) Or (pulso.Value = 20) Or (pulso.Value = 30) Or (pulso.Value = 40) Or (pulso.Value = 50) Or (pulso.Value = 0) Then
+            Server_Alarmes
+        End If
+    Exit Sub
+ErrHandler:
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

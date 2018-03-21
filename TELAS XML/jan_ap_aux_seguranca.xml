@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="200" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA ASSISTENCIA PARTIDA - AUXILIAR" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="400" height="600" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <button name="Button5" height="30" width="90" left="305" top="566" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="1">
+        <command pressAction="Display tela_seg_5400_vista_geral" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Tela"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <text name="Text46" height="22" width="387" left="5" top="24" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Segurança"/>
+    <text name="Text1" height="22" width="230" left="5" top="2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Partida Inicial"/>
+    <panel name="Panel2" height="550" width="400" left="0" top="50" visible="true" wallpaper="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group4" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon2" height="25" width="25" left="4" top="55" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#B6B6B6" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateTouch TouchStyle="rectangular" pressAction="Toggle /Topside/DSPSDFGS2::[PFGS]IHM_BYP_CHK_SISTEMA_AFDS" repeatAction="" releaseAction="" repeatRate="0.25">
+                        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                            <imageSettings imageReference="noImage"/>
+                        </confirm>
+                    </animateTouch>
+                    <animateColor expression="{/Topside/DSPSDFGS2::[PFGS]IHM_BYP_STS_SISTEMA_AFDS}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="#B6B6B6" foreColor2="#B6B6B6" backBehavior="solid" backColor1="#B6B6B6" backColor2="#B6B6B6" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="#FFFF80" foreColor2="#FFFF80" backBehavior="solid" backColor1="#FFFF80" backColor2="#FFFF80" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </rectangle>
+            <panel name="Panel3" height="25" width="25" left="4" top="55" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text3" height="16" width="20" left="7" top="59" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK"/>
+    </group>
+    <group name="Group3" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon333" height="25" width="25" left="33" top="55" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <panel name="Panel240" height="25" width="25" left="33" top="55" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text106" height="23" width="23" left="35" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#008C00" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Wingdings" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="ü">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_SISTEMA_AFDS_SEM_ALARMES}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text2" height="19" width="19" left="36" top="59" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="X">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_SISTEMA_AFDS_SEM_ALARMES}" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+    </group>
+    <text name="Text5" height="22" width="275" left="63" top="57" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sistema de Detecção de Incêndio - OK"/>
+    <group name="Group7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group6" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon1" height="25" width="25" left="4" top="83" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#B6B6B6" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateTouch TouchStyle="rectangular" pressAction="Toggle /Topside/DSPSDFGS2::[PFGS]IHM_BYP_CHK_FD" repeatAction="" releaseAction="" repeatRate="0.25">
+                        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                            <imageSettings imageReference="noImage"/>
+                        </confirm>
+                    </animateTouch>
+                    <animateColor expression="{/Topside/DSPSDFGS2::[PFGS]IHM_BYP_STS_FD}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="#B6B6B6" foreColor2="#B6B6B6" backBehavior="solid" backColor1="#B6B6B6" backColor2="#B6B6B6" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="#FFFF80" foreColor2="#FFFF80" backBehavior="solid" backColor1="#FFFF80" backColor2="#FFFF80" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </rectangle>
+            <panel name="Panel1" height="25" width="25" left="4" top="83" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text4" height="16" width="20" left="7" top="87" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK"/>
+    </group>
+    <group name="Group9" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group8" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon3" height="25" width="25" left="33" top="83" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <panel name="Panel4" height="25" width="25" left="33" top="83" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text6" height="23" width="23" left="35" top="86" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#008C00" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Wingdings" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="ü">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_FD_SEM_ALARMES}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text7" height="19" width="19" left="36" top="87" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="X">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_FD_SEM_ALARMES}" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+    </group>
+    <text name="Text8" height="22" width="275" left="63" top="85" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ausência de Fogo Detectado"/>
+    <group name="Group12" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group11" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon4" height="25" width="25" left="4" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#B6B6B6" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateTouch TouchStyle="rectangular" pressAction="Toggle /Topside/DSPSDFGS2::[PFGS]IHM_BYP_CHK_GD" repeatAction="" releaseAction="" repeatRate="0.25">
+                        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                            <imageSettings imageReference="noImage"/>
+                        </confirm>
+                    </animateTouch>
+                    <animateColor expression="{/Topside/DSPSDFGS2::[PFGS]IHM_BYP_STS_GD}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="#B6B6B6" foreColor2="#B6B6B6" backBehavior="solid" backColor1="#B6B6B6" backColor2="#B6B6B6" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="#FFFF80" foreColor2="#FFFF80" backBehavior="solid" backColor1="#FFFF80" backColor2="#FFFF80" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </rectangle>
+            <panel name="Panel5" height="25" width="25" left="4" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text9" height="16" width="20" left="7" top="115" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK"/>
+    </group>
+    <group name="Group14" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group13" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon5" height="25" width="25" left="33" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <panel name="Panel6" height="25" width="25" left="33" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text10" height="23" width="23" left="35" top="114" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#008C00" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Wingdings" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="ü">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_GD_SEM_ALARMES}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text11" height="19" width="19" left="36" top="115" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="X">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_GD_SEM_ALARMES}" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+    </group>
+    <text name="Text12" height="22" width="275" left="63" top="113" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ausência de Gás Detectado"/>
+    <group name="Group17" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon6" height="25" width="25" left="4" top="139" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#B6B6B6" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateTouch TouchStyle="rectangular" pressAction="Toggle /Topside/DSPSDFGS2::[PFGS]IHM_BYP_CHK_BT_F" repeatAction="" releaseAction="" repeatRate="0.25">
+                        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                            <imageSettings imageReference="noImage"/>
+                        </confirm>
+                    </animateTouch>
+                    <animateColor expression="{/Topside/DSPSDFGS2::[PFGS]IHM_BYP_STS_BT_F}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="#B6B6B6" foreColor2="#B6B6B6" backBehavior="solid" backColor1="#B6B6B6" backColor2="#B6B6B6" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="#FFFF80" foreColor2="#FFFF80" backBehavior="solid" backColor1="#FFFF80" backColor2="#FFFF80" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </rectangle>
+            <panel name="Panel7" height="25" width="25" left="4" top="139" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text13" height="16" width="20" left="7" top="143" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK"/>
+    </group>
+    <group name="Group19" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group18" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon7" height="25" width="25" left="33" top="139" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <panel name="Panel8" height="25" width="25" left="33" top="139" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text14" height="23" width="23" left="35" top="142" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#008C00" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Wingdings" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="ü">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_BT_F_SEM_ALARMES}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text15" height="19" width="19" left="36" top="143" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="X">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_BT_F_SEM_ALARMES}" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+    </group>
+    <text name="Text16" height="22" width="275" left="63" top="141" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Ausência de Botoeiras de Fogo Atuadas"/>
+    <group name="Group22" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group21" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon8" height="25" width="25" left="4" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#B6B6B6" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <animations>
+                    <animateTouch TouchStyle="rectangular" pressAction="Toggle /Topside/DSPSDFGS2::[PFGS]IHM_BYP_CHK_DILUVIO_ESPUMA" repeatAction="" releaseAction="" repeatRate="0.25">
+                        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                            <imageSettings imageReference="noImage"/>
+                        </confirm>
+                    </animateTouch>
+                    <animateColor expression="{/Topside/DSPSDFGS2::[PFGS]IHM_BYP_STS_DILUVIO_ESPUMA}" blinkRate="2">
+                        <color value="0" foreBehavior="solid" foreColor1="#B6B6B6" foreColor2="#B6B6B6" backBehavior="solid" backColor1="#B6B6B6" backColor2="#B6B6B6" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                        <color value="1" foreBehavior="solid" foreColor1="#FFFF80" foreColor2="#FFFF80" backBehavior="solid" backColor1="#FFFF80" backColor2="#FFFF80" fillColorMode="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillEndColor="white" fillGradientStop="50" fillGradientDirection="gradientDirectionHorizontal" fillGradientShadingStyle="gradientHorizontalFromRight"/>
+                    </animateColor>
+                </animations>
+            </rectangle>
+            <panel name="Panel9" height="25" width="25" left="4" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text17" height="16" width="20" left="7" top="171" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="OK"/>
+    </group>
+    <group name="Group24" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <group name="Group23" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon9" height="25" width="25" left="33" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <panel name="Panel10" height="25" width="25" left="33" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="#A0A0A4" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        </group>
+        <text name="Text18" height="23" width="23" left="35" top="170" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="#008C00" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Wingdings" fontSize="15" bold="true" italic="false" underline="false" strikethrough="false" caption="ü">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_DILUVIO_ESPUMA_SEM_ALARMES}" expressionTrueState="visible"/>
+            </animations>
+        </text>
+        <text name="Text19" height="19" width="19" left="36" top="171" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="X">
+            <animations>
+                <animateVisibility expression="{/Topside/DSPSDFGS2::[PFGS]AUX_SEG_DILUVIO_ESPUMA_SEM_ALARMES}" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+    </group>
+    <text name="Text20" height="22" width="275" left="63" top="169" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sistema de Dilúvio e Espuma - OK"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

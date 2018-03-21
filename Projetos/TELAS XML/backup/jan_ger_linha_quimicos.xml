@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="200" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA LINHA DE QUIMICOS - POÇOS" maximumTagUpdateRate="1" focusHighlightColor="#646464" disableFocusHighlight="true" size="specifySizeInPixels" width="354" height="321" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#646464" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="#D0D0D0" fieldSelectedTextColor="black" fieldSelectedFillColor="#D0D0D0" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="44" width="331" left="11" top="5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="Seleção de Produtos para Linha de &#xA;Químicos - Poços Satélite"/>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon2" height="40" width="341" left="6" top="57" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="teal" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text2" height="16" width="48" left="152" top="59" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Linha 1"/>
+        <controlListSelector name="ControlListSelector1" height="21" width="278" left="37" top="75" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="gray" borderStyle="none" borderUsesBackColor="true" borderWidth="8" selectionForeColor="navy" selectionBackColor="gray" description="" borderColor="navy" patternColor="black" patternStyle="none" keyNavigation="true" blink="false" wrapAround="true" writeOnEnter="true" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" tabIndex="1" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillStyle="solid" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" captionTruncate="word" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" setLastStateId="6">
+            <states>
+                <state stateId="0" value="0">
+                    <caption caption="Linha Fora de Serviço" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="1" value="1">
+                    <caption caption="Inibidor de Hidrato" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="2" value="2">
+                    <caption caption="Inibidor de Asfalteno" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="3" value="3">
+                    <caption caption="Inibidor de Cera" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="4" value="4">
+                    <caption caption="Sequestrador de H2S" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="5" value="5">
+                    <caption caption="Inibidor de Casca de Óleo" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{POCOS\QUIMICOS\POCO_#1_LINHA_1_PRODUTO}"/>
+            </connections>
+        </controlListSelector>
+    </group>
+    <group name="Group2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text6" height="16" width="48" left="152" top="103" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Linha 2"/>
+        <controlListSelector name="ControlListSelector2" height="21" width="278" left="37" top="119" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="gray" borderStyle="none" borderUsesBackColor="true" borderWidth="8" selectionForeColor="navy" selectionBackColor="gray" description="" borderColor="navy" patternColor="black" patternStyle="none" keyNavigation="true" blink="false" wrapAround="true" writeOnEnter="true" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" tabIndex="2" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillStyle="solid" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" captionTruncate="word" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" setLastStateId="6">
+            <states>
+                <state stateId="0" value="0">
+                    <caption caption="Linha Fora de Serviço" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="1" value="1">
+                    <caption caption="Inibidor de Hidrato" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="2" value="2">
+                    <caption caption="Inibidor de Asfalteno" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="3" value="3">
+                    <caption caption="Inibidor de Cera" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="4" value="4">
+                    <caption caption="Sequestrador de H2S" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="5" value="5">
+                    <caption caption="Inibidor de Casca de Óleo" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{POCOS\QUIMICOS\POCO_#1_LINHA_2_PRODUTO}"/>
+            </connections>
+        </controlListSelector>
+        <rectangle name="Polygon1" height="40" width="341" left="6" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="teal" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <group name="Group3" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text7" height="16" width="48" left="152" top="147" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Linha 3"/>
+        <controlListSelector name="ControlListSelector3" height="21" width="278" left="37" top="163" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="gray" borderStyle="none" borderUsesBackColor="true" borderWidth="8" selectionForeColor="navy" selectionBackColor="gray" description="" borderColor="navy" patternColor="black" patternStyle="none" keyNavigation="true" blink="false" wrapAround="true" writeOnEnter="true" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" tabIndex="3" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillStyle="solid" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" captionTruncate="word" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" setLastStateId="6">
+            <states>
+                <state stateId="0" value="0">
+                    <caption caption="Linha Fora de Serviço" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="1" value="1">
+                    <caption caption="Inibidor de Hidrato" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="2" value="2">
+                    <caption caption="Inibidor de Asfalteno" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="3" value="3">
+                    <caption caption="Inibidor de Cera" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="4" value="4">
+                    <caption caption="Sequestrador de H2S" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="5" value="5">
+                    <caption caption="Inibidor de Casca de Óleo" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{POCOS\QUIMICOS\POCO_#1_LINHA_3_PRODUTO}"/>
+            </connections>
+        </controlListSelector>
+        <rectangle name="Polygon3" height="40" width="341" left="6" top="145" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="teal" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <group name="Group4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text8" height="16" width="48" left="152" top="190" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Linha 4"/>
+        <controlListSelector name="ControlListSelector4" height="21" width="278" left="37" top="206" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="gray" borderStyle="none" borderUsesBackColor="true" borderWidth="8" selectionForeColor="navy" selectionBackColor="gray" description="" borderColor="navy" patternColor="black" patternStyle="none" keyNavigation="true" blink="false" wrapAround="true" writeOnEnter="true" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" tabIndex="4" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillStyle="solid" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" captionTruncate="word" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" setLastStateId="6">
+            <states>
+                <state stateId="0" value="0">
+                    <caption caption="Linha Fora de Serviço" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="1" value="1">
+                    <caption caption="Inibidor de Hidrato" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="2" value="2">
+                    <caption caption="Inibidor de Asfalteno" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="3" value="3">
+                    <caption caption="Inibidor de Cera" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="4" value="4">
+                    <caption caption="Sequestrador de H2S" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="5" value="5">
+                    <caption caption="Inibidor de Casca de Óleo" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{POCOS\QUIMICOS\POCO_#1_LINHA_4_PRODUTO}"/>
+            </connections>
+        </controlListSelector>
+        <rectangle name="Polygon4" height="40" width="341" left="6" top="188" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="teal" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <group name="Group5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text9" height="16" width="48" left="152" top="233" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Linha 5"/>
+        <controlListSelector name="ControlListSelector5" height="21" width="278" left="37" top="249" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="gray" borderStyle="none" borderUsesBackColor="true" borderWidth="8" selectionForeColor="navy" selectionBackColor="gray" description="" borderColor="navy" patternColor="black" patternStyle="none" keyNavigation="true" blink="false" wrapAround="true" writeOnEnter="true" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" tabIndex="5" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillStyle="solid" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" captionTruncate="word" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" setLastStateId="6">
+            <states>
+                <state stateId="0" value="0">
+                    <caption caption="Linha Fora de Serviço" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="1" value="1">
+                    <caption caption="Inibidor de Hidrato" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="2" value="2">
+                    <caption caption="Inibidor de Asfalteno" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="3" value="3">
+                    <caption caption="Inibidor de Cera" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="4" value="4">
+                    <caption caption="Sequestrador de H2S" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="5" value="5">
+                    <caption caption="Inibidor de Casca de Óleo" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{POCOS\QUIMICOS\POCO_#1_LINHA_5_PRODUTO}"/>
+            </connections>
+        </controlListSelector>
+        <rectangle name="Polygon5" height="40" width="341" left="6" top="231" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="teal" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text10" height="16" width="48" left="152" top="277" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Linha 6"/>
+        <controlListSelector name="ControlListSelector6" height="21" width="278" left="37" top="293" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="gray" borderStyle="none" borderUsesBackColor="true" borderWidth="8" selectionForeColor="navy" selectionBackColor="gray" description="" borderColor="navy" patternColor="black" patternStyle="none" keyNavigation="true" blink="false" wrapAround="true" writeOnEnter="true" enterKeyControlDelay="400" enterKeyHandshakeTime="4" enterKeyHoldTime="250" handshakeReset="nonZeroValue" tabIndex="6" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight" fillStyle="solid" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" captionTruncate="word" RequireElectronicSignature="false" AllowBlankComment="false" RequireReAuthentication="false" RequireCounterSignature="false" AuthorizedGroup="" ESDomainNameVisible="false" ESDomainNameType="ESDomainNameConstant" ESDomainName="" VariableDomainName="" ESDomainNameDisable="false" setLastStateId="6">
+            <states>
+                <state stateId="0" value="0">
+                    <caption caption="Linha Fora de Serviço" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="1" value="1">
+                    <caption caption="Inibidor de Hidrato" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="2" value="2">
+                    <caption caption="Inibidor de Asfalteno" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="3" value="3">
+                    <caption caption="Inibidor de Cera" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="4" value="4">
+                    <caption caption="Sequestrador de H2S" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+                <state stateId="5" value="5">
+                    <caption caption="Inibidor de Casca de Óleo" color="white" backColor="navy" backStyle="transparent" alignment="left" blink="false"/>
+                </state>
+            </states>
+            <connections>
+                <connection name="Value" expression="{POCOS\QUIMICOS\POCO_#1_LINHA_6_PRODUTO}"/>
+            </connections>
+        </controlListSelector>
+        <rectangle name="Polygon6" height="40" width="341" left="6" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="teal" foreColor="gray" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Private Sub Display_AnimationStart()
+
+On Error GoTo ErrHandler
+
+Dim INSTRUMENTO As String
+
+INSTRUMENTO = Text1.Caption
+PONTEIRO_1 = Mid(INSTRUMENTO, 4, 1)
+PONTEIRO_2 = Mid(INSTRUMENTO, 12, 1)
+
+If PONTEIRO_1 = "-" Then
+     INSTR_TIPO = Left(INSTRUMENTO, 1)
+        If PONTEIRO_2 <> "-" Then
+            INSTR_NUMERO = Mid(INSTRUMENTO, 5, 8)
+             Else
+                INSTR_NUMERO = Mid(INSTRUMENTO, 5, 7) + "_" + Mid(INSTRUMENTO, 13, 3)
+        End If
+    Else
+     INSTR_TIPO = Left(INSTRUMENTO, 2)
+     INSTR_NUMERO = Mid(INSTRUMENTO, 6, 8)
+End If
+
+If INSTR_TIPO = "L" Then
+        AlarmEventSummary1.FilterDefinition = " EventSource LIKE '" & INSTR_TIPO & "' And EventSource LIKE '" & INSTR_NUMERO & "' And (EventSource LIKE 'H_' Or EventSource LIKE 'L_')"
+        FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & INSTR_TIPO & "%' And SourceName LIKE '%" & INSTR_NUMERO & "%' And (SourceName LIKE '%LA%H_%' Or SourceName LIKE '%LA%L_%')"
+    Else
+        AlarmEventSummary1.FilterDefinition = " EventSource LIKE '" & INSTR_TIPO & "' And EventSource LIKE '" & INSTR_NUMERO & "'"
+        FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & INSTR_TIPO & "%' And SourceName LIKE '%" & INSTR_NUMERO & "%'"
+End If
+
+Exit Sub
+ErrHandler:
+
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

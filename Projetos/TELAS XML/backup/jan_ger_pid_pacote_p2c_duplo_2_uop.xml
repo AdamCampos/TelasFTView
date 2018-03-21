@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="200" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA CONTROLADOR PID" maximumTagUpdateRate="1" focusHighlightColor="#3F3F3F" disableFocusHighlight="false" size="specifySizeInPixels" width="803" height="535" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="false" interactiveHighlightColor="#3F3F3F" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="#D0D0D0" fieldSelectedTextColor="black" fieldSelectedFillColor="#D0D0D0" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <displayKeys>
+        <key key="F1" controlModifier="false" shiftModifier="false" label="" pressAction="" repeatAction="" releaseAction="Display jan_ger_confirmacao_PID_SP /T#1,#7 /X645 /Y200"/>
+        <key key="F2" controlModifier="false" shiftModifier="false" label="" pressAction="" repeatAction="" releaseAction="Display jan_ger_confirmacao_PID_CV /T#1 /X645 /Y200"/>
+    </displayKeys>
+    <group name="Grafico" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon35" height="431" width="792" left="5" top="100" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line11" height="1" width="79" left="249" top="115" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="249 115 327 115 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <activeX name="Trend5" height="201" width="792" left="4" top="108" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" classId="{D0569F8A-3B30-46B4-B889-EAFEFD50DD6C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="5">
+            <data progId="RSTX.Trend.1" fileName="RSTXView2.ocx" fileVersion="9.0.241.0" typeLibrary="{7B774452-2FB4-4B76-B11C-205D28E74BEB}" typeLibVersion="4.0" data="AAAEANtRAADGFAAAAAAAAAwAAAD//v8FVAByAGUAbgBkAAEAAAAAAAAA/////8gAAAD//QMA&#xA;AANS4wuRj84RneMAqgBLuFEBAAAAkAFEQgEABUFyaWFsAAAAAAAAAAABAAAAAAAAAP/+/wD/&#xA;/v8AAWDqAAAAAAAA////AAAAAAACAAAAAKIEAAABAP//AQANAENWaWV3TGluZUluZm8GAAAA&#xA;AQAAAAAAAAAAAMhC//7/AP/+/wAAAAAAAQAAAP/+/wtUAFMASABJAFMAVABPAFMAVgBSAEEA&#xA;AAAAAAMAAAABAAAA//7/FFIAUwBWAGkAZQB3ADMAMgAuAEEAcABwAGwAaQBjAGEAdABpAG8A&#xA;bgD//v8A//7/AP/+/wIjADMAIAEAAAD//v8RRgBUAEgAaQBzAHQAbwByAGkAYQBuAFMAZQBy&#xA;AHYAZQByAP/+/wEKAAEAAAAAAAAAAACWRA0AAAACAAAAAAAAAAEAAAABAAAAAQAAAAEAAAAA&#xA;AAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAADAwMAAAQAAAAQAAAAE&#xA;AAAAAAAAAAAAAAAAAJZEAAAAAAAAAAADAAAAAAAAAAEAAAAAAAAAAQABAAAAAQABAAAAAQAB&#xA;AAAAAQAAAAAA/////wAAAAAsAAAAAAAAANTQyAAAAAAA////ADIAAAAAAAAAAAAAAAAAAAAM&#xA;AAAAAAAAALa2tgC2trYA/+///v+///8KAACA08LHUwAAAAABAAAA8QEAAAoAAIBLw8dTAAAA&#xA;AAEAAADxAQAA//7/AAEAAAABAAAAAQAAAAAAAgAAAEsAAADoAwAAAAAAAAAAAABcAAAA9f//&#xA;/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//7/BUEAcgBpAGEAbAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAQAAAAEAAAADAAAAAQAAAP/+/xRSAFMAVgBpAGUAdwAzADIALgBBAHAAcABsAGkAYwBh&#xA;AHQAaQBvAG4A//7/AP/+/wD//v8EewAjADUAfQAgAQAAAP/+/wD//v8AAwAAAAEAAAD//v8U&#xA;UgBTAFYAaQBlAHcAMwAyAC4AQQBwAHAAbABpAGMAYQB0AGkAbwBuAP/+/wD//v8A//7/BHsA&#xA;IwA2AH0AIAEAAAD//v8A//7/AAAAAAABAAAA////AAAAAAAAAAAAAAAAAAEAAAABAAAAAQAA&#xA;AAAAAQAAAAAAAAAAAAEA//8BAAkAQ0xpbmVJbmZvBgAAAAEAAAAAAAAAAADIQv/+/wD//v8A&#xA;AAAAAAEAAAD//v8LVABTAEgASQBTAFQATwBTAFYAUgBBAAAAAAADAAAAAQAAAP/+/xRSAFMA&#xA;VgBpAGUAdwAzADIALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4A//7/AP/+/wD//v8CIwAzACAB&#xA;AAAA//7/EUYAVABIAGkAcwB0AG8AcgBpAGEAbgBTAGUAcgB2AGUAcgD//v8BCgAAAAEAAADI&#xA;QgEAAAAAAAMA//7/AiMAMwD//v8DIwAxADUA//7/AyMAMQA1AP/+/wD/////AQD//v8BCgAB&#xA;AP/+/wABAP/+/wABAP/+/wtUAFMASABJAFMAVABPAFMAVgBSAEEAAAAAAP///wAyAAAAAAAA&#xA;AAAAAAAAAAMAAAB4BAAAVAUAAFUFAAAAAFYF"/>
+            <connections>
+                <connection name="Minimum" expression="{#5}"/>
+                <connection name="Maximum" expression="{#6}"/>
+            </connections>
+        </activeX>
+        <activeX name="Trend6" height="201" width="791" left="5" top="329" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" classId="{D0569F8A-3B30-46B4-B889-EAFEFD50DD6C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="8">
+            <data progId="RSTX.Trend.1" fileName="RSTXView2.ocx" fileVersion="9.0.241.0" typeLibrary="{7B774452-2FB4-4B76-B11C-205D28E74BEB}" typeLibVersion="4.0" data="AAAEAMFRAADGFAAAAAAAAAwAAAD//v8FVAByAGUAbgBkAAEAAAAAAAAA/////8gAAAD//QMA&#xA;AANS4wuRj84RneMAqgBLuFEBAAAAkAFEQgEABUFyaWFsAAAAAAAAAAABAAAAAAAAAP/+/wD/&#xA;/v8AAWDqAAAAAAAA////AAAAAAACAAAAAKwEAAABAP//AQANAENWaWV3TGluZUluZm8GAAAA&#xA;AQAAAAAAAAAAAMhC//7/AP/+/wAAAAAAAQAAAP/+/wtUAFMASABJAFMAVABPAFMAVgBSAEEA&#xA;AAAAAAMAAAABAAAA//7/FFIAUwBWAGkAZQB3ADMAMgAuAEEAcABwAGwAaQBjAGEAdABpAG8A&#xA;bgD//v8A//7/AP/+/wMjADEAMwAgAQAAAP/+/xFGAFQASABpAHMAdABvAHIAaQBhAG4AUwBl&#xA;AHIAdgBlAHIA//7/AQoAAQAAAAAAAAAAAJZEDQAAAAIAAAAAAAAAAQAAAAEAAAABAAAAAQAA&#xA;AAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAMDAwAABAAAABAAA&#xA;AAQAAAAAAAAAAAAAAAAAlkQAAAAAAAAAAAMAAAAAAAAAAQAAAAAAAAABAAEAAAABAAEAAAAB&#xA;AAEAAAABAAAAAAD/////AAAAACwAAAAAAAAA1NDIAAAAAAD///8AMgAAAAAAAAAAAAAAAAAA&#xA;AAwAAAAAAAAAtra2ALa2tgD/7//+/7///woAAIDTwsdTAAAAAAEAAADxAQAACgAAgEvDx1MA&#xA;AAAAAQAAAPEBAAD//v8AAQAAAAEAAAABAAAAAAACAAAASwAAAOgDAAAAAAAAAAAAAFwAAAD1&#xA;////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//v8FQQByAGkAYQBsAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAABAAAAAQAAAAMAAAABAAAA//7/FFIAUwBWAGkAZQB3ADMAMgAuAEEAcABwAGwAaQBj&#xA;AGEAdABpAG8AbgD//v8A//7/AP/+/wV7ACMAMQA1AH0AIAEAAAD//v8A//7/AAMAAAABAAAA&#xA;//7/FFIAUwBWAGkAZQB3ADMAMgAuAEEAcABwAGwAaQBjAGEAdABpAG8AbgD//v8A//7/AP/+&#xA;/wV7ACMAMQA2AH0AIAEAAAD//v8A//7/AAAAAAABAAAA////AAAAAAAAAAAAAAAAAAEAAAAB&#xA;AAAAAQAAAAAAAQAAAAAAAAAAAAEA//8BAAkAQ0xpbmVJbmZvBgAAAAEAAAAAAAAAAADIQv/+&#xA;/wD//v8AAAAAAAEAAAD//v8LVABTAEgASQBTAFQATwBTAFYAUgBBAAAAAAADAAAAAQAAAP/+&#xA;/xRSAFMAVgBpAGUAdwAzADIALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4A//7/AP/+/wD//v8D&#xA;IwAxADMAIAEAAAD//v8RRgBUAEgAaQBzAHQAbwByAGkAYQBuAFMAZQByAHYAZQByAP/+/wEK&#xA;AAAAAQAAAMhCAQAAAAAAAwD//v8DIwAxADMA//7/AyMAMQA1AP/+/wMjADEANQD//v8A////&#xA;/wEA//7/AQoAAQD//v8AAQD//v8AAQD//v8LVABTAEgASQBTAFQATwBTAFYAUgBBAAAAAAD/&#xA;//8AMgAAAAAAAAAAAAAAAAADAAAAdQQAAFYFAABXBQAALQAyAA=="/>
+            <connections>
+                <connection name="Minimum" expression="{#15}"/>
+                <connection name="Maximum" expression="{#16}"/>
+            </connections>
+        </activeX>
+        <text name="Text22" height="18" width="135" left="309" top="107" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+        <text name="Text23" height="18" width="135" left="309" top="327" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#13}*/"/>
+    </group>
+    <group name="AlmHistorico" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon24" height="431" width="792" left="4" top="101" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line8" height="1" width="59" left="191" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="191 101 249 101 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <activeX name="FactoryTalkAlarmandEventLogViewer1" height="432" width="793" left="4" top="101" visible="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" classId="{4D769ACD-8F36-464D-9092-41B290B4CC2C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="1">
+            <data progId="FTLogViewer.FTLogViewer.1" fileName="FTAELogViewer.ocx" fileVersion="2.90.0.207" typeLibrary="{3DEACC9C-310B-4735-AA79-FA05F41DCF9C}" typeLibVersion="1.0" data="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&#xA;//8CAP//AgD//wIA//8DAPX///8IACAAAABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEA&#xA;bgAAABEAABEAABEAABMAkAEAAAIAAAACAP//AgD//wIAAAAIAL4AAABEAFIASQBWAEUAUgA9&#xA;AHsAUwBRAEwAIABTAGUAcgB2AGUAcgB9ADsAUwBFAFIAVgBFAFIAPQA8AHMAZQByAHYAZQBy&#xA;ACAAbgBhAG0AZQA+ADsAVQBJAEQAPQA8AHUAcwBlAHIAIABJAEQAPgA7AFAAVwBEAD0APABw&#xA;AGEAcwBzAHcAbwByAGQAPgA7AEQAQQBUAEEAQgBBAFMARQA9ADwAZABhAHQAYQBiAGEAcwBl&#xA;ACAAbgBhAG0AZQA+AAAACAACAAAAAAACAAAAAwBQwwAAAwAAAAAAAQAAAAwAAAACAP//EwAA&#xA;AAAAEwDAwMAAAgAAAAgAAgAAAAAAAgD//wMA9f///wgAGgAAAE0AUwAgAFMAaABlAGwAbAAg&#xA;AEQAbABnAAAAEQAAEQAAEQAAAwCQAQAAAQAAAAgAAAATAAAAAAATAMDAwAADAPX///8IABoA&#xA;AABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAABMAkAEAAAEAAAAIAAAAAgAB&#xA;AAIA//8TAMDAwAATAISEhAACAP//AgD//wsA//8CAP//AQAAAAsAAAACAAEAAgAAAAMAAAAA&#xA;ABMAAAAAABMAwMDAAAMA9f///wgAGgAAAE0AUwAgAFMAaABlAGwAbAAgAEQAbABnAAAAEQAA&#xA;EQAAEQAAEwCQAQAAAQAAAAsAAAACAAAAAgAhABMAAAAAABMAhISEAAIA//8DAPX///8IABoA&#xA;AABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAABMAkAEAAAIAAAAKAAAAAAAA&#xA;AAIAAAAKAAAAAAAAAAIAAAAKAAAAEAAAAAgABAAAADEAAAADAAQAAAADAAEAAAADAAEAAAAD&#xA;AOgDAAATAMYIAAATAP///wAEAAAAAAADAAgAAAAEAAAAAAAIAAQAAAAyAAAAAwAEAAAAAwAB&#xA;AAAAAwABAAAAAwDoAwAAEwDebQAAEwD///8ABAAAAAAAAwAEAAAABAAAAAAACAAEAAAAMwAA&#xA;AAMABAAAAAMAAQAAAAMAAQAAAAMA6AMAABMA764AABMA////AAQAAAAAAAMAAgAAAAQAAAAA&#xA;AAgABAAAADQAAAADAAQAAAADAAEAAAADAAEAAAADAOgDAAATAACAAAATAP///wAEAAAAAAAD&#xA;AAEAAAAEAAAAAAAIAAQAAAA1AAAAAwAEAAAAAwACAAAAAwABAAAAAwDoAwAAEwDGCAAAEwD/&#xA;//8ABAAAAAAAAwAIAAAABAAAAAAACAAEAAAANgAAAAMABAAAAAMAAgAAAAMAAQAAAAMA6AMA&#xA;ABMA3m0AABMA////AAQAAAAAAAMABAAAAAQAAAAAAAgABAAAADcAAAADAAQAAAADAAIAAAAD&#xA;AAEAAAADAOgDAAATAO+uAAATAP///wAEAAAAAAADAAIAAAAEAAAAAAAIAAQAAAA4AAAAAwAE&#xA;AAAAAwACAAAAAwABAAAAAwDoAwAAEwAAgAAAEwD///8ABAAAAAAAAwABAAAABAAAAAAACAAE&#xA;AAAAOQAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAAAAMACAAA&#xA;AAQAAAAAAAgABgAAADEAMAAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAABMAAIAAABMA////&#xA;AAQAAAAAAAMABAAAAAQAAAAAAAgABgAAADEAMQAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMA&#xA;ABMAAIAAABMA////AAQAAAAAAAMAAgAAAAQAAAAAAAgABgAAADEAMgAAAAMABAAAAAMAAwAA&#xA;AAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAAAAMAAQAAAAQAAAAAAAgABgAAADEAMwAA&#xA;AAMABAAAAAMABAAAAAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAAAAMACAAAAAQAAAAA&#xA;AAgABgAAADEANAAAAAMABAAAAAMABAAAAAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAA&#xA;AAMABAAAAAQAAAAAAAgABgAAADEANQAAAAMABAAAAAMABAAAAAMAAQAAAAMA6AMAABMAAIAA&#xA;ABMA////AAQAAAAAAAMAAgAAAAQAAAAAAAgABgAAADEANgAAAAMABAAAAAMABAAAAAMAAQAA&#xA;AAMA6AMAABMAAIAAABMA////AAQAAAAAAAMAAQAAAAQAAAAAAAIAAAAMAAAABwAAAAMAqgAA&#xA;AAgAGAAAAEYAaQBsAHQAZQByACAATABpAHMAdAAAAAIAAAAIABgAAAAoAGMAbwBtAGIAbwAg&#xA;AGIAbwB4ACkAAAAIACAAAABTAGUAbABlAGMAdAAgAGEAIABmAGkAbAB0AGUAcgAAAAIAAAAD&#xA;AAAAAAACAGQAAwD/////AwAHBAAAAwAWBAAAAwAWBAAAAwDYAAAACAAYAAAARQBkAGkAdAAg&#xA;AEYAaQBsAHQAZQByAAAAAgAAAAgAGAAAAEUAZABpAHQAIABGAGkAbAB0AGUAcgAAAAgAGAAA&#xA;AEUAZABpAHQAIABmAGkAbAB0AGUAcgAAAAIAAQADAAAAAAADABcAAAADADkEAAADADoEAAAD&#xA;ABYEAAADABYEAAADAKsAAAAIABAAAABSAGUAZgByAGUAcwBoAAAAAgD//wgAEAAAAFIAZQBm&#xA;AHIAZQBzAGgAAAAIACYAAABSAGUAZgByAGUAcwBoACAAdABoAGUAIAByAGUAcABvAHIAdAAA&#xA;AAIAAgADAAAAAAADABcAAAADAA0EAAADAAgEAAADABYEAAADABYEAAADAKwAAAAIAAoAAABT&#xA;AHQAbwBwAAAAAgAAAAgACgAAAFMAdABvAHAAAAAIAEwAAABTAHQAbwBwACAAcgBlAGEAZABp&#xA;AG4AZwAgAGUAdgBlAG4AdABzACAAZgByAG8AbQAgAHQAaABlACAAZABhAHQAYQBiAGEAcwBl&#xA;AAAAAgADAAMAAAAAAAMAFwAAAAMADgQAAAMACQQAAAMAFgQAAAMAFgQAAAMArQAAAAgACgAA&#xA;AEYAaQBuAGQAAAACAAAACAAKAAAARgBpAG4AZAAAAAgACgAAAEYAaQBuAGQAAAACAAQAAwAA&#xA;AAAAAwAXAAAAAwAPBAAAAwAKBAAAAwAWBAAAAwAWBAAAAwCuAAAACAAaAAAARABlAHQAYQBp&#xA;AGwAcwAgAFAAYQBuAGUAAAACAAAACAAaAAAARABlAHQAYQBpAGwAcwAgAFAAYQBuAGUAAAAI&#xA;AC4AAABTAGgAbwB3AC8ASABpAGQAZQAgAEQAZQB0AGEAaQBsAHMAIABQAGEAbgBlAAAAAgAF&#xA;AAMAAAAAAAMAFwAAAAMAEAQAAAMACwQAAAMAFgQAAAMAFgQAAAMArwAAAAgADAAAAFAAcgBp&#xA;AG4AdAAAAAIAAAAIAAwAAABQAHIAaQBuAHQAAAAIAAwAAABQAHIAaQBuAHQAAAACAAYAAwAA&#xA;AAAAAwAXAAAAAwARBAAAAwAMBAAAAwAWBAAAAwAWBAAAAgAAAA8AAAADAAAAAwC+AAAAAwBK&#xA;AQAAAwBkAAAAAwAWBAAAAwAWBAAACAAQAAAARQB2AGUAbgB0AHMAOgAAAAMALQQAAAgANAAA&#xA;AE4AdQBtAGIAZQByACAAbwBmACAAcgBlAGMAbwByAGQAcwAgAGkAbgAgAGwAaQBzAHQAAAAD&#xA;ACgEAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAD&#xA;AMEAAAADAE0BAAADAMgAAAADABYEAAADABYEAAAIABAAAABGAGkAbAB0AGUAcgA6AAAAAwAu&#xA;BAAACAA+AAAAVABoAGUAIABlAHYAZQBuAHQAIABsAGkAcwB0ACAAaQBzACAAbgBvAHQAIABm&#xA;AGkAbAB0AGUAcgBlAGQAAAADACkEAAAIABoAAABOAG8AdAAgAEYAaQBsAHQAZQByAGUAZAAA&#xA;AAMALwQAAAgAegAAAEEAIABjAHUAcwB0AG8AbQAgAHIAdQBuAHQAaQBtAGUALQBkAGUAZgBp&#xA;AG4AZQBkACAAZgBpAGwAdABlAHIAIABpAHMAIABhAHAAcABsAGkAZQBkACAAdABvACAAdABo&#xA;AGUAIABlAHYAZQBuAHQAIABsAGkAcwB0AAAAAwAqBAAACAAgAAAARgBpAGwAdABlAHIAZQBk&#xA;ACAAYgB5ADoAIAAlAHMAAAADACsEAAADAJICAAADAJMCAAADAJABAAADABYEAAADABYEAAAI&#xA;ADoAAABSAGUAYQBkAGkAbgBnACAAZQB2AGUAbgB0AHMAIABmAHIAbwBtACAAZABhAHQAYQBi&#xA;AGEAcwBlAAAAAwAwBAAACAAsAAAARABhAHQAYQBiAGEAcwBlACAAcQB1AGUAcgB5ACAAcwB0&#xA;AGEAdAB1AHMAAAADACwEAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAA&#xA;AAAAAAACAAAAAAAFAAAA"/>
+        </activeX>
+    </group>
+    <group name="PID" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <button name="Button3" height="431" width="793" left="4" top="100" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="noborder" captureCursor="false" highlightOnFocus="false" tabIndex="4">
+            <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="#848484" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </button>
+        <rectangle name="Polygon12" height="431" width="791" left="4" top="100" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text8" height="16" width="21" left="14" top="137" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="MV"/>
+        <group name="Group2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon2" height="30" width="120" left="116" top="130" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text6" height="14" width="11" left="190" top="138" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+            <numericDisplay name="NumericDisplay2" height="14" width="56" left="131" top="138" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#24}"/>
+                </connections>
+            </numericDisplay>
+        </group>
+        <rectangle name="Polygon1" height="5" width="35" left="71" top="143" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#004080" foreColor="#004080" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon17" height="5" width="35" left="71" top="214" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A349A4" foreColor="#A349A4" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text17" height="16" width="19" left="14" top="208" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="SP"/>
+        <group name="Group13" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon27" height="30" width="120" left="116" top="239" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text20" height="14" width="43" left="190" top="247" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+            <numericDisplay name="NumericDisplay5" height="14" width="56" left="131" top="247" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#30}"/>
+                </connections>
+            </numericDisplay>
+        </group>
+        <text name="Text21" height="16" width="19" left="14" top="246" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="PV"/>
+        <rectangle name="Polygon28" height="5" width="35" left="71" top="252" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="solid" backColor="#408080" foreColor="#408080" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <activeX name="Trend1" height="237" width="291" left="499" top="127" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" classId="{D0569F8A-3B30-46B4-B889-EAFEFD50DD6C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="2">
+            <data progId="RSTX.Trend.1" fileName="RSTXView2.ocx" fileVersion="9.0.241.0" typeLibrary="{7B774452-2FB4-4B76-B11C-205D28E74BEB}" typeLibVersion="4.0" data="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&#xA;AKMEAACkBAAApQQAAKYEAAAAAAIA"/>
+            <connections>
+                <connection name="Pen 1" expression="{#30}"/>
+                <connection name="Pen 2" expression="{#28}"/>
+                <connection name="Minimum" expression="{#5}"/>
+                <connection name="Maximum" expression="{#6}"/>
+            </connections>
+        </activeX>
+        <activeX name="Trend2" height="122" width="291" left="500" top="367" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" classId="{D0569F8A-3B30-46B4-B889-EAFEFD50DD6C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="3">
+            <data progId="RSTX.Trend.1" fileName="RSTXView2.ocx" fileVersion="9.0.241.0" typeLibrary="{7B774452-2FB4-4B76-B11C-205D28E74BEB}" typeLibVersion="4.0" data="AAAEABMeAACcDAAAAAAAAAwAAAD//v8FVAByAGUAbgBkAAEAAAAAAAAA/////8gAAAD//QMA&#xA;AANS4wuRj84RneMAqgBLuFEBAAAAkAFEQgEABUFyaWFsAAAAAAAAAAABAAAAAAAAAP/+/wD/&#xA;/v8AAWDqAAAAAAAA////AAAAAAACAAAAAF4EAAABAP//AQANAENWaWV3TGluZUluZm8GAAAA&#xA;AQAAAAAAAAAAAMhC//7/Ak0AVgD//v8BJQAAAAAAAAAAAP/+/wAAAAAAAwAAAAEAAAD//v8U&#xA;UgBTAFYAaQBlAHcAMwAyAC4AQQBwAHAAbABpAGMAYQB0AGkAbwBuAP/+/wD//v8FMQAwADAA&#xA;MAAxAP/+/wV7ACMAMgA0AH0AIAEAAAD//v8A//7/AAEAAAAAAAAAAADIQg0AAAACAAAAAAAA&#xA;AAEAAAABAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAAAAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAB&#xA;AABAgADQ0NAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAMhCAAAAAAAAAAAAAAAAAAAAAAEAAAAA&#xA;AAAAAQABAAAAAQAAAAAAAQABAAAAAQAAAAAA/////wAAAAAsAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAD///////////////8AAAAArgAAAICAgACAgIAA/+///v+///8KAACAT1UlVgAAAAAB&#xA;AAAA1QMAAAoAAICLVSVWAAAAAAEAAADVAwAA//7/AAEAAAABAAAAAQAAAAAAAgAAACgAAADo&#xA;AwAAAAAAAAAAAABcAAAA9f///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//7/&#xA;BUEAcgBpAGEAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAADAAAAAQAAAP/+/xRSAFMAVgBpAGUAdwAz&#xA;ADIALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4A//7/AP/+/wD//v8FewAjADIANgB9ACABAAAA&#xA;//7/AP/+/wADAAAAAQAAAP/+/xRSAFMAVgBpAGUAdwAzADIALgBBAHAAcABsAGkAYwBhAHQA&#xA;aQBvAG4A//7/AP/+/wD//v8FewAjADIANwB9ACABAAAA//7/AP/+/wAAAAAAAAAAAP///wAA&#xA;AAAAAAAAAAAAAAABAAAACAAAAAEAAAAAAAEAAAAAAAAAAAABAP//AQAJAENMaW5lSW5mbwYA&#xA;AAABAAAAAAAAAAAAyEL//v8CTQBWAP/+/wElAAAAAAAAAAAA//7/AAAAAAADAAAAAQAAAP/+&#xA;/xRSAFMAVgBpAGUAdwAzADIALgBBAHAAcABsAGkAYwBhAHQAaQBvAG4A//7/AP/+/wUxADAA&#xA;MAAwADEA//7/BXsAIwAyADQAfQAgAQAAAP/+/wD//v8AAAABAAAAyEIBAAAAAAACAP/+/wV7&#xA;ACMAMgA0AH0A//7/DnsAIwAxAC4ASQBIAE0AXwBTAFAALgBTAFAAfQD//v8A/////wEA//7/&#xA;AAEA//7/ASUAAQD//v8CTQBWAAEA//7/AAAAAAD///8AMgAAAAAAAAAAAAAAAAADAAAAGgMA&#xA;AKEEAACiBAAATAAgAA=="/>
+            <connections>
+                <connection name="Pen 1" expression="{#24}"/>
+                <connection name="Minimum" expression="{#26}"/>
+                <connection name="Maximum" expression="{#27}"/>
+            </connections>
+        </activeX>
+        <group name="Group11" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon15" height="30" width="140" left="352" top="225" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text10" height="16" width="41" left="402" top="232" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Inversa">
+                <animations>
+                    <animateVisibility expression="{#41}" expressionTrueState="invisible"/>
+                </animations>
+            </text>
+            <text name="Text11" height="16" width="35" left="405" top="232" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Direta">
+                <animations>
+                    <animateVisibility expression="{#41}" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <animations>
+                <animateVisibility expression="{#68}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group35" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <animations>
+                <animateVisibility expression="{#60}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group9" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="Text30" height="16" width="50" left="14" top="337" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MV Max"/>
+            <text name="Text32" height="16" width="46" left="14" top="376" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="MV Min"/>
+            <group name="Group20" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon39" height="30" width="120" left="116" top="330" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <numericDisplay name="NumericDisplay8" height="14" width="56" left="140" top="338" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#27}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <group name="Group22" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon40" height="30" width="120" left="116" top="369" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <numericDisplay name="NumericDisplay9" height="14" width="56" left="140" top="377" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#26}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <animations>
+                <animateVisibility expression="{#61}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="Text34" height="16" width="101" left="14" top="421" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Proporcional (kP)"/>
+            <group name="Group23" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon41" height="30" width="120" left="116" top="414" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <numericDisplay name="NumericDisplay10" height="14" width="56" left="140" top="422" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#32}"/>
+                    </connections>
+                </numericDisplay>
+                <animations>
+                    <animateVisibility expression="CurrentUserHasCode( O )" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <animations>
+                <animateVisibility expression="{#62}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group19" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="Text3" height="16" width="65" left="14" top="459" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Integral (kI)"/>
+            <group name="Group24" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon42" height="30" width="120" left="116" top="452" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <numericDisplay name="NumericDisplay11" height="14" width="56" left="140" top="460" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#34}"/>
+                    </connections>
+                </numericDisplay>
+                <animations>
+                    <animateVisibility expression="(CurrentUserHasCode( O )==1) and ({#63}==1)" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <animations>
+                <animateVisibility expression="{#63}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group28" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <text name="Text4" height="16" width="83" left="14" top="500" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Derivativo (kD)"/>
+            <group name="Group25" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon43" height="30" width="120" left="116" top="493" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <numericDisplay name="NumericDisplay12" height="14" width="56" left="140" top="501" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#36}"/>
+                    </connections>
+                </numericDisplay>
+                <animations>
+                    <animateVisibility expression="CurrentUserHasCode( O )" expressionTrueState="visible"/>
+                </animations>
+            </group>
+            <animations>
+                <animateVisibility expression="{#64}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group14" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon4" height="30" width="140" left="352" top="174" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text2" height="16" width="134" left="355" top="181" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="PID EM AUTOMÁTICO">
+                <animations>
+                    <animateVisibility expression="({#38} == 0)" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <text name="Text7" height="16" width="104" left="370" top="181" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="PID EM MANUAL">
+                <animations>
+                    <animateVisibility expression="({#38} == 1)" expressionTrueState="visible"/>
+                </animations>
+            </text>
+            <animations>
+                <animateVisibility expression="({#51} == 1)" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <line name="Line6" height="1" width="61" left="70" top="102" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="70 102 130 102 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <group name="Group59" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon52" height="30" width="140" left="352" top="263" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text29" height="16" width="56" left="394" top="270" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Override"/>
+            <animations>
+                <animateVisibility expression="{#28}=1" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon14" height="30" width="120" left="116" top="201" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text19" height="14" width="15" left="190" top="209" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="ND"/>
+            <animations>
+                <animateVisibility expression="(NOT {#57})" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group15" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon11" height="30" width="120" left="116" top="201" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text14" height="14" width="43" left="190" top="209" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+            <numericDisplay name="NumericDisplay3" height="14" width="56" left="131" top="209" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#28}"/>
+                </connections>
+            </numericDisplay>
+            <animations>
+                <animateVisibility expression="{#57}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group12" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon10" height="30" width="140" left="352" top="263" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text18" height="16" width="78" left="383" top="270" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Intertravado"/>
+            <animations>
+                <animateVisibility expression="{#28}=2" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group34" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <button name="Button8" height="30" width="95" left="243" top="129" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="9">
+                <command pressAction="&amp;Set #39 1;" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="AUTO/MAN"/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+                <animations>
+                    <animateVisibility expression="{#38}" expressionTrueState="visible"/>
+                </animations>
+            </button>
+            <animations>
+                <animateVisibility expression="{#52}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group30" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <roundedRectangle name="RoundedRectangle3" height="30" width="120" left="240" top="412" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#D0D0D0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" roundingWidth="12" roundingHeight="6" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <numericInput name="NumericInput2" height="18" width="46" left="277" top="418" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="6" justification="center" tabIndex="10" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#33}"/>
+                        <connection name="Minimum" expression="0"/>
+                        <connection name="Maximum" expression="10"/>
+                    </connections>
+                
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </numericInput>
+            <rectangle name="Polygon45" height="18" width="46" left="277" top="418" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="#D0D0D0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <animations>
+                <animateVisibility expression="{#66}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group37" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <roundedRectangle name="RoundedRectangle6" height="30" width="120" left="240" top="452" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#D0D0D0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" roundingWidth="12" roundingHeight="6" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <numericInput name="NumericInput3" height="18" width="46" left="277" top="458" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="6" justification="center" tabIndex="11" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                    <animations>
+                        <animateVisibility expression="CurrentUserHasCode( G )" expressionTrueState="visible"/>
+                    </animations>
+                    <connections>
+                        <connection name="Value" expression="{#35}"/>
+                        <connection name="Minimum" expression="0"/>
+                        <connection name="Maximum" expression="10"/>
+                    </connections>
+                
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </numericInput>
+            <rectangle name="Polygon48" height="18" width="46" left="277" top="458" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="#D0D0D0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <animations>
+                <animateVisibility expression="(CurrentUserHasCode( G )==1) and ({#65}==1)" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group38" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <roundedRectangle name="RoundedRectangle7" height="30" width="120" left="242" top="493" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#D0D0D0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" roundingWidth="12" roundingHeight="6" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <numericInput name="NumericInput4" height="18" width="46" left="279" top="499" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="6" justification="center" tabIndex="12" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                    <animations>
+                        <animateVisibility expression="CurrentUserHasCode( G )" expressionTrueState="visible"/>
+                    </animations>
+                    <connections>
+                        <connection name="Value" expression="{#37}"/>
+                        <connection name="Minimum" expression="0"/>
+                        <connection name="Maximum" expression="10"/>
+                    </connections>
+                
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </numericInput>
+            <rectangle name="Polygon49" height="18" width="46" left="279" top="499" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="#D0D0D0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <animations>
+                <animateVisibility expression="{#67}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group36" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <roundedRectangle name="RoundedRectangle4" height="30" width="120" left="116" top="201" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#D0D0D0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" roundingWidth="12" roundingHeight="6" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <numericInput name="NumericInput1" height="18" width="46" left="154" top="207" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="6" justification="center" tabIndex="13" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#29}"/>
+                        <connection name="Minimum" expression="{#5}"/>
+                        <connection name="Maximum" expression="{#6}"/>
+                    </connections>
+                
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </numericInput>
+            <rectangle name="Polygon38" height="18" width="46" left="154" top="207" visible="true" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="#D0D0D0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text36" height="14" width="43" left="189" top="210" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+            <animations>
+                <animateVisibility expression="{#58}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+    </group>
+    <group name="Analogico" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false">
+        <rectangle name="Polygon36" height="431" width="792" left="-1" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line5" height="1" width="66" left="0" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="0 101 65 101 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <text name="Text27" height="16" width="22" left="82" top="108" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Tag"/>
+        <text name="Text33" height="16" width="74" left="184" top="108" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Leitura Atual"/>
+        <text name="Text54" height="16" width="78" left="286" top="108" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Escala (Min.)"/>
+        <text name="Text56" height="16" width="82" left="388" top="108" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Escala (Máx.)"/>
+        <text name="Text57" height="16" width="105" left="10" top="213" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Pontos de Ajuste:"/>
+        <group name="Group40" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group32" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon61" height="30" width="110" left="44" top="269" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text60" height="14" width="43" left="108" top="277" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/"/>
+                <numericDisplay name="NumericDisplay21" height="14" width="56" left="49" top="277" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#19}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text38" height="16" width="19" left="8" top="276" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="HH"/>
+            <text name="Text42" height="16" width="71" left="162" top="276" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Segurança)"/>
+            <animations>
+                <animateVisibility expression="{#53}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group47" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group41" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon37" height="30" width="110" left="44" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text39" height="14" width="43" left="108" top="404" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/"/>
+                <numericDisplay name="NumericDisplay24" height="14" width="56" left="49" top="404" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#22}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text46" height="16" width="15" left="8" top="403" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="LL"/>
+            <button name="Button16" height="30" width="96" left="247" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="6">
+                <command pressAction="Display jan_ger_confirmacao_cmd_11 /T{#72} /X807 /Y200" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="ATIVAR OO"/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+                <animations>
+                    <animateVisibility expression="{#50}" expressionTrueState="invisible"/>
+                </animations>
+            </button>
+            <button name="Button15" height="30" width="96" left="247" top="396" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="7">
+                <command pressAction="Display jan_ger_confirmacao_cmd_11 /T{#73} /X807 /Y200" repeatAction="" releaseAction="" repeatRate="0.25"/>
+                <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="9" bold="true" italic="false" underline="false" strikethrough="false" caption="DESATIVAR OO"/>
+                    <imageSettings imageReference="noImage"/>
+                </up>
+                <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                    <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                    <imageSettings imageReference="noImage"/>
+                </down>
+                <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+                <animations>
+                    <animateVisibility expression="{#50}" expressionTrueState="visible"/>
+                </animations>
+            </button>
+            <text name="Text43" height="16" width="71" left="162" top="403" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Segurança)"/>
+            <animations>
+                <animateVisibility expression="{#56}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon9" height="30" width="110" left="44" top="304" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text9" height="14" width="43" left="108" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/"/>
+                <numericDisplay name="NumericDisplay6" height="14" width="56" left="49" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#20}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text12" height="16" width="10" left="8" top="311" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="H"/>
+            <text name="Text44" height="16" width="71" left="162" top="311" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Segurança)"/>
+            <animations>
+                <animateVisibility expression="{#54}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group10" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group4" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon26" height="30" width="110" left="44" top="359" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text13" height="14" width="43" left="108" top="367" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/"/>
+                <numericDisplay name="NumericDisplay7" height="14" width="56" left="49" top="367" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#21}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text16" height="16" width="8" left="8" top="366" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="L"/>
+            <text name="Text45" height="16" width="71" left="162" top="366" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Segurança)"/>
+            <animations>
+                <animateVisibility expression="{#55}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <text name="Text62" height="16" width="53" left="9" top="135" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Controle:"/>
+        <rectangle name="Polygon67" height="30" width="95" left="81" top="128" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon68" height="30" width="95" left="183" top="128" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon69" height="30" width="95" left="285" top="128" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon70" height="30" width="95" left="387" top="128" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text63" height="16" width="90" left="84" top="135" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+        <numericDisplay name="NumericDisplay25" height="14" width="56" left="175" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <animations>
+                <animateVisibility expression="{#43} OR ({#69} == 0)" expressionTrueState="invisible"/>
+            </animations>
+            <connections>
+                <connection name="Value" expression="{#4}"/>
+            </connections>
+        </numericDisplay>
+        <text name="Text64" height="14" width="43" left="234" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/">
+            <animations>
+                <animateVisibility expression="{#43} OR ({#69} == 0)" expressionTrueState="invisible"/>
+            </animations>
+        </text>
+        <numericDisplay name="NumericDisplay26" height="14" width="56" left="277" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#5}"/>
+            </connections>
+        </numericDisplay>
+        <text name="Text65" height="14" width="43" left="336" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+        <numericDisplay name="NumericDisplay4" height="14" width="56" left="379" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#6}"/>
+            </connections>
+        </numericDisplay>
+        <text name="Text66" height="14" width="43" left="438" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+        <text name="Text26" height="16" width="67" left="9" top="175" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Segurança:"/>
+        <group name="Group18" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon29" height="30" width="95" left="80" top="169" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon34" height="30" width="95" left="182" top="169" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon32" height="30" width="95" left="284" top="169" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon33" height="30" width="95" left="386" top="169" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text24" height="16" width="90" left="83" top="176" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#13}*/"/>
+            <numericDisplay name="NumericDisplay13" height="14" width="56" left="174" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <animations>
+                    <animateVisibility expression="{#44} OR ({#69} == 0)" expressionTrueState="invisible"/>
+                </animations>
+                <connections>
+                    <connection name="Value" expression="{#14}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text25" height="14" width="43" left="233" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/">
+                <animations>
+                    <animateVisibility expression="{#44} OR ({#69} == 0)" expressionTrueState="invisible"/>
+                </animations>
+            </text>
+            <numericDisplay name="NumericDisplay14" height="14" width="56" left="276" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#15}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text31" height="14" width="43" left="335" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/"/>
+            <numericDisplay name="NumericDisplay15" height="14" width="56" left="378" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#16}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text35" height="14" width="43" left="437" top="177" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#17}*/"/>
+        </group>
+        <group name="Group29" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group8" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon25" height="30" width="110" left="414" top="267" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text47" height="14" width="43" left="478" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+                <numericDisplay name="NumericDisplay1" height="14" width="56" left="419" top="275" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#9}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text48" height="16" width="19" left="378" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="HH"/>
+            <text name="Text49" height="16" width="57" left="532" top="274" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Controle)"/>
+            <animations>
+                <animateVisibility expression="{#73}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group42" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group39" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon46" height="30" width="110" left="414" top="302" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text50" height="14" width="43" left="478" top="310" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+                <numericDisplay name="NumericDisplay16" height="14" width="56" left="419" top="310" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#10}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text51" height="16" width="10" left="378" top="309" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="H"/>
+            <text name="Text52" height="16" width="57" left="532" top="309" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Controle)"/>
+            <animations>
+                <animateVisibility expression="{#74}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group44" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon47" height="30" width="110" left="414" top="357" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text53" height="14" width="43" left="478" top="365" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+                <numericDisplay name="NumericDisplay17" height="14" width="56" left="419" top="365" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#11}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text55" height="16" width="8" left="378" top="364" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="L"/>
+            <text name="Text58" height="16" width="57" left="532" top="364" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Controle)"/>
+            <animations>
+                <animateVisibility expression="{#75}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+        <group name="Group46" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <group name="Group45" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <rectangle name="Polygon50" height="30" width="110" left="414" top="394" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <text name="Text59" height="14" width="43" left="478" top="402" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#7}*/"/>
+                <numericDisplay name="NumericDisplay18" height="14" width="56" left="419" top="402" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" charHeight="14" charWidth="5" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#12}"/>
+                    </connections>
+                </numericDisplay>
+            </group>
+            <text name="Text61" height="16" width="15" left="378" top="401" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleRight" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="LL"/>
+            <text name="Text67" height="16" width="57" left="532" top="401" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="(Controle)"/>
+            <animations>
+                <animateVisibility expression="{#76}" expressionTrueState="visible"/>
+            </animations>
+        </group>
+    </group>
+    <group name="Group17" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <polygon name="Polygon30" height="45" width="67" left="239" top="56" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="239 56 283 56 305 100 239 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <polygon name="AbaGrafico" height="45" width="67" left="239" top="56" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="239 56 283 56 305 100 239 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Analogico.Visible(False);&#xA;Invoke Me.PID.Visible(False);&#xA;Invoke Me.AlmSumario.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(False);&#xA;Invoke Me.Grafico.Visible(True);&#xA;Invoke Me.AbaAnalogico.Visible(True);&#xA;Invoke Me.AbaPID.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(True);&#xA;IF {Server\TSFTDSVR\geral_sts} THEN&#xA;Invoke Me.AbaAlmHistorico.Visible(True);&#xA;ENDIF;&#xA;Invoke Me.AbaGrafico.Visible(False);" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </polygon>
+        <group name="Group27" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon31" height="32" width="40" left="245" top="63" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group21" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <polyline name="Line15" height="17" width="33" left="248" top="66" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="2" patternStyle="none" patternColor="white" path="249 82 258 73 266 81 280 67 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse10" height="4" width="4" left="256" top="71" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse12" height="4" width="4" left="247" top="80" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse13" height="4" width="4" left="264" top="80" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse14" height="4" width="4" left="278" top="65" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            </group>
+            <group name="Group26" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+                <polyline name="Line16" height="17" width="33" left="248" top="74" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="2" patternStyle="none" patternColor="white" path="249 90 258 81 266 89 280 75 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse15" height="4" width="4" left="256" top="79" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse16" height="4" width="4" left="247" top="88" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse17" height="4" width="4" left="264" top="88" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+                <ellipse name="Ellipse18" height="4" width="4" left="278" top="73" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            </group>
+        </group>
+    </group>
+    <polygon name="Polygon7" height="45" width="67" left="182" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="182 56 226 56 248 100 182 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="AbaAlmHistorico" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false">
+        <polygon name="AbaAlmHistorico_aux1" height="45" width="67" left="182" top="56" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="182 56 226 56 248 100 182 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <polygon name="AbaAlmHistorico_aux0" height="45" width="67" left="182" top="56" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="182 56 226 56 248 100 182 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <animations>
+            <animateVisibility expression="{Server\TSFTDSVR\geral_sts}" expressionTrueState="visible"/>
+            <animateTouch TouchStyle="rectangular" pressAction="" repeatAction="" releaseAction="Invoke Me.Analogico.Visible(False);&#xA;Invoke Me.PID.Visible(False);&#xA;Invoke Me.AlmSumario.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(True);&#xA;Invoke Me.Grafico.Visible(False);&#xA;Invoke Me.FactoryTalkAlarmandEventLogViewer1.Visible(True);&#xA;Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(#4);&#xA;Invoke Me.AbaAnalogico.Visible(True);&#xA;Invoke Me.AbaPID.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(True);&#xA;Invoke Me.AbaAlmHistorico.Visible(False);&#xA;Invoke Me.AbaGrafico.Visible(True);" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </group>
+    <polygon name="Polygon6" height="45" width="67" left="124" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="124 56 168 56 190 100 124 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaAlmSumario" height="45" width="67" left="124" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="typeInfoExtension" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="124 56 168 56 190 100 124 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Analogico.Visible(False);&#xA;Invoke Me.PID.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(False);&#xA;Invoke Me.Grafico.Visible(False);&#xA;Invoke Me.AlarmEventSummary1.Visible(True);&#xA;Invoke Me.AlarmEventSummary1.FilterName(#4);&#xA;Invoke Me.AbaAnalogico.Visible(True);&#xA;Invoke Me.AbaPID.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(False);&#xA;IF {Server\TSFTDSVR\geral_sts} THEN&#xA;Invoke Me.AbaAlmHistorico.Visible(True);&#xA;ENDIF;&#xA;Invoke Me.AlmSumario.Visible(True);&#xA;Invoke Me.AbaGrafico.Visible(True);" repeatAction="" releaseAction="" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </polygon>
+    <polygon name="Polygon3" height="45" width="67" left="64" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="64 56 108 56 130 100 64 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaPID" height="45" width="67" left="64" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="64 56 108 56 130 100 64 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Analogico.Visible(False);&#xA;Invoke Me.PID.Visible(True);&#xA;Invoke Me.AlmSumario.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(False);&#xA;Invoke Me.Grafico.Visible(False);&#xA;Invoke Me.AbaPID.Visible(False);&#xA;Invoke Me.AbaAnalogico.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(True);&#xA;IF {Server\TSFTDSVR\geral_sts} THEN&#xA;Invoke Me.AbaAlmHistorico.Visible(True);&#xA;ENDIF;&#xA;Invoke Me.AbaGrafico.Visible(True);" repeatAction="" releaseAction="" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </polygon>
+    <polygon name="Polygon16" height="45" width="67" left="4" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="4 56 48 56 70 100 4 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <polygon name="Polygon8" height="29" width="39" left="190" top="64" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="190 68 194 68 198 64 208 64 212 68 228 68 228 92 190 92 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <ellipse name="Ellipse1" height="15" width="15" left="202" top="73" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="silver" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line2" height="6" width="1" left="210" top="76" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="210 76 210 81 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <line name="Line9" height="4" width="4" left="210" top="81" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="210 81 213 84 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon13" height="4" width="32" left="136" top="67" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon18" height="4" width="4" left="130" top="67" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon19" height="4" width="32" left="136" top="77" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon20" height="4" width="4" left="130" top="77" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon21" height="4" width="32" left="136" top="87" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <rectangle name="Polygon22" height="4" width="4" left="130" top="87" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <text name="Text1" height="22" width="410" left="7" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#1}*/"/>
+    <text name="Text5" height="16" width="764" left="7" top="32" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#2}*/"/>
+    <text name="Text15" height="22" width="33" left="73" top="71" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="white" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="PID"/>
+    <polygon name="AbaAnalogico" height="45" width="67" left="4" top="56" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="4 56 48 56 70 100 4 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateTouch TouchStyle="rectangular" pressAction="Invoke Me.Analogico.Visible(True);&#xA;Invoke Me.PID.Visible(False);&#xA;Invoke Me.AlmSumario.Visible(False);&#xA;Invoke Me.AlmHistorico.Visible(False);&#xA;Invoke Me.Grafico.Visible(False);&#xA;Invoke Me.AbaAnalogico.Visible(False);&#xA;Invoke Me.AbaPID.Visible(True);&#xA;Invoke Me.AbaAlmSumario.Visible(True);&#xA;IF {Server\TSFTDSVR\geral_sts} THEN&#xA;Invoke Me.AbaAlmHistorico.Visible(True);&#xA;ENDIF;&#xA;Invoke Me.AbaGrafico.Visible(True);" repeatAction="" releaseAction="" repeatRate="0.25">
+                <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                    <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                    <imageSettings imageReference="noImage"/>
+                </confirm>
+            </animateTouch>
+        </animations>
+    </polygon>
+    <polygon name="Polygon5" height="31" width="31" left="16" top="62" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="20 77 16 77 31 62 46 77 42 77 42 92 35 92 35 77 27 77 27 92 20 92 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text40" height="22" width="352" left="430" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#13}*/"/>
+    <group name="AlmSumario" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon23" height="395" width="795" left="-1" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <line name="Line7" height="1" width="60" left="125" top="101" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="125 101 184 101 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <activeX name="AlarmEventSummary1" height="390" width="790" left="1" top="101" visible="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" classId="{E7A3BBDF-71DA-4688-8F39-671355104EA5}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="14">
+            <data progId="FTAlarmSummary.FTAlarmSummary.1" fileName="FTAlarmSummary.ocx" fileVersion="2.90.0.207" typeLibrary="{E9692737-F0FA-476B-B664-831812EBBCF4}" typeLibVersion="1.0" data="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&#xA;EQAAEQAAEQAAEwCQAQAAAwAAAAAACwABAAMAAAAAAAEAAAAMAAAACwABABMAAAAAABMA1NDI&#xA;AAsAAQAIAGIAAABBAGwAYQByAG0AUwB0AGEAdABlACAARABFAFMAQwAsACAAUwBlAHYAZQBy&#xA;AGkAdAB5ACAARABFAFMAQwAsACAASQBuAEEAbABhAHIAbQBUAGkAbQBlACAARABFAFMAQwAA&#xA;AAsAAQADAPX///8IABoAAABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAAAMA&#xA;kAEAAAEAAAAIAAAAEwD///8AEwAKJGoAAwD1////CAAaAAAATQBTACAAUwBoAGUAbABsACAA&#xA;RABsAGcAAAARAAARAAARAAATAJABAAABAAAACAAAAAsAAQALAAEAEwCgoKAAEwCEhIQACwAB&#xA;AAsAAQALAP//CwD//wEAAAAHAAAACwABAAsAAAACAAAAEwAAAAAAEwDU0MgACAAMAAAAQQBy&#xA;AGkAYQBsAAAAAwAQAAAAAQAAAAsAAAALAAAAAgAnABMAAAAAABMA1NDIAAsAAQADAPX///8I&#xA;ABoAAABNAFMAIABTAGgAZQBsAGwAIABEAGwAZwAAABEAABEAABEAABMAkAEAAAIAAAAKAAAA&#xA;AQAAAAgAFAAAAEIALQA1ADEAMQAxADUAMAAxAAAACABYAAAARQB2AGUAbgB0AFMAbwB1AHIA&#xA;YwBlACAAPQAgACcALwBIAHUAbABsAC8ARgBUAEEARQBIAEMAUwA6ADoAQgBfADUAMQAxADEA&#xA;NQAwADEAXwAqACcAIAAAAAIAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAA&#xA;AgAAAAAAAAACAAAAAAAAAAIAAAAAAAIAAAAJAAAAAQAAAAgAEAAAAEQAZQBmAGEAdQBsAHQA&#xA;AAADAAQAAAADAAEAAAADAOgDAAADAOkDAAADAOgDAAADAOgDAAADAA8AAAAAAAIAAAAAAAIA&#xA;AAAKAAAAAQAAAAgAEAAAAEQAZQBmAGEAdQBsAHQAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAA&#xA;AAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAACAAAA&#xA;CgAAAAEAAAAIABAAAABEAGUAZgBhAHUAbAB0AAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAA&#xA;AAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAgAAAAoA&#xA;AAABAAAACAAQAAAARABlAGYAYQB1AGwAdAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAA&#xA;AgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAIAAAAmAAAA&#xA;AQAAAAgAEAAAAEQAZQBmAGEAdQBsAHQAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIA&#xA;AAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAA&#xA;AgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAA&#xA;AAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAA&#xA;AAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIA&#xA;AAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAIA&#xA;AAAJAAAADAAAAAgABAAAADEAAAADAAQAAAADAAEAAAADAAEAAAADAOgDAAADAMYIAAADAICA&#xA;gAAEAAAAgD8DAAgAAAAIAAQAAAAyAAAAAwAEAAAAAwABAAAAAwABAAAAAwDoAwAAAwD/pgAA&#xA;AwCAgIAABAAAAAA/AwAEAAAACAAEAAAAMwAAAAMABAAAAAMAAQAAAAMAAQAAAAMA6AMAAAMA&#xA;//8AAAMAgICAAAQAAAAAPwMAAgAAAAgABAAAADQAAAADAAQAAAADAAEAAAADAAEAAAADAOgD&#xA;AAADAP///wADAICAgAAEAAAAgD8DAAEAAAAIAAQAAAA1AAAAAwAEAAAAAwACAAAAAwABAAAA&#xA;AwDoAwAAAwD/AAAAAwCAgIAABAAAAAAAAwAIAAAACAAEAAAANgAAAAMABAAAAAMAAgAAAAMA&#xA;AQAAAAMA6AMAAAMA/6YAAAMAgICAAAQAAAAAAAMABAAAAAgABAAAADcAAAADAAQAAAADAAIA&#xA;AAADAAEAAAADAOgDAAADAP//AAADAICAgAAEAAAAAAADAAIAAAAIAAQAAAA4AAAAAwAEAAAA&#xA;AwACAAAAAwABAAAAAwDoAwAAAwD///8AAwCAgIAABAAAAAAAAwABAAAACAAEAAAAOQAAAAMA&#xA;BAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMAxggAAAMAwMDAAAQAAACAPwMACAAAAAgABgAAADEA&#xA;MAAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA/6YAAAMAwMDAAAQAAACAPwMABAAAAAgA&#xA;BgAAADEAMQAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA//8AAAMAwMDAAAQAAACAPwMA&#xA;AgAAAAgABgAAADEAMgAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAAAMA////AAMAwMDAAAQA&#xA;AACAPwMAAQAAAAIAAAAMAAAAFQAAAAMApwAAAAgAGAAAAEEAYwBrAG4AbwB3AGwAZQBkAGcA&#xA;ZQAAAAIA//8IAAgAAABBAGMAawAAAAgAJgAAAEEAYwBrACAAcwBlAGwAZQBjAHQAZQBkACAA&#xA;YQBsAGEAcgBtAAAAAgAAAAMAAAAAAAMAFwAAAAMAwgQAAAMArQQAAAMAFgQAAAMAFgQAAAMA&#xA;qAAAAAgAMgAAAEEAYwBrAG4AbwB3AGwAZQBkAGcAZQAgAHcAaQB0AGgAIABDAG8AbQBtAGUA&#xA;bgB0AAAAAgAAAAgAGAAAAEEAYwBrACAAQwBvAG0AbQBlAG4AdAAAAAgAQAAAAEEAYwBrACAA&#xA;cwBlAGwAZQBjAHQAZQBkACAAYQBsAGEAcgBtACAAdwBpAHQAaAAgAGMAbwBtAG0AZQBuAHQA&#xA;AAACAAEAAwAAAAAAAwAXAAAAAwDDBAAAAwCuBAAAAwAWBAAAAwAWBAAAAwCpAAAACAAiAAAA&#xA;QQBjAGsAbgBvAHcAbABlAGQAZwBlACAAUABhAGcAZQAAAAIAAAAIABIAAABBAGMAawAgAFAA&#xA;YQBnAGUAAAAIACYAAABBAGMAawAgAHAAYQBnAGUAIABvAGYAIABhAGwAYQByAG0AcwAAAAIA&#xA;AgADAAAAAAADABcAAAADAMQEAAADAK8EAAADABYEAAADABYEAAADAKoAAAAIACAAAABBAGMA&#xA;awBuAG8AdwBsAGUAZABnAGUAIABBAGwAbAAAAAIAAAAIABAAAABBAGMAawAgAEEAbABsAAAA&#xA;CABCAAAAQQBjAGsAIABhAGwAbAAgAGEAbABhAHIAbQBzACAAYwBvAG4AdABhAGkAbgBlAGQA&#xA;IABpAG4AIABsAGkAcwB0AAAAAgADAAMAAAAAAAMAFwAAAAMAxQQAAAMAsAQAAAMAFgQAAAMA&#xA;FgQAAAMAjAEAAAgAHgAAAFMAdQBwAHAAcgBlAHMAcwAgAEEAbABhAHIAbQAAAAIAAAAIABIA&#xA;AABTAHUAcABwAHIAZQBzAHMAAAAIADAAAABTAHUAcABwAHIAZQBzAHMAIABzAGUAbABlAGMA&#xA;dABlAGQAIABhAGwAYQByAG0AAAACAAQAAwAAAAAAAwAXAAAAAwDGBAAAAwCxBAAAAwAWBAAA&#xA;AwAWBAAAAwCsAAAACAAcAAAARABpAHMAYQBiAGwAZQAgAEEAbABhAHIAbQAAAAIAAAAIABAA&#xA;AABEAGkAcwBhAGIAbABlAAAACAAuAAAARABpAHMAYQBiAGwAZQAgAHMAZQBsAGUAYwB0AGUA&#xA;ZAAgAGEAbABhAHIAbQAAAAIABQADAAAAAAADABcAAAADAMcEAAADALIEAAADABYEAAADABYE&#xA;AAADAI4BAAAIABgAAABSAGUAcwBlAHQAIABBAGwAYQByAG0AAAACAAAACAAMAAAAUgBlAHMA&#xA;ZQB0AAAACAAqAAAAUgBlAHMAZQB0ACAAcwBlAGwAZQBjAHQAZQBkACAAYQBsAGEAcgBtAAAA&#xA;AgAGAAMAAAAAAAMAFwAAAAMAyAQAAAMAswQAAAMAFgQAAAMAFgQAAAMA6gIAAAgADgAAAFMA&#xA;aABlAGwAdgBlAAAAAgAAAAgADgAAAFMAaABlAGwAdgBlAAAACABSAAAAUwBoAGUAbAB2AGUA&#xA;IABzAGUAbABlAGMAdABlAGQAIABhAGwAYQByAG0AIABmAG8AcgAgAHMAcABlAGMAaQBmAGkA&#xA;ZQBkACAAdABpAG0AZQAAAAIABwADAAAAAAADABcAAAADAMkEAAADALQEAAADABYEAAADABYE&#xA;AAADAOsCAAAIABoAAABVAG4AcwBoAGUAbAB2AGUAIABBAGwAbAAAAAIAAAAIABoAAABVAG4A&#xA;cwBoAGUAbAB2AGUAIABBAGwAbAAAAAgAYgAAAFUAbgBzAGgAZQBsAHYAZQAgAGEAbABsACAA&#xA;YwB1AHIAcgBlAG4AdABsAHkAIABzAGgAZQBsAHYAZQBkACAAYQBsAGEAcgBtACAAYwBvAG4A&#xA;ZABpAHQAaQBvAG4AcwAuAAAAAgAIAAMAAAAAAAMAFwAAAAMAygQAAAMAtQQAAAMAFgQAAAMA&#xA;FgQAAAMArQAAAAgALAAAAEEAbABhAHIAbQAgAFMAdABhAHQAdQBzACAARQB4AHAAbABvAHIA&#xA;ZQByAAAAAgAAAAgAGgAAAEEAbABhAHIAbQAgAFMAdABhAHQAdQBzAAAACABEAAAARABpAHMA&#xA;cABsAGEAeQAgAHQAaABlACAAQQBsAGEAcgBtACAAUwB0AGEAdAB1AHMAIABFAHgAcABsAG8A&#xA;cgBlAHIAAAACAAkAAwAAAAAAAwAXAAAAAwDLBAAAAwC2BAAAAwAWBAAAAwAWBAAAAwCTAgAA&#xA;CAAkAAAAUgB1AG4AIABBAGwAYQByAG0AIABDAG8AbQBtAGEAbgBkAAAAAgAAAAgAGAAAAFIA&#xA;dQBuACAAQwBvAG0AbQBhAG4AZAAAAAgAXgAAAEMAOgBcAEQATwBDAFUATQBFAH4AMQBcAEQA&#xA;RABWAGkAZQBpAHIAYQBcAEwATwBDAEEATABTAH4AMQBcAFQAZQBtAHAAXAB+AEQARgA3ADcA&#xA;NgA3AC4AdABtAHAAAAACAAoAAwAAAAAAAwAXAAAAAwDMBAAAAwC3BAAAAwAWBAAAAwAWBAAA&#xA;AwAjAwAACAAcAAAAQQBsAGEAcgBtACAARABlAHQAYQBpAGwAcwAAAAIAAAAIACYAAABWAGkA&#xA;ZQB3ACAAQQBsAGEAcgBtACAARABlAHQAYQBpAGwAcwAAAAgAQAAAAFMAaABvAHcAIABkAGUA&#xA;dABhAGkAbABzACAAZgBvAHIAIABzAGUAbABlAGMAdABlAGQAIABhAGwAYQByAG0AAAACAAsA&#xA;AwAAAAAAAwAXAAAAAwDNBAAAAwC4BAAAAwAWBAAAAwAWBAAAAwAmAwAACAAaAAAAQQBsAGEA&#xA;cgBtACAARgBhAHUAbAB0AHMAAAACAAAACAAkAAAAVgBpAGUAdwAgAEEAbABhAHIAbQAgAEYA&#xA;YQB1AGwAdABzAAAACAA8AAAAUwBoAG8AdwAgAHUAcAAgAHQAbwAgADUAMAAwACAAZgBhAHUA&#xA;bAB0AGUAZAAgAGEAbABhAHIAbQBzAAAAAgAMAAMAAAAAAAMAFwAAAAMAzgQAAAMAuQQAAAMA&#xA;FgQAAAMAFgQAAAMAtQAAAAgADAAAAFAAcgBpAG4AdAAAAAIAAAAIAAwAAABQAHIAaQBuAHQA&#xA;AAAIAAwAAABQAHIAaQBuAHQAAAACAA0AAwAAAAAAAwAXAAAAAwDPBAAAAwC6BAAAAwAWBAAA&#xA;AwAWBAAAAwC2AAAACAAKAAAAUwBvAHIAdAAAAAIAAAAIAAoAAABTAG8AcgB0AAAACAAkAAAA&#xA;QwBvAG4AZgBpAGcAdQByAGUAIABzAG8AcgB0AGkAbgBnAAAAAgAOAAMAAAAAAAMAFwAAAAMA&#xA;0AQAAAMAuwQAAAMAFgQAAAMAFgQAAAMAtwAAAAgAGAAAAEYAaQBsAHQAZQByACAATABpAHMA&#xA;dAAAAAIAAAAIABgAAAAoAGMAbwBtAGIAbwAgAGIAbwB4ACkAAAAIACAAAABTAGUAbABlAGMA&#xA;dAAgAGEAIABmAGkAbAB0AGUAcgAAAAIADwADAAAAAAACAGQAAwD/////AwC8BAAAAwAJBAAA&#xA;AwAWBAAAAwC5AAAACAAYAAAARQBkAGkAdAAgAEYAaQBsAHQAZQByAAAAAgAAAAgAGAAAAEUA&#xA;ZABpAHQAIABGAGkAbAB0AGUAcgAAAAgAGAAAAEUAZABpAHQAIABmAGkAbAB0AGUAcgAAAAIA&#xA;EAADAAAAAAADABcAAAADANEEAAADAL0EAAADABYEAAADABYEAAADALoAAAAIABoAAABDAGwA&#xA;ZQBhAHIAIABGAGkAbAB0AGUAcgAAAAIAAAAIABoAAABDAGwAZQBhAHIAIABGAGkAbAB0AGUA&#xA;cgAAAAgAGgAAAEMAbABlAGEAcgAgAGYAaQBsAHQAZQByAAAAAgARAAMAAAAAAAMAFwAAAAMA&#xA;0gQAAAMAvgQAAAMAFgQAAAMAFgQAAAMAuwAAAAgACgAAAEYAaQBuAGQAAAACAAAACAAKAAAA&#xA;RgBpAG4AZAAAAAgACgAAAEYAaQBuAGQAAAACABIAAwAAAAAAAwAXAAAAAwDTBAAAAwC/BAAA&#xA;AwAWBAAAAwAWBAAAAwC8AAAACAAaAAAARABlAHQAYQBpAGwAcwAgAFAAYQBuAGUAAAACAAAA&#xA;CAAaAAAARABlAHQAYQBpAGwAcwAgAFAAYQBuAGUAAAAIAC4AAABIAGkAZABlAC8AUwBoAG8A&#xA;dwAgAEQAZQB0AGEAaQBsAHMAIABQAGEAbgBlAAAAAgATAAMAAAAAAAMAFwAAAAMA1AQAAAMA&#xA;wAQAAAMAFgQAAAMAFgQAAAMAKQMAAAgAEAAAAFIAZQBmAHIAZQBzAGgAAAACAP//CAAQAAAA&#xA;UgBlAGYAcgBlAHMAaAAAAAgAJgAAAFIAZQBmAHIAZQBzAGgAIABhAGwAYQByAG0AIABsAGkA&#xA;cwB0AAAAAgAUAAMAAAAAAAMAFwAAAAMA1QQAAAMAwQQAAAMAFgQAAAMAFgQAAAIAAAAFAAAA&#xA;CQAAAAsA//8DAAAAAAAIABQAAABDAG8AbgBuAGUAYwB0AGUAZAAAAAMA7AQAAAMAFgQAAAsA&#xA;AAADAAEAAAAIABoAAABEAGkAcwBjAG8AbgBuAGUAYwB0AGUAZAAAAAMA7QQAAAMAFgQAAAsA&#xA;//8DAAIAAAAIAGwAAABOAHUAbQBiAGUAcgAgAG8AZgAgAGUAdgBlAG4AdABzACAAaQBuACAA&#xA;bABpAHMAdAAgACgAZQB4AGMAbAB1AGQAaQBuAGcAIABmAGkAbAB0AGUAcgBlAGQAIABlAHYA&#xA;ZQBuAHQAcwApAC4AAAADAO4EAAADABYEAAALAP//AwADAAAACABaAAAATgB1AG0AYgBlAHIA&#xA;IABvAGYAIABJAG4AIABBAGwAYQByAG0AIABhAG4AZAAgAFUAbgBhAGMAawBuAG8AdwBsAGUA&#xA;ZwBlAGQAIABhAGwAYQByAG0AcwAuAAAAAwDvBAAAAwAWBAAACwD//wMABAAAAAgAWAAAAE4A&#xA;dQBtAGIAZQByACAAbwBmACAASQBuACAAQQBsAGEAcgBtACAAYQBuAGQAIABBAGMAawBuAG8A&#xA;dwBsAGUAZABnAGUAZAAgAGEAbABhAHIAbQBzAC4AAAADAPAEAAADABYEAAALAP//AwAFAAAA&#xA;CABYAAAATgB1AG0AYgBlAHIAIABvAGYAIABOAG8AcgBtAGEAbAAgAGEAbgBkACAAVQBuAGEA&#xA;YwBrAG4AbwB3AGwAZQBkAGcAZQBkACAAYQBsAGEAcgBtAHMALgAAAAMA8QQAAAMAFgQAAAsA&#xA;//8DAAYAAAAIAJwAAABOAHUAbQBiAGUAcgAgAG8AZgAgAGYAYQB1AGwAdABzACAAZgBvAHIA&#xA;IABhAGwAbAAgAGEAbABhAHIAbQBzAC4AIAAgAEQAbwB1AGIAbABlAC0AYwBsAGkAYwBrACAA&#xA;dABvACAAZABpAHMAcABsAGEAeQAgAEEAbABhAHIAbQAgAEYAYQB1AGwAdAAgAEQAaQBhAGwA&#xA;bwBnAC4AAAADAPIEAAADABYEAAALAAAAAwAHAAAACAAOAAAARgBpAGwAdABlAHIAAAADAPME&#xA;AAADABYEAAALAAAAAwAIAAAACAAUAAAAUwBvAHIAdABlAGQAIABiAHkAAAADAPQEAAADABYE&#xA;AAABAAAAAgAAAAMAEAAAAAgADAAAAEEAcgBpAGEAbAAAAAEAAAAQAAAACwD//wsA//8LAP//&#xA;CwD//wsA//8DAP////8DAIUCAAADACcBAAADAP////8DAP////8DAP////8DAP////8IAAIA&#xA;AAAAAAMAAAAAAAgADAAAAC8ATQBpAG4AYQAAAAsA//8IAAAA"/>
+        </activeX>
+    </group>
+    <text name="Text28" height="22" width="114" left="676" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="(Seguranca)"/>
+    <text name="Text41" height="22" width="93" left="221" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="(Controle)"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Private Sub AbaAlmHistorico_Click()
+
+On Error GoTo ErrHandler
+
+Dim INSTRUMENTO_1 As String
+Dim INSTRUMENTO_2 As String
+
+INSTRUMENTO_1 = Replace(Text1.Caption, "-", "_")
+INSTRUMENTO_2 = Replace(Text40.Caption, "-", "_")
+PONTEIRO_1 = Mid(INSTRUMENTO_1, 4, 1)
+PONTEIRO_2 = Mid(INSTRUMENTO_2, 4, 1)
+
+If PONTEIRO_1 = "_" Then
+' Para todos os intrumentos (exceto PDITs)
+
+    ALM_1_1 = Left(INSTRUMENTO_1, 1) & "A"
+    ALM_1_2 = Left(INSTRUMENTO_1, 3)
+    NUMERO_1 = Mid(INSTRUMENTO_1, 5)
+Else
+' Para PDITs (
+    ALM_1_1 = Left(INSTRUMENTO_1, 2) & "A"
+    ALM_1_2 = Left(INSTRUMENTO_1, 4)
+    NUMERO_1 = Mid(INSTRUMENTO_1, 6)
+End If
+
+If PONTEIRO_2 = "_" Then
+' Para todos os intrumentos (exceto PDITs)
+
+    ALM_2_1 = Left(INSTRUMENTO_2, 1) & "A"
+    ALM_2_2 = Left(INSTRUMENTO_2, 3)
+    NUMERO_2 = Mid(INSTRUMENTO_2, 5)
+Else
+' Para PDITs (
+    ALM_2_1 = Left(INSTRUMENTO_2, 2) & "A"
+    ALM_2_2 = Left(INSTRUMENTO_2, 4)
+    NUMERO_2 = Mid(INSTRUMENTO_2, 6)
+End If
+
+
+' AlarmEventSummary1.FilterDefinition = "EventSource LIKE '" & NUMERO_1 & "' And (EventSource LIKE '" & ALM_1_1 & "' Or EventSource LIKE '" & ALM_1_2 & "') Or EventSource LIKE '" & NUMERO_2 & "' And (EventSource LIKE '" & ALM_2_1 & "' Or EventSource LIKE '" & ALM_2_2 & "')"
+FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & NUMERO_1 & "%' And (SourceName LIKE '%" & ALM_1_1 & "%' Or SourceName LIKE '%" & ALM_1_2 & "%') Or SourceName LIKE '%" & NUMERO_2 & "%' And (SourceName LIKE '%" & ALM_2_1 & "%' Or SourceName LIKE '%" & ALM_2_2 & "%')"
+
+Exit Sub
+ErrHandler:
+
+End Sub
+
+Private Sub Display_AnimationStart()
+
+On Error GoTo ErrHandler
+
+Dim INSTRUMENTO_1 As String
+Dim INSTRUMENTO_2 As String
+
+INSTRUMENTO_1 = Replace(Text1.Caption, "-", "_")
+INSTRUMENTO_2 = Replace(Text40.Caption, "-", "_")
+PONTEIRO_1 = Mid(INSTRUMENTO_1, 4, 1)
+PONTEIRO_2 = Mid(INSTRUMENTO_2, 4, 1)
+
+If PONTEIRO_1 = "_" Then
+' Para todos os intrumentos (exceto PDITs)
+
+    ALM_1_1 = Left(INSTRUMENTO_1, 1) & "A"
+    ALM_1_2 = Left(INSTRUMENTO_1, 3)
+    NUMERO_1 = Mid(INSTRUMENTO_1, 5)
+Else
+' Para PDITs (
+    ALM_1_1 = Left(INSTRUMENTO_1, 2) & "A"
+    ALM_1_2 = Left(INSTRUMENTO_1, 4)
+    NUMERO_1 = Mid(INSTRUMENTO_1, 6)
+End If
+
+If PONTEIRO_2 = "_" Then
+' Para todos os intrumentos (exceto PDITs)
+
+    ALM_2_1 = Left(INSTRUMENTO_2, 1) & "A"
+    ALM_2_2 = Left(INSTRUMENTO_2, 3)
+    NUMERO_2 = Mid(INSTRUMENTO_2, 5)
+Else
+' Para PDITs (
+    ALM_2_1 = Left(INSTRUMENTO_2, 2) & "A"
+    ALM_2_2 = Left(INSTRUMENTO_2, 4)
+    NUMERO_2 = Mid(INSTRUMENTO_2, 6)
+End If
+
+
+AlarmEventSummary1.FilterDefinition = "EventSource LIKE '" & NUMERO_1 & "' And (EventSource LIKE '" & ALM_1_1 & "' Or EventSource LIKE '" & ALM_1_2 & "') Or EventSource LIKE '" & NUMERO_2 & "' And (EventSource LIKE '" & ALM_2_1 & "' Or EventSource LIKE '" & ALM_2_2 & "')"
+' FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & NUMERO_1 & "%' And (SourceName LIKE '%" & ALM_1_1 & "%' Or SourceName LIKE '%" & ALM_1_2 & "%') Or SourceName LIKE '%" & NUMERO_2 & "%' And (SourceName LIKE '%" & ALM_2_1 & "%' Or SourceName LIKE '%" & ALM_2_2 & "%')"
+
+Exit Sub
+ErrHandler:
+
+End Sub
+
+Private Sub NumericInput_SP_KeyDown(ByVal KeyCode As Integer, ByVal Shift As Integer)
+
+If KeyCode = vbKeyReturn Then
+    SendKeys "{F1}"
+End If
+
+End Sub
+
+Private Sub NumericInput_CV1_KeyDown(ByVal KeyCode As Integer, ByVal Shift As Integer)
+
+If KeyCode = vbKeyReturn Then
+    SendKeys "{F2}"
+End If
+
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

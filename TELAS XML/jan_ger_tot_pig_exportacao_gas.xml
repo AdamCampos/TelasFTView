@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="200" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA GERADOR" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="435" height="250" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <panel name="Panel1" height="145" width="428" left="2" top="100" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="#848484" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon30" height="30" width="120" left="170" top="151" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text40" height="14" width="22" left="259" top="159" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+        <numericDisplay name="NumericDisplay13" height="14" width="56" left="182" top="158" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{/Topside/DSPCS::[PCS]FQI_1231020.Sts.Totalizado_Final}"/>
+            </connections>
+        </numericDisplay>
+    </group>
+    <text name="ProntoGerador1" height="20" width="150" left="8" top="113" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Set Point:"/>
+    <text name="Text5" height="16" width="420" left="7" top="29" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+    <text name="Text1" height="22" width="410" left="7" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#2}*/"/>
+    <text name="ProntoGerador2" height="20" width="150" left="8" top="156" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleRight" fontFamily="Arial" fontSize="12" bold="false" italic="false" underline="false" strikethrough="false" caption="Totalizado Faltante"/>
+    <button name="Button2" height="30" width="120" left="170" top="208" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="1">
+        <command pressAction="&amp;Set /Topside/DSPCS::[PCS]FQI_1231020.Cmd.Reset 1" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="#D0D0D0" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Reset"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <rectangle name="Polygon1" height="30" width="120" left="301" top="151" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="OperGerador1" height="16" width="66" left="328" top="158" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Lançar PIG">
+        <animations>
+            <animateVisibility expression="{/Topside/DSPCS::[PCS]FQI_1231020.Sts.SP_Atingido}" expressionTrueState="visible"/>
+        </animations>
+    </text>
+    <text name="OperGerador2" height="16" width="76" left="323" top="158" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="PIG Lançado">
+        <animations>
+            <animateVisibility expression="{/Topside/DSPCS::[PCS]FQI_1231020.Sts.Totalizacao_Iniciada}" expressionTrueState="visible"/>
+        </animations>
+    </text>
+    <group name="Group38" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <roundedRectangle name="RoundedRectangle11" height="30" width="120" left="169" top="111" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#D0D0D0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" roundingWidth="12" roundingHeight="6" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericInput name="NumericInput11" height="18" width="68" left="172" top="117" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" fieldLength="8" justification="right" tabIndex="2" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{/Topside/DSPCS::[PCS]FQI_1231020.SP.SP_Oper}"/>
+                    <connection name="Minimum" expression="{/Topside/DSPCS::[PCS]FQI_1231020.SP.SP_Min}"/>
+                    <connection name="Maximum" expression="{/Topside/DSPCS::[PCS]FQI_1231020.SP.SP_Max}"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <rectangle name="Polygon38" height="18" width="68" left="172" top="117" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="silver" foreColor="#D0D0D0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text3" height="14" width="22" left="259" top="119" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+    </group>
+    <polygon name="Polygon16" height="45" width="67" left="2" top="56" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="2 56 46 56 68 100 2 100 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="Polygon25" height="31" width="31" left="13" top="64" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="17 79 13 79 28 64 43 79 39 79 39 94 32 94 32 79 24 79 24 94 17 94 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="0" positionY="0" securityCode="*" backColor="silver" titleBar="false" maximumTagUpdateRate="0.5" focusHighlightColor="black" disableFocusHighlight="true" size="specifySizeInPixels" width="640" height="480" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="true" TrackName="" allowResizing="false" whenResized="scale" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="black" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <panel name="Panel1" height="73" width="164" left="196" top="340" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" patternStyle="none" backColor="#E0E0E0" patternColor="white" blink="false" description="" borderColor="#E0E0E0" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <button name="Button5" height="52" width="138" left="210" top="350" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="beveled" bevelWidth="3" captureCursor="false" highlightOnFocus="true" tabIndex="1">
+            <command pressAction="" repeatAction="" releaseAction="Display popDLR /T{[Controller]Parameters},Controller" repeatRate="0.25"/>
+            <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="?"/>
+                <imageSettings imageReference="noImage"/>
+            </up>
+            <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="black" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+                <caption fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption=""/>
+                <imageSettings imageReference="noImage"/>
+            </down>
+            <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </button>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

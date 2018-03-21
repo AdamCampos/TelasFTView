@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="600" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA COMPRESSOR - SELEÇÃO" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="625" height="365" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="Polygon3" height="45" width="67" left="3" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="3 55 47 55 69 99 3 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaOperacao" height="45" width="67" left="3" top="55" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="3 55 47 55 69 99 3 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="Polygon5" height="31" width="31" left="10" top="62" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="14 77 10 77 25 62 40 77 36 77 36 92 29 92 29 77 21 77 21 92 14 92 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="22" width="410" left="7" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="CONTROLE PID"/>
+    <rectangle name="Polygon12" height="265" width="620" left="3" top="98" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <panel name="Panel4" height="252" width="610" left="8" top="105" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <line name="Line1" height="1" width="66" left="4" top="98" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="4 98 69 98 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+    <rectangle name="Polygon203" height="91" width="534" left="44" top="113" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B4B4B4" foreColor="#848484" lineStyle="solid" lineWidth="2" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text60" height="14" width="187" left="121" top="130" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Set-Point de Controle Operacional"/>
+    <line name="Line110" height="1" width="345" left="123" top="154" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="123 154 467 154 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="#F0F0F0" foreColor="#F0F0F0"/>
+    <numericInput name="NumericInput12" height="20" width="74" left="360" top="127" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" fontFamily="Arial" charHeight="16" charWidth="7" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="7" justification="center" tabIndex="1" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="1200"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <text name="Text65" height="14" width="263" left="121" top="160" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Set-Point Para transição da Variável de Controle"/>
+    <text name="Text66" height="14" width="28" left="437" top="132" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="kPa-g"/>
+    <text name="Text64" height="14" width="46" left="139" top="181" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Fator SL"/>
+    <text name="Text67" height="14" width="28" left="230" top="181" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="kPa-g"/>
+    <group name="Group2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text70" height="14" width="46" left="309" top="181" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Fator SH"/>
+        <text name="Text71" height="14" width="28" left="403" top="181" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="kPa-g"/>
+    </group>
+    <numericInput name="NumericInput18" height="20" width="40" left="185" top="176" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="4" justification="center" tabIndex="2" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="floatingPoint" overflow="showExponent" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#2}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="200"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <numericInput name="NumericInput19" height="20" width="40" left="360" top="176" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="4" justification="center" tabIndex="3" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="floatingPoint" overflow="showExponent" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#3}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="200"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <rectangle name="Polygon32" height="139" width="533" left="44" top="206" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B4B4B4" foreColor="#848484" lineStyle="solid" lineWidth="2" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="Polygon49" height="18" width="86" left="374" top="271" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#CFCFCF" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text3" height="14" width="125" left="182" top="250" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Tempo de Atualização:"/>
+    <group name="Group4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <numericDisplay name="NumericDisplay7" height="16" width="18" left="382" top="272" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#7}"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay8" height="16" width="18" left="407" top="272" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="left" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#8}"/>
+            </connections>
+        </numericDisplay>
+        <text name="Text53" height="14" width="4" left="401" top="272" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="14" charWidth="6" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+        <numericDisplay name="NumericDisplay11" height="16" width="18" left="433" top="272" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="left" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#9}"/>
+            </connections>
+        </numericDisplay>
+        <text name="Text61" height="14" width="4" left="426" top="272" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="14" charWidth="6" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+    </group>
+    <group name="Group12" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <numericInput name="NumericInput7" height="20" width="22" left="375" top="248" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="2" justification="center" tabIndex="5" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#4}"/>
+                    <connection name="Minimum" expression="0"/>
+                    <connection name="Maximum" expression="23"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput8" height="20" width="22" left="405" top="248" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="2" justification="center" tabIndex="6" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#5}"/>
+                    <connection name="Minimum" expression="0"/>
+                    <connection name="Maximum" expression="59"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <numericInput name="NumericInput9" height="20" width="22" left="435" top="248" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="2" justification="center" tabIndex="7" continuouslyUpdate="true" discardInputOnFocusLost="false" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#6}"/>
+                    <connection name="Minimum" expression="0"/>
+                    <connection name="Maximum" expression="59"/>
+                </connections>
+            
+            <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                <imageSettings imageReference="noImage"/>
+            </confirm>
+        </numericInput>
+        <text name="Text56" height="14" width="4" left="400" top="251" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="14" charWidth="6" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+        <text name="Text57" height="14" width="4" left="430" top="251" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" charHeight="14" charWidth="6" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+    </group>
+    <text name="Text58" height="14" width="177" left="182" top="274" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Tempo de Atualização Restante:"/>
+    <text name="Text51" height="14" width="67" left="182" top="303" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Tx. Variação"/>
+    <numericInput name="NumericInput10" height="20" width="58" left="251" top="300" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="6" justification="center" tabIndex="4" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#10}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="1400"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <text name="Text52" height="14" width="12" left="311" top="305" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+    <text name="Text54" height="14" width="70" left="346" top="300" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="SP Esperado"/>
+    <numericInput name="NumericInput11" height="20" width="58" left="418" top="297" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="6" justification="center" tabIndex="8" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#11}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="1400"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <text name="Text55" height="14" width="12" left="479" top="302" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="°C"/>
+    <text name="Text59" height="14" width="46" left="346" top="325" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="SP Atual"/>
+    <rectangle name="Polygon202" height="20" width="59" left="418" top="320" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#CFCFCF" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <numericDisplay name="NumericDisplay9" height="16" width="54" left="421" top="322" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" justification="center" fieldLength="6" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+        <connections>
+            <connection name="Value" expression="{#12}"/>
+        </connections>
+    </numericDisplay>
+    <text name="Text63" height="14" width="241" left="199" top="217" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="Ajuste do Controle Automático do Set-Point"/>
+    <line name="Line43" height="47" width="1" left="339" top="296" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="339 296 339 342 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="#F0F0F0" foreColor="#F0F0F0"/>
+    <line name="Line2" height="1" width="345" left="123" top="239" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="123 239 467 239 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="#F0F0F0" foreColor="#F0F0F0"/>
+    <line name="Line3" height="1" width="345" left="123" top="294" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="123 294 467 294 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="#F0F0F0" foreColor="#F0F0F0"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>
