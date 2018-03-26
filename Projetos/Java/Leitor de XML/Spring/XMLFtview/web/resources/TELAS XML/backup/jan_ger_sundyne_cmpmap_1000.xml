@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="155" positionY="200" securityCode="*" backColor="silver" titleBar="true" titleBarText="C0mpressorMap" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="640" height="480" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#A0A0A4" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Linhas_Grafico" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="Line11" height="1" width="410" left="227" top="381" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="227 381 636 381 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line1" height="370" width="1" left="268" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="268 43 268 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line2" height="370" width="1" left="309" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="309 43 309 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line3" height="370" width="1" left="391" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="391 43 391 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line4" height="370" width="1" left="350" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="350 43 350 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line5" height="370" width="1" left="473" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="473 43 473 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line6" height="370" width="1" left="432" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="432 43 432 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line7" height="370" width="1" left="555" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="555 43 555 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line8" height="370" width="1" left="514" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="514 43 514 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line10" height="370" width="1" left="596" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="596 43 596 412 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line12" height="1" width="410" left="227" top="350" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="636 350 227 350 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line13" height="1" width="410" left="228" top="319" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="228 319 637 319 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line14" height="1" width="410" left="228" top="289" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 289 228 289 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line15" height="1" width="410" left="227" top="258" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="227 258 636 258 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line16" height="1" width="410" left="227" top="227" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="636 227 227 227 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line17" height="1" width="410" left="228" top="196" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="228 196 637 196 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line18" height="1" width="410" left="228" top="166" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 166 228 166 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line19" height="1" width="410" left="229" top="135" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 135 638 135 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+        <line name="Line20" height="1" width="406" left="230" top="104" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="635 104 230 104 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="#3F3F3F"/>
+        <line name="Line21" height="1" width="409" left="229" top="73" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 73 637 73 " backStyle="transparent" lineStyle="dot" lineWidth="1" backColor="teal" foreColor="gray"/>
+    </group>
+    <group name="PerfCurve1_Group" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="PerfCurve1Seg0" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X1 - #15\PerfCurve1\X0" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y0 - #15\PerfCurve1\Y1" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X0}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y1}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg1" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X2 - #15\PerfCurve1\X1" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y1 - #15\PerfCurve1\Y2" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X1}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y2}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg2" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X3 - #15\PerfCurve1\X2" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y2 - #15\PerfCurve1\Y3" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X2}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y3}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg3" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X4 - #15\PerfCurve1\X3" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y3 - #15\PerfCurve1\Y4" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X3}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y4}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg4" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X5 - #15\PerfCurve1\X4" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y4 - #15\PerfCurve1\Y5" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X4}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y5}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg5" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X6 - #15\PerfCurve1\X5" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y5 - #15\PerfCurve1\Y6" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X5}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y6}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg6" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X7 - #15\PerfCurve1\X6" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y6 - #15\PerfCurve1\Y7" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X6}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y7}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg7" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X8 - #15\PerfCurve1\X7" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y7 - #15\PerfCurve1\Y8" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X7}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y8}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve1Seg8" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve1\X9 - #15\PerfCurve1\X8" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve1\Y8 - #15\PerfCurve1\Y9" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve1\X8}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve1\Y9}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+    </group>
+    <group name="PerfCurve2_Group" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="PerfCurve2Seg0" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X1 - #15\PerfCurve2\X0" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y0 - #15\PerfCurve2\Y1" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X0}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y1}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg1" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X2 - #15\PerfCurve2\X1" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y1 - #15\PerfCurve2\Y2" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X1}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y2}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg2" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X3 - #15\PerfCurve2\X2" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y2 - #15\PerfCurve2\Y3" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X2}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y3}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg3" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X4 - #15\PerfCurve2\X3" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y3 - #15\PerfCurve2\Y4" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X3}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y4}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg4" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X5 - #15\PerfCurve2\X4" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y4 - #15\PerfCurve2\Y5" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X4}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y5}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg5" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X6 - #15\PerfCurve2\X5" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y5 - #15\PerfCurve2\Y6" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X5}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y6}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg6" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X7 - #15\PerfCurve2\X6" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y6 - #15\PerfCurve2\Y7" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X6}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y7}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg7" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X8 - #15\PerfCurve2\X7" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y7 - #15\PerfCurve2\Y8" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X7}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y8}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve2Seg8" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve2\X9 - #15\PerfCurve2\X8" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve2\Y8 - #15\PerfCurve2\Y9" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve2\X8}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve2\Y9}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+    </group>
+    <group name="PerfCurve3_Group" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="PerfCurve3Seg0" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X1 - #15\PerfCurve3\X0" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y0 - #15\PerfCurve3\Y1" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X0}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y1}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg1" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X2 - #15\PerfCurve3\X1" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y1 - #15\PerfCurve3\Y2" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X1}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y2}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg2" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X3 - #15\PerfCurve3\X2" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y2 - #15\PerfCurve3\Y3" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X2}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y3}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg3" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X4 - #15\PerfCurve3\X3" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y3 - #15\PerfCurve3\Y4" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X3}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y4}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg4" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X5 - #15\PerfCurve3\X4" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y4 - #15\PerfCurve3\Y5" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X4}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y5}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg5" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X6 - #15\PerfCurve3\X5" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y5 - #15\PerfCurve3\Y6" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X5}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y6}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg6" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X7 - #15\PerfCurve3\X6" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y6 - #15\PerfCurve3\Y7" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X6}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y7}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg7" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X8 - #15\PerfCurve3\X7" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y7 - #15\PerfCurve3\Y8" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X7}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y8}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="PerfCurve3Seg8" height="370" width="410" left="229" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="229 43 638 412 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="blue">
+            <animations>
+                <animateWidth expression="#15\PerfCurve3\X9 - #15\PerfCurve3\X8" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="#15\PerfCurve3\Y8 - #15\PerfCurve3\Y9" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="{#15\PerfCurve3\X8}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#15\PerfCurve3\Y9}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+    </group>
+    <group name="Surge_Line_Group" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="SurgelLine1" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[1]}-{#9#10#11Config.#12Y_array[0]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[1]}-{#9#10#11Config.#12X_array[0]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[0]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[0]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine2" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[2]}-{#9#10#11Config.#12Y_array[1]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[2]}-{#9#10#11Config.#12X_array[1]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[1]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[1]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine3" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[3]}-{#9#10#11Config.#12Y_array[2]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[3]}-{#9#10#11Config.#12X_array[2]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[2]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[2]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine4" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[4]}-{#9#10#11Config.#12Y_array[3]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[4]}-{#9#10#11Config.#12X_array[3]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[3]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[3]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine5" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[5]}-{#9#10#11Config.#12Y_array[4]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[5]}-{#9#10#11Config.#12X_array[4]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[4]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[4]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine6" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[6]}-{#9#10#11Config.#12Y_array[5]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[6]}-{#9#10#11Config.#12X_array[5]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[5]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[5]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine7" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[7]}-{#9#10#11Config.#12Y_array[6]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[7]}-{#9#10#11Config.#12X_array[6]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[6]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[6]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine8" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[8]}-{#9#10#11Config.#12Y_array[7]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[8]}-{#9#10#11Config.#12X_array[7]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[7]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[7]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine9" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[9]}-{#9#10#11Config.#12Y_array[8]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[9]}-{#9#10#11Config.#12X_array[8]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[8]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[8]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine10" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[10]}-{#9#10#11Config.#12Y_array[9]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[10]}-{#9#10#11Config.#12X_array[9]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[9]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[9]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine11" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[11]}-{#9#10#11Config.#12Y_array[10]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[11]}-{#9#10#11Config.#12X_array[10]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[10]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[10]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine12" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[12]}-{#9#10#11Config.#12Y_array[11]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[12]}-{#9#10#11Config.#12X_array[11]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[11]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[11]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine13" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[13]}-{#9#10#11Config.#12Y_array[12]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[13]}-{#9#10#11Config.#12X_array[12]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[12]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[12]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine14" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[14]}-{#9#10#11Config.#12Y_array[13]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[14]}-{#9#10#11Config.#12X_array[13]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[13]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[13]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgelLine15" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="red">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[15]}-{#9#10#11Config.#12Y_array[14]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[15]}-{#9#10#11Config.#12X_array[14]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[14]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[14]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+    </group>
+    <group name="Control_Line_Group" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="SurgeControlLine1" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[1]}-{#9#10#11Config.#12Y_array[0]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[1]}-{#9#10#11Config.#12X_array[0]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[0]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[0]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine2" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[2]}-{#9#10#11Config.#12Y_array[1]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[2]}-{#9#10#11Config.#12X_array[1]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[1]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[1]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine3" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[3]}-{#9#10#11Config.#12Y_array[2]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[3]}-{#9#10#11Config.#12X_array[2]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[2]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[2]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine4" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[4]}-{#9#10#11Config.#12Y_array[3]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[4]}-{#9#10#11Config.#12X_array[3]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[3]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[3]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine5" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[5]}-{#9#10#11Config.#12Y_array[4]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[5]}-{#9#10#11Config.#12X_array[4]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[4]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[4]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine6" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[6]}-{#9#10#11Config.#12Y_array[5]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[6]}-{#9#10#11Config.#12X_array[5]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[5]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[5]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine7" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[7]}-{#9#10#11Config.#12Y_array[6]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[7]}-{#9#10#11Config.#12X_array[6]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[6]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[6]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine8" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[8]}-{#9#10#11Config.#12Y_array[7]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[8]}-{#9#10#11Config.#12X_array[7]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[7]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[7]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine9" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[9]}-{#9#10#11Config.#12Y_array[8]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[9]}-{#9#10#11Config.#12X_array[8]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[8]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[8]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine10" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[10]}-{#9#10#11Config.#12Y_array[9]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[10]}-{#9#10#11Config.#12X_array[9]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[9]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[9]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine11" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[11]}-{#9#10#11Config.#12Y_array[10]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[11]}-{#9#10#11Config.#12X_array[10]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[10]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[10]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine12" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[12]}-{#9#10#11Config.#12Y_array[11]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[12]}-{#9#10#11Config.#12X_array[11]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[11]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[11]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine13" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[13]}-{#9#10#11Config.#12Y_array[12]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[13]}-{#9#10#11Config.#12X_array[12]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[12]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[12]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine14" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[14]}-{#9#10#11Config.#12Y_array[13]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[14]}-{#9#10#11Config.#12X_array[13]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[13]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[13]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+        <line name="SurgeControlLine15" height="371" width="411" left="227" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 44 228 413 " backStyle="solid" lineStyle="solid" lineWidth="2" backColor="teal" foreColor="#40FF10">
+            <animations>
+                <animateWidth expression="({#9#10#11Config.#12Y_array[15]}-{#9#10#11Config.#12Y_array[14]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalChangeMin="0" horizontalChangeMax="100" anchor="left">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\WidthMin}" maxTag="{#15\Scaling\WidthMax}"/>
+                </animateWidth>
+                <animateHeight expression="{#9#10#11Config.#12X_array[15]}-{#9#10#11Config.#12X_array[14]}" verticalChangeMin="0" verticalChangeMax="100" anchor="bottom">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\HeightMin}" maxTag="{#15\Scaling\HeightMax}"/>
+                </animateHeight>
+                <animateHorizontalPosition expression="({#9#10#11Config.#12Y_array[14]})*{#9#10#11Config.Surge_Line_Coef}*{#9#10#11Status.Vane_Char_Output}*{#9#10#11Status.Speed_EQ_Char_Output}*(1+{#9#10#11Status.Control_Line}/100)" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+                </animateHorizontalPosition>
+                <animateVerticalPosition expression="{#9#10#11Config.#12X_array[14]}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                    <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+                </animateVerticalPosition>
+            </animations>
+        </line>
+    </group>
+    <group name="Escala_Grafico" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <line name="Line22" height="1" width="410" left="228" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 43 228 43 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="black"/>
+        <line name="Line9" height="370" width="1" left="637" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="637 43 637 412 " backStyle="transparent" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="black"/>
+        <scale name="Scale2" height="10" width="412" left="226" top="403" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="navy" backStyle="transparent" borderStyle="none" borderUsesBackColor="true" borderWidth="1" borderColor="navy" tickDirection="up" foreColor="navy" lineStyle="solid" lineWidth="1" majorTicks="11" minorTicks="4" description="" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <scale name="Scale1" height="371" width="10" left="226" top="42" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="navy" backStyle="transparent" borderStyle="none" borderUsesBackColor="true" borderWidth="2" borderColor="navy" tickDirection="right" foreColor="navy" lineStyle="solid" lineWidth="1" majorTicks="13" minorTicks="3" description="" blink="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    </group>
+    <ellipse name="Ellipse1" height="10" width="10" left="224" top="407" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#8C0000" foreColor="black" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+        <animations>
+            <animateHorizontalPosition expression="{#9#10#11Status.#13}" horizontalOffsetMin="0" horizontalOffsetMax="412">
+                <readFromTagExpressionRange minTag="{#15\Scaling\XaxisMin}" maxTag="{#15\Scaling\XaxisMax}"/>
+            </animateHorizontalPosition>
+            <animateVerticalPosition expression="{#9#10#11Status.#14}" verticalOffsetMin="0" verticalOffsetMax="-370">
+                <readFromTagExpressionRange minTag="{#15\Scaling\YaxisMin}" maxTag="{#15\Scaling\YaxisMax}"/>
+            </animateVerticalPosition>
+        </animations>
+    </ellipse>
+    <text name="Text1" height="22" width="157" left="354" top="11" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="CompressorMap"/>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <numericDisplay name="NumericDisplay24" height="16" width="36" left="185" top="36" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#15\Scaling\YaxisMax}"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay25" height="16" width="36" left="185" top="97" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\YaxisMax-#15\Scaling\YaxisMin)*5/6+#15\Scaling\YaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay26" height="16" width="36" left="185" top="158" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\YaxisMax-#15\Scaling\YaxisMin)*4/6+#15\Scaling\YaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay27" height="16" width="36" left="185" top="219" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\YaxisMax-#15\Scaling\YaxisMin)*3/6+#15\Scaling\YaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay28" height="16" width="36" left="185" top="280" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\YaxisMax-#15\Scaling\YaxisMin)*2/6+#15\Scaling\YaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay29" height="16" width="36" left="185" top="341" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\YaxisMax-#15\Scaling\YaxisMin)*1/6+#15\Scaling\YaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay30" height="16" width="36" left="185" top="402" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#15\Scaling\YaxisMin}"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay31" height="16" width="36" left="204" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#15\Scaling\XaxisMin}"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay32" height="16" width="36" left="282" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\XaxisMax-#15\Scaling\XaxisMin)*1/5+#15\Scaling\XaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay33" height="16" width="36" left="366" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\XaxisMax-#15\Scaling\XaxisMin)*2/5+#15\Scaling\XaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay34" height="16" width="36" left="450" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\XaxisMax-#15\Scaling\XaxisMin)*3/5+#15\Scaling\XaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay35" height="16" width="36" left="534" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="(#15\Scaling\XaxisMax-#15\Scaling\XaxisMin)*4/5+#15\Scaling\XaxisMin"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="NumericDisplay36" height="16" width="36" left="602" top="419" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="#3F3F3F" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="4" showDigitGrouping="false" decimalPlaces="2" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#15\Scaling\YaxisMin}"/>
+            </connections>
+        </numericDisplay>
+    </group>
+    <group name="Group31" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group31" linkToolTipText="true">
+        <rectangle name="Polygon142" height="30" width="144" left="0" top="36" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon142" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay38" height="16" width="45" left="54" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.NumericDisplay37" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Status.#4}"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay5" height="16" width="45" left="6" top="43" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.StringDisplay3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="5" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Config.#4_Condition.TxTag}"/>
+            </connections>
+        </stringDisplay>
+        <text name="UEEAPeq1" height="19" width="44" left="99" top="42" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.UEEAPeq15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <parameters>
+            <parameter name="#1" description="Patch PLC" value="#9"/>
+            <parameter name="#2" description="Program Unit" value="#10"/>
+            <parameter name="#3" description="AS1" value="#11"/>
+            <parameter name="#4" description="Padrao" value="Flow"/>
+            <parameter name="#5" description="Unit" value="kPa"/>
+        </parameters>
+    </group>
+    <group name="Group2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group31" linkToolTipText="true">
+        <rectangle name="Polygon1" height="30" width="144" left="0" top="67" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon142" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay1" height="16" width="45" left="54" top="74" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.NumericDisplay37" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Status.#4}"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay1" height="16" width="45" left="6" top="74" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.StringDisplay3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="5" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Config.#4_Condition.TxTag}"/>
+            </connections>
+        </stringDisplay>
+        <text name="UEEAPeq2" height="19" width="44" left="99" top="73" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.UEEAPeq15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <parameters>
+            <parameter name="#1" description="Patch PLC" value="#9"/>
+            <parameter name="#2" description="Program Unit" value="#10"/>
+            <parameter name="#3" description="AS1" value="#11"/>
+            <parameter name="#4" description="Padrao" value="Ps"/>
+            <parameter name="#5" description="Unit" value="kPa"/>
+        </parameters>
+    </group>
+    <group name="Group4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group31" linkToolTipText="true">
+        <rectangle name="Polygon3" height="30" width="144" left="0" top="98" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon142" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay2" height="16" width="45" left="54" top="105" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.NumericDisplay37" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Status.#4}"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay2" height="16" width="45" left="6" top="105" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.StringDisplay3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="5" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Config.#4_Condition.TxTag}"/>
+            </connections>
+        </stringDisplay>
+        <text name="UEEAPeq3" height="19" width="44" left="99" top="104" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.UEEAPeq15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <parameters>
+            <parameter name="#1" description="Patch PLC" value="#9"/>
+            <parameter name="#2" description="Program Unit" value="#10"/>
+            <parameter name="#3" description="AS1" value="#11"/>
+            <parameter name="#4" description="Padrao" value="Pd"/>
+            <parameter name="#5" description="Unit" value="kPa"/>
+        </parameters>
+    </group>
+    <group name="Group5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group31" linkToolTipText="true">
+        <rectangle name="Polygon4" height="30" width="144" left="0" top="129" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon142" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay3" height="16" width="45" left="54" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.NumericDisplay37" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Status.#4}"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay4" height="16" width="45" left="6" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.StringDisplay3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="5" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Config.#4_Condition.TxTag}"/>
+            </connections>
+        </stringDisplay>
+        <text name="UEEAPeq4" height="19" width="44" left="99" top="135" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.UEEAPeq15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <parameters>
+            <parameter name="#1" description="Patch PLC" value="#9"/>
+            <parameter name="#2" description="Program Unit" value="#10"/>
+            <parameter name="#3" description="AS1" value="#11"/>
+            <parameter name="#4" description="Padrao" value="Ts"/>
+            <parameter name="#5" description="Unit" value="°C"/>
+        </parameters>
+    </group>
+    <group name="Group6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group31" linkToolTipText="true">
+        <rectangle name="Polygon5" height="30" width="144" left="0" top="160" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon142" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay4" height="16" width="45" left="54" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.NumericDisplay37" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Status.#4}"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay6" height="16" width="45" left="6" top="167" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.StringDisplay3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="5" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Config.#4_Condition.TxTag}"/>
+            </connections>
+        </stringDisplay>
+        <text name="UEEAPeq5" height="19" width="44" left="99" top="166" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.UEEAPeq15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <parameters>
+            <parameter name="#1" description="Patch PLC" value="#9"/>
+            <parameter name="#2" description="Program Unit" value="#10"/>
+            <parameter name="#3" description="AS1" value="#11"/>
+            <parameter name="#4" description="Padrao" value="Td"/>
+            <parameter name="#5" description="Unit" value="°C"/>
+        </parameters>
+    </group>
+    <group name="Group7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group31" linkToolTipText="true">
+        <rectangle name="Polygon6" height="30" width="144" left="0" top="191" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon142" linkToolTipText="true" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay5" height="16" width="45" left="54" top="198" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.NumericDisplay37" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Status.#4}"/>
+            </connections>
+        </numericDisplay>
+        <stringDisplay name="StringDisplay7" height="16" width="45" left="6" top="198" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.StringDisplay3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="left" dimensionsHeight="1" dimensionsWidth="5" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="{#1#2#3Config.#4_Condition.TxTag}"/>
+            </connections>
+        </stringDisplay>
+        <text name="UEEAPeq6" height="19" width="44" left="99" top="197" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.UEEAPeq15" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <parameters>
+            <parameter name="#1" description="Patch PLC" value="#9"/>
+            <parameter name="#2" description="Program Unit" value="#10"/>
+            <parameter name="#3" description="AS1" value="#11"/>
+            <parameter name="#4" description="Padrao" value="Speed"/>
+            <parameter name="#5" description="Unit" value="-"/>
+        </parameters>
+    </group>
+    <text name="Text3" height="18" width="129" left="508" top="387" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Fluxo Equivalente"/>
+    <text name="Text4" height="18" width="20" left="233" top="44" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="Rc"/>
+    <rectangle name="Polygon7" height="30" width="144" left="0" top="287" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A4" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <numericDisplay name="NumericDisplay6" height="16" width="45" left="54" top="294" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="5" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+        <connections>
+            <connection name="Value" expression="{#9#10#11Status.Cv_Display}"/>
+        </connections>
+    </numericDisplay>
+    <text name="Text5" height="16" width="40" left="3" top="294" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Output"/>
+    <text name="Text6" height="16" width="13" left="115" top="295" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="%"/>
+    <group name="Group3" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon2" height="30" width="182" left="0" top="318" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="red" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="NumericDisplay7" height="16" width="18" left="156" top="326" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="white" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="2" showDigitGrouping="false" decimalPlaces="1" format="decimal" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#9#10#11Status.Surge_Count}"/>
+            </connections>
+        </numericDisplay>
+        <text name="Text2" height="16" width="153" left="1" top="325" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="white" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Ciclos de Surto Detectado"/>
+        <animations>
+            <animateVisibility expression="{#9#10#11Status.Surge_detected} == 1" expressionTrueState="visible"/>
+        </animations>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

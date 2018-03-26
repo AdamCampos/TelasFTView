@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="200" positionY="200" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="JANELA ENTRADA ANALÓGICA DUPLA" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="595" height="470" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="#D0D0D0" fieldSelectedTextColor="black" fieldSelectedFillColor="#D0D0D0" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text5" height="16" width="420" left="7" top="29" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+    <group name="Group9" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text2" height="22" width="93" left="142" top="3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="(Controle)"/>
+        <text name="Text1" height="22" width="136" left="7" top="3" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+    </group>
+    <group name="Group22" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <text name="Text35" height="22" width="114" left="480" top="3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="(Seguranca)"/>
+        <text name="Text36" height="22" width="141" left="345" top="3" visible="true" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#11}*/"/>
+    </group>
+    <group name="Operacao" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+        <rectangle name="Polygon12" height="369" width="590" left="3" top="99" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="Text8" height="16" width="67" left="11" top="170" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Segurança:"/>
+        <line name="Line1" height="1" width="66" left="4" top="99" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" line="4 99 69 99 " backStyle="solid" lineStyle="solid" lineWidth="1" backColor="teal" foreColor="silver"/>
+        <text name="Text11" height="16" width="22" left="83" top="106" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tag"/>
+        <text name="Text9" height="16" width="74" left="185" top="106" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Leitura Atual"/>
+        <text name="Text13" height="16" width="78" left="287" top="106" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Escala (Min.)"/>
+        <text name="Text15" height="16" width="82" left="389" top="106" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" charHeight="16" charWidth="6" bold="false" italic="false" underline="false" strikethrough="false" caption="Escala (Máx.)"/>
+        <text name="Text4" height="16" width="53" left="25" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Controle:"/>
+        <group name="Group8" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon1" height="30" width="95" left="82" top="126" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon14" height="30" width="95" left="184" top="126" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon10" height="30" width="95" left="286" top="126" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon15" height="30" width="95" left="388" top="126" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text6" height="16" width="90" left="85" top="133" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <numericDisplay name="NumericDisplay2" height="14" width="56" left="176" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <animations>
+                    <animateVisibility expression="{#6}" expressionTrueState="invisible"/>
+                </animations>
+                <connections>
+                    <connection name="Value" expression="{#1}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text12" height="14" width="43" left="235" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#4}*/">
+                <animations>
+                    <animateVisibility expression="{#6}" expressionTrueState="invisible"/>
+                </animations>
+            </text>
+            <numericDisplay name="NumericDisplay3" height="14" width="56" left="278" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#7}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text10" height="14" width="43" left="337" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#4}*/"/>
+            <numericDisplay name="NumericDisplay4" height="14" width="56" left="380" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#8}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text14" height="14" width="43" left="439" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#4}*/"/>
+        </group>
+        <group name="Group18" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false">
+            <rectangle name="Polygon28" height="30" width="95" left="82" top="164" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon31" height="30" width="95" left="184" top="164" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon32" height="30" width="95" left="286" top="164" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <rectangle name="Polygon33" height="30" width="95" left="388" top="164" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#B6B6B6" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="Text24" height="16" width="90" left="85" top="171" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#11}*/"/>
+            <numericDisplay name="NumericDisplay13" height="14" width="56" left="176" top="172" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <animations>
+                    <animateVisibility expression="{#12}" expressionTrueState="invisible"/>
+                </animations>
+                <connections>
+                    <connection name="Value" expression="{#9}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text25" height="14" width="43" left="235" top="172" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#4}*/">
+                <animations>
+                    <animateVisibility expression="{#12}" expressionTrueState="invisible"/>
+                </animations>
+            </text>
+            <numericDisplay name="NumericDisplay14" height="14" width="56" left="278" top="172" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#7}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text31" height="14" width="43" left="337" top="172" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#4}*/"/>
+            <numericDisplay name="NumericDisplay15" height="14" width="56" left="380" top="172" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="8" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#8}"/>
+                </connections>
+            </numericDisplay>
+            <text name="Text32" height="14" width="43" left="439" top="172" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:7 {#4}*/"/>
+        </group>
+    </group>
+    <polygon name="Polygon3" height="45" width="67" left="3" top="55" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="3 55 47 55 69 99 3 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="AbaOperacao" height="45" width="67" left="3" top="55" visible="false" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#A0A0A0" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="3 55 47 55 69 99 3 99 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <polygon name="Polygon5" height="31" width="31" left="10" top="62" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="#F0F0F0" foreColor="#F0F0F0" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" path="14 77 10 77 25 62 40 77 36 77 36 92 29 92 29 77 21 77 21 92 14 92 " endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Private Sub Display_AnimationStart()
+
+On Error GoTo ErrHandler
+
+Dim INSTRUMENTO As String
+Dim INSTRUMENTO2 As String
+
+INSTRUMENTO = Text1.Caption
+INSTRUMENTO2 = Text36.Caption
+PONTEIRO_1 = Mid(INSTRUMENTO, 4, 1)
+PONTEIRO_2 = Mid(INSTRUMENTO, 12, 1)
+PONTEIRO2_1 = Mid(INSTRUMENTO2, 4, 1)
+PONTEIRO2_2 = Mid(INSTRUMENTO2, 12, 1)
+
+If PONTEIRO_1 = "-" Then
+     INSTR_TIPO = Left(INSTRUMENTO, 1)
+        If PONTEIRO_2 <> "-" Then
+            INSTR_NUMERO = Mid(INSTRUMENTO, 5, 8)
+             Else
+                INSTR_NUMERO = Mid(INSTRUMENTO, 5, 7) + "_" + Mid(INSTRUMENTO, 13, 3)
+        End If
+    Else
+     INSTR_TIPO = Left(INSTRUMENTO, 2)
+     INSTR_NUMERO = Mid(INSTRUMENTO, 6, 8)
+End If
+
+If PONTEIRO2_1 = "-" Then
+     INSTR_TIPO2 = Left(INSTRUMENTO2, 1)
+        If PONTEIRO2_2 <> "-" Then
+            INSTR_NUMERO2 = Mid(INSTRUMENTO2, 5, 8)
+             Else
+                INSTR_NUMERO2 = Mid(INSTRUMENTO2, 5, 7) + "_" + Mid(INSTRUMENTO2, 13, 3)
+        End If
+    Else
+     INSTR_TIPO2 = Left(INSTRUMENTO2, 2)
+     INSTR_NUMERO2 = Mid(INSTRUMENTO2, 6, 8)
+End If
+
+If INSTR_TIPO = "L" Then
+        AlarmEventSummary1.FilterDefinition = "EventSource LIKE '" & INSTR_TIPO & "' And (EventSource LIKE '" & INSTR_NUMERO & "' Or EventSource LIKE '" & INSTR_NUMERO2 & "') And (EventSource LIKE 'H_' Or EventSource LIKE 'L_')"
+        ' FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & INSTR_TIPO & "%' And (SourceName LIKE '%" & INSTR_NUMERO & "%' Or SourceName LIKE '%" & INSTR_NUMERO2 & "%') And (SourceName LIKE '%LA%H_%' Or SourceName LIKE '%LA%L_%')"
+    Else
+        AlarmEventSummary1.FilterDefinition = "EventSource LIKE '" & INSTR_TIPO & "' And (EventSource LIKE '" & INSTR_NUMERO & "' Or EventSource LIKE '" & INSTR_NUMERO2 & "')"
+        ' FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & INSTR_TIPO & "%' And SourceName LIKE '%" & INSTR_NUMERO & "%'"
+End If
+
+Exit Sub
+ErrHandler:
+
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

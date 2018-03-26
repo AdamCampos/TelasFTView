@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="useCurrentPosition" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="TEMPERATURAS P/ REGENERAÇÃO" maximumTagUpdateRate="1" focusHighlightColor="#646464" disableFocusHighlight="false" size="specifySizeInPixels" width="304" height="241" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="false" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="#D0D0D0" fieldSelectedTextColor="black" fieldSelectedFillColor="#D0D0D0" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <displayKeys>
+        <key key="F1" controlModifier="false" shiftModifier="false" label="" pressAction="" repeatAction="" releaseAction="Display jan_ger_confirmacao_PID_SP /T#1 /X645 /Y200"/>
+        <key key="F2" controlModifier="false" shiftModifier="false" label="" pressAction="" repeatAction="" releaseAction="Display jan_ger_confirmacao_PID_CV /T#1 /X645 /Y200"/>
+    </displayKeys>
+    <rectangle name="Polygon36" height="231" width="296" left="3" top="4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <button name="Button1" height="227" width="291" left="6" top="6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="noborder" captureCursor="false" highlightOnFocus="false" tabIndex="5">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <text name="Text7" height="19" width="136" left="73" top="15" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="TEMPERATURAS"/>
+    <text name="Text1" height="32" width="140" left="16" top="61" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Rampa de Aquecimento&#xA;Intermediário"/>
+    <text name="Text2" height="32" width="77" left="16" top="102" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Aquecimento&#xA;Intermediário"/>
+    <text name="Text3" height="16" width="140" left="16" top="151" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Rampa de Aquecimento"/>
+    <text name="Text4" height="16" width="77" left="16" top="191" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Aquecimento"/>
+    <numericInput name="NumericInput1" height="20" width="31" left="199" top="67" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="3" justification="center" tabIndex="1" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{/TopSide/DSPU::[UT_1233001]RAMP_STEP_INTER}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="200"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <numericInput name="NumericInput2" height="20" width="31" left="199" top="108" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="3" justification="center" tabIndex="2" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{/TopSide/DSPU::[UT_1233001]INTER_HEAT_SETP}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="320"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <numericInput name="NumericInput3" height="20" width="31" left="199" top="149" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="3" justification="center" tabIndex="3" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{/TopSide/DSPU::[UT_1233001]RAMP_SETP}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="50"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <numericInput name="NumericInput4" height="20" width="31" left="199" top="189" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" fieldLength="3" justification="center" tabIndex="4" continuouslyUpdate="true" discardInputOnFocusLost="true" defaultData="" decimalPlaces="0" format="decimal" overflow="showExponent" leadingCharacter="blanks" inputSecurityCode="*" displayOnScreenKeypad="false" keypadCustomCaption="" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{/TopSide/DSPU::[UT_1233001]HEAT_SETP}"/>
+                <connection name="Minimum" expression="0"/>
+                <connection name="Maximum" expression="320"/>
+            </connections>
+        
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </numericInput>
+    <text name="Text5" height="16" width="15" left="241" top="191" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="ºC"/>
+    <text name="Text6" height="16" width="40" left="241" top="151" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="ºC/min"/>
+    <text name="Text8" height="16" width="40" left="241" top="69" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="ºC/min"/>
+    <text name="Text9" height="16" width="15" left="241" top="110" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="ºC"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Private Sub Display_AnimationStart()
+
+On Error GoTo ErrHandler
+
+Dim INSTRUMENTO As String
+
+INSTRUMENTO = Text23.Caption
+PONTEIRO_1 = Mid(INSTRUMENTO, 4, 1)
+PONTEIRO_2 = Mid(INSTRUMENTO, 12, 1)
+
+If PONTEIRO_1 = "-" Then
+     INSTR_TIPO = Left(INSTRUMENTO, 1)
+        If PONTEIRO_2 <> "-" Then
+            INSTR_NUMERO = Mid(INSTRUMENTO, 5, 8)
+             Else
+                INSTR_NUMERO = Mid(INSTRUMENTO, 5, 7) + "_" + Mid(INSTRUMENTO, 13, 3)
+        End If
+    Else
+     INSTR_TIPO = Left(INSTRUMENTO, 2)
+     INSTR_NUMERO = Mid(INSTRUMENTO, 6, 8)
+End If
+
+If INSTR_TIPO = "L" Then
+        AlarmEventSummary1.FilterDefinition = " EventSource LIKE '" & INSTR_TIPO & "' And EventSource LIKE '" & INSTR_NUMERO & "' And (EventSource LIKE 'H_' Or EventSource LIKE 'L_')"
+        FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & INSTR_TIPO & "%' And SourceName LIKE '%" & INSTR_NUMERO & "%' And (SourceName LIKE '%LA%H_%' Or SourceName LIKE '%LA%L_%')"
+    Else
+        AlarmEventSummary1.FilterDefinition = " EventSource LIKE '" & INSTR_TIPO & "' And EventSource LIKE '" & INSTR_NUMERO & "'"
+        FactoryTalkAlarmandEventLogViewer1.WhereClause = " SourceName LIKE '%" & INSTR_TIPO & "%' And SourceName LIKE '%" & INSTR_NUMERO & "%'"
+End If
+
+Exit Sub
+ErrHandler:
+
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>

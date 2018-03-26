@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="onTop" position="specifyPositionInPixels" positionX="196" positionY="805" securityCode="O" backColor="#B6B6B6" titleBar="true" titleBarText="MAINTENANCE OVERRIDE SWITCH" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="400" height="200" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" systemMenu="true" minimizeButton="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="false" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#848484" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <rectangle name="Polygon1" height="193" width="396" left="1" top="4" visible="true" wallpaper="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="solid" backColor="silver" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="19" width="160" left="7" top="19" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption="TEMPO RESTANTE :"/>
+    <panel name="Panel4" height="40" width="376" left="10" top="47" visible="true" wallpaper="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <panel name="Panel1" height="40" width="376" left="10" top="98" visible="true" wallpaper="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="false" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <group name="Group2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.Group2" linkToolTipText="true">
+        <rectangle name="Polygon21" height="31" width="136" left="13" top="52" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.Polygon21" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="ZTPeq2" height="23" width="28" left="90" top="56" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.ZTPeq2" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="red" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" justification="center" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="({#1.IHM.Tempo} % 3600)/60"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="ZTPeq3" height="23" width="28" left="119" top="56" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.ZTPeq3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="red" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" justification="center" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1.IHM.Tempo} % 60"/>
+            </connections>
+        </numericDisplay>
+        <text name="UEZTPeq2" height="20" width="15" left="111" top="57" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.UEZTPeq2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+        <text name="TagZTPeq1" height="18" width="70" left="18" top="58" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.TagZTPeq1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="#C00000" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="MOS /*LS:0 {#2}*/"/>
+        <animations>
+            <animateVisibility expression="{#1.Aux}" expressionTrueState="visible"/>
+        </animations>
+        <parameters>
+            <parameter name="#1" description="Tempo em segundos" value="{/Topside/DSPSDFGS::[PSD]MOS_PSD}"/>
+            <parameter name="#2" description="FGS ou PSD" value="PSD"/>
+        </parameters>
+    </group>
+    <group name="Group1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.Group2" linkToolTipText="true">
+        <rectangle name="Polygon2" height="31" width="136" left="13" top="103" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.Polygon21" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <numericDisplay name="ZTPeq1" height="23" width="28" left="90" top="107" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.ZTPeq2" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="red" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" justification="center" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="({#1.IHM.Tempo} % 3600)/60"/>
+            </connections>
+        </numericDisplay>
+        <numericDisplay name="ZTPeq4" height="23" width="28" left="119" top="107" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.ZTPeq3" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="red" fontFamily="Arial" fontSize="14" bold="true" italic="false" underline="false" strikethrough="false" justification="center" fieldLength="2" showDigitGrouping="false" decimalPlaces="0" format="decimal" overflow="roundValue" leadingCharacter="zeroes" decimalPlaceType="fixed">
+            <connections>
+                <connection name="Value" expression="{#1.IHM.Tempo} % 60"/>
+            </connections>
+        </numericDisplay>
+        <text name="UEZTPeq1" height="20" width="15" left="111" top="108" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.UEZTPeq2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="red" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="12" bold="true" italic="false" underline="false" strikethrough="false" caption=":"/>
+        <text name="TagZTPeq2" height="18" width="70" left="18" top="109" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="analog_pid.TagZTPeq1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="#C00000" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="11" bold="true" italic="false" underline="false" strikethrough="false" caption="MOS /*LS:0 {#2}*/"/>
+        <animations>
+            <animateVisibility expression="{#1.Aux}" expressionTrueState="visible"/>
+        </animations>
+        <parameters>
+            <parameter name="#1" description="Tempo em segundos" value="{/Topside/DSPSDFGS2::[PFGS]MOS_FGS}"/>
+            <parameter name="#2" description="FGS ou PSD" value="FGS"/>
+        </parameters>
+    </group>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

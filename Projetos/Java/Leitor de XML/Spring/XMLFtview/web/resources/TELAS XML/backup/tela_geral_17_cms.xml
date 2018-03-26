@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="0" positionY="150" securityCode="*" backColor="silver" titleBar="false" maximumTagUpdateRate="1" focusHighlightColor="#646464" disableFocusHighlight="true" size="specifySizeInPixels" width="1920" height="880" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="true" TrackName="tela_geral_cms" allowResizing="false" whenResized="scale" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#646464" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="#D0D0D0" fieldSelectedTextColor="black" fieldSelectedFillColor="#D0D0D0" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="Display tela_ger_rodape /Prodape_tela_geral_17_cms;Display tela_ger_cabecalho_botoes /Ttela_ger_inicial;Invoke Me.BotaoMCE.Visible (False);Invoke Me.BotaoPartida.Visible (False)" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <text name="Text1" height="35" width="772" left="25" top="15" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="23" bold="false" italic="false" underline="false" strikethrough="false" caption="CMS - Sistema de Medidores de Corrosão"/>
+    <group name="CMSTipo2" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2" linkToolTipText="true">
+        <rectangle name="Polygon78" height="140" width="230" left="1179" top="74" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon78" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_duplo /T#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <roundedRectangle name="RoundedRectangle2" height="120" width="210" left="1189" top="84" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle2" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="23" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="CMSTipo2Tag" height="18" width="210" left="1189" top="180" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <rectangle name="Polygon79" height="20" width="120" left="1269" top="134" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon79" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <group name="Group7" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group7" linkToolTipText="true">
+            <numericDisplay name="CMSTipo2EA1" height="14" width="70" left="1273" top="137" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2EA1" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#1}"/>
+                </connections>
+            </numericDisplay>
+            <text name="CMSTipo2UE1" height="14" width="40" left="1346" top="137" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2UE1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#6}*/"/>
+            <animations>
+                <animateVisibility expression="({#3} == 2) OR ({#3} == 4)" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+        <stringDisplay name="CMSTipo2Status" height="16" width="198" left="1195" top="116" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="If {#3} == 0 Then &quot;OK&quot; Else&#xA;If {#3} == 1 Then &quot;Substituir&quot; Else&#xA;If {#3} == 2 Then &quot;Inativo&quot; Else&#xA;If {#3} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+            </connections>
+        </stringDisplay>
+        <text name="Text38" height="16" width="71" left="1194" top="136" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text38" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        <text name="Text39" height="16" width="53" left="1194" top="159" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text39" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Corrosão"/>
+        <group name="Group9" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group9" linkToolTipText="true">
+            <numericDisplay name="CMSTipo2EA2" height="14" width="70" left="1273" top="160" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2EA2" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#2}"/>
+                </connections>
+            </numericDisplay>
+            <text name="CMSTipo2UE2" height="14" width="40" left="1346" top="160" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2UE2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#7}*/"/>
+            <animations>
+                <animateVisibility expression="({#3} == 2) OR ({#3} == 4)" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+        <rectangle name="Polygon80" height="20" width="120" left="1269" top="157" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon80" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <stringDisplay name="CMSTipo2Status1" height="16" width="198" left="1195" top="97" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2Status1" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="If {#4} == 8 Then &quot;Alarme Alto&quot; Else&#xA;If {#4} == 16 Then &quot;Alarme Muito Alto&quot; Else &quot; &quot;"/>
+            </connections>
+        </stringDisplay>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1238001_A"/>
+            <parameter name="#2" description="Valor de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1238001_B"/>
+            <parameter name="#3" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1238001_C"/>
+            <parameter name="#4" description="Alarme - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1238001_D"/>
+            <parameter name="#5" description="Tag" value="XE-1238001"/>
+            <parameter name="#6" description="Unidade de Engenharia - Taxa de Corrosão" value="mm/ano"/>
+            <parameter name="#7" description="Unidade de Engenharia - Corrosão" value="µm"/>
+            <parameter name="#8" description="Range maximo Tx Corrosao" value="{Range_CMS\XE_1238001_A_EUMax}"/>
+            <parameter name="#9" description="Range minimo Tx Corrosao" value="{Range_CMS\XE_1238001_A_EUMin}"/>
+            <parameter name="#10" description="Range maximo Corrosao" value="{Range_CMS\XE_1238001_B_EUMax}"/>
+            <parameter name="#11" description="Range minimo Corrosao" value="{Range_CMS\XE_1238001_B_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo11" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2" linkToolTipText="true">
+        <rectangle name="Polygon19" height="140" width="230" left="1179" top="248" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon78" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_duplo /T#1,#2,#3,#4,#5,#6,#7,#8,#9,#10,#11" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <roundedRectangle name="RoundedRectangle11" height="120" width="210" left="1189" top="258" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle2" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="23" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <text name="CMSTipo2Tag1" height="18" width="210" left="1189" top="354" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#5}*/"/>
+        <rectangle name="Polygon20" height="20" width="120" left="1269" top="308" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon79" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <group name="Group22" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group7" linkToolTipText="true">
+            <numericDisplay name="CMSTipo2EA3" height="14" width="70" left="1273" top="311" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2EA1" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#1}"/>
+                </connections>
+            </numericDisplay>
+            <text name="CMSTipo2UE3" height="14" width="40" left="1346" top="311" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2UE1" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#6}*/"/>
+            <animations>
+                <animateVisibility expression="({#3} == 2) OR ({#3} == 4)" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+        <stringDisplay name="CMSTipo2Status2" height="16" width="198" left="1195" top="290" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="If {#3} == 0 Then &quot;OK&quot; Else&#xA;If {#3} == 1 Then &quot;Substituir&quot; Else&#xA;If {#3} == 2 Then &quot;Inativo&quot; Else&#xA;If {#3} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+            </connections>
+        </stringDisplay>
+        <text name="Text10" height="16" width="71" left="1194" top="310" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text38" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        <text name="Text11" height="16" width="53" left="1194" top="333" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text39" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Corrosão"/>
+        <group name="Group10" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group9" linkToolTipText="true">
+            <numericDisplay name="CMSTipo2EA4" height="14" width="70" left="1273" top="334" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2EA2" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                <connections>
+                    <connection name="Value" expression="{#2}"/>
+                </connections>
+            </numericDisplay>
+            <text name="CMSTipo2UE4" height="14" width="40" left="1346" top="334" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2UE2" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#7}*/"/>
+            <animations>
+                <animateVisibility expression="({#3} == 2) OR ({#3} == 4)" expressionTrueState="invisible"/>
+            </animations>
+        </group>
+        <rectangle name="Polygon21" height="20" width="120" left="1269" top="331" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon80" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+        <stringDisplay name="CMSTipo2Status3" height="16" width="198" left="1195" top="271" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo2Status1" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+            <connections>
+                <connection name="Value" expression="If {#4} == 8 Then &quot;Alarme Alto&quot; Else&#xA;If {#4} == 16 Then &quot;Alarme Muito Alto&quot; Else &quot; &quot;"/>
+            </connections>
+        </stringDisplay>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1231002_A"/>
+            <parameter name="#2" description="Valor de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1231002_B"/>
+            <parameter name="#3" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1231002_C"/>
+            <parameter name="#4" description="Alarme - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1231002_D"/>
+            <parameter name="#5" description="Tag" value="XE-1231002"/>
+            <parameter name="#6" description="Unidade de Engenharia - Taxa de Corrosão" value="mm/ano"/>
+            <parameter name="#7" description="Unidade de Engenharia - Corrosão" value="µm"/>
+            <parameter name="#8" description="Range maximo Tx Corrosao" value="{Range_CMS\XE_1231002_A_EUMax}"/>
+            <parameter name="#9" description="Range minimo Tx Corrosao" value="{Range_CMS\XE_1231002_A_EUMin}"/>
+            <parameter name="#10" description="Range maximo Corrosao" value="{Range_CMS\XE_1231002_B_EUMax}"/>
+            <parameter name="#11" description="Range minimo Corrosao" value="{Range_CMS\XE_1231002_B_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo1" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon65" height="95" width="230" left="272" top="74" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group6" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle1" height="75" width="210" left="282" top="84" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag" height="18" width="210" left="282" top="138" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon66" height="20" width="120" left="362" top="115" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group5" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA" height="14" width="70" left="366" top="118" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE" height="14" width="40" left="439" top="118" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status" height="16" width="198" left="288" top="97" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text34" height="16" width="71" left="287" top="117" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5125002_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5125002_B"/>
+            <parameter name="#3" description="Tag" value="XE-5125002"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_5125002_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_5125002_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo3" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon2" height="95" width="230" left="272" top="161" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group2" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle3" height="75" width="210" left="282" top="171" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag1" height="18" width="210" left="282" top="225" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon4" height="20" width="120" left="362" top="202" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group1" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA1" height="14" width="70" left="366" top="205" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE1" height="14" width="40" left="439" top="205" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status1" height="16" width="198" left="288" top="184" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text2" height="16" width="71" left="287" top="204" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1238003_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1238003_B"/>
+            <parameter name="#3" description="Tag" value="XE-1238003"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_1238003_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_1238003_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo4" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon5" height="95" width="230" left="272" top="248" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group4" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle4" height="75" width="210" left="282" top="258" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag2" height="18" width="210" left="282" top="312" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon6" height="20" width="120" left="362" top="289" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group3" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA2" height="14" width="70" left="366" top="292" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE2" height="14" width="40" left="439" top="292" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status2" height="16" width="198" left="288" top="271" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text3" height="16" width="71" left="287" top="291" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1210004_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1210004_B"/>
+            <parameter name="#3" description="Tag" value="XE-1210004"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_1210004_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_1210004_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo5" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon7" height="95" width="230" left="272" top="335" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group11" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle5" height="75" width="210" left="282" top="345" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag3" height="18" width="210" left="282" top="399" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon8" height="20" width="120" left="362" top="376" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group8" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA3" height="14" width="70" left="366" top="379" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE3" height="14" width="40" left="439" top="379" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status3" height="16" width="198" left="288" top="358" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text4" height="16" width="71" left="287" top="378" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1210001_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_1210001_B"/>
+            <parameter name="#3" description="Tag" value="XE-1210001"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_1210001_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_1210001_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo6" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon9" height="95" width="230" left="272" top="422" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group13" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle6" height="75" width="210" left="282" top="432" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag4" height="18" width="210" left="282" top="486" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon10" height="20" width="120" left="362" top="463" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group12" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA4" height="14" width="70" left="366" top="466" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE4" height="14" width="40" left="439" top="466" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status4" height="16" width="198" left="288" top="445" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text5" height="16" width="71" left="287" top="465" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124001_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124001_B"/>
+            <parameter name="#3" description="Tag" value="XE-5124001"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_5124001_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_5124001_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo7" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon11" height="95" width="230" left="272" top="509" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group15" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle7" height="75" width="210" left="282" top="519" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag5" height="18" width="210" left="282" top="573" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon12" height="20" width="120" left="362" top="550" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group14" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA5" height="14" width="70" left="366" top="553" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE5" height="14" width="40" left="439" top="553" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status5" height="16" width="198" left="288" top="532" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text6" height="16" width="71" left="287" top="552" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124004_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124004_B"/>
+            <parameter name="#3" description="Tag" value="XE-5124004"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_5124004_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_5124004_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo8" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon13" height="95" width="230" left="272" top="596" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group17" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle8" height="75" width="210" left="282" top="606" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag6" height="18" width="210" left="282" top="660" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon14" height="20" width="120" left="362" top="637" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group16" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA6" height="14" width="70" left="366" top="640" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE6" height="14" width="40" left="439" top="640" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status6" height="16" width="198" left="288" top="619" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text7" height="16" width="71" left="287" top="639" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124008_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124008_B"/>
+            <parameter name="#3" description="Tag" value="XE-5124008"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_5124008_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_5124008_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo9" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon15" height="95" width="230" left="272" top="683" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group19" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle9" height="75" width="210" left="282" top="693" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag7" height="18" width="210" left="282" top="747" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon16" height="20" width="120" left="362" top="724" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group18" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA7" height="14" width="70" left="366" top="727" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE7" height="14" width="40" left="439" top="727" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status7" height="16" width="198" left="288" top="706" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text8" height="16" width="71" left="287" top="726" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124009_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5124009_B"/>
+            <parameter name="#3" description="Tag" value="XE-5124009"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_5124009_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_5124009_A_EUMin}"/>
+        </parameters>
+    </group>
+    <group name="CMSTipo10" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1" linkToolTipText="true">
+        <rectangle name="Polygon17" height="95" width="230" left="272" top="770" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon65" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="black" lineStyle="none" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <animations>
+                <animateTouch TouchStyle="rectangular" pressAction="Display jan_ger_ea_cms_simples /T#1,#2,#3,#4,#5,#6" repeatAction="" releaseAction="" repeatRate="0.25">
+                    <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+                        <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+                        <imageSettings imageReference="noImage"/>
+                    </confirm>
+                </animateTouch>
+            </animations>
+        </rectangle>
+        <group name="Group21" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group6" linkToolTipText="true">
+            <roundedRectangle name="RoundedRectangle10" height="75" width="210" left="282" top="780" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.RoundedRectangle1" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#A0A0A4" lineStyle="solid" lineWidth="3" patternStyle="none" patternColor="black" roundingWidth="22" roundingHeight="15" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <text name="CMSTipo1Tag8" height="18" width="210" left="282" top="834" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Tag" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleCenter" fontFamily="Arial" fontSize="8" bold="true" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#3}*/"/>
+            <rectangle name="Polygon18" height="20" width="120" left="362" top="811" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Polygon66" linkToolTipText="true" backStyle="transparent" backColor="teal" foreColor="#848484" lineStyle="solid" lineWidth="1" patternStyle="none" patternColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+            <group name="Group20" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Group5" linkToolTipText="true">
+                <numericDisplay name="CMSTipo1EA8" height="14" width="70" left="366" top="814" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1EA" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="8" bold="false" italic="false" underline="false" strikethrough="false" justification="right" fieldLength="10" showDigitGrouping="false" decimalPlaces="1" format="floatingPoint" overflow="roundValue" leadingCharacter="blanks" decimalPlaceType="fixed">
+                    <connections>
+                        <connection name="Value" expression="{#1}"/>
+                    </connections>
+                </numericDisplay>
+                <text name="CMSTipo1UE8" height="14" width="40" left="439" top="814" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1UE" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10.5" bold="false" italic="false" underline="false" strikethrough="false" caption="/*LS:0 {#4}*/"/>
+                <animations>
+                    <animateVisibility expression="({#2} == 2) OR ({#2} == 4)" expressionTrueState="invisible"/>
+                </animations>
+            </group>
+            <stringDisplay name="CMSTipo1Status8" height="16" width="198" left="288" top="793" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.CMSTipo1Status" linkToolTipText="true" backColor="white" backStyle="transparent" foreColor="black" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" justification="center" dimensionsHeight="1" dimensionsWidth="22" characterOffset="0">
+                <connections>
+                    <connection name="Value" expression="If {#2} == 0 Then &quot;OK&quot; Else&#xA;If {#2} == 1 Then &quot;Substituir&quot; Else&#xA;If {#2} == 2 Then &quot;Inativo&quot; Else&#xA;If {#2} == 4 Then &quot;Falha de Comunicação&quot; Else &quot; &quot;"/>
+                </connections>
+            </stringDisplay>
+            <text name="Text9" height="16" width="71" left="287" top="813" visible="true" toolTipText="" exposeToVba="notExposed" isReferenceObject="true" linkSize="true" linkConnections="true" linkAnimations="linkWithExpression" linkBaseObject="pacotes_analogicos_p2.Text34" linkToolTipText="true" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Tx Corrosão"/>
+        </group>
+        <parameters>
+            <parameter name="#1" description="Valor de Taxa de Corrosão - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5125004_A"/>
+            <parameter name="#2" description="Status - Endereço OPC" value="/TopSide/DSPU_OPC::CMS.PN_5500004.XE_5125004_B"/>
+            <parameter name="#3" description="Tag" value="XE-5125004"/>
+            <parameter name="#4" description="Unidade de Engenharia" value="mm/ano"/>
+            <parameter name="#5" description="Range maximo" value="{Range_CMS\XE_5125004_A_EUMax}"/>
+            <parameter name="#6" description="Range minimo" value="{Range_CMS\XE_5125004_A_EUMin}"/>
+        </parameters>
+    </group>
+    <text name="Text14" height="40" width="250" left="25" top="101" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Sistema de Água Quente"/>
+    <text name="Text16" height="40" width="250" left="25" top="188" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Descargas das Bombas de Água Quente"/>
+    <text name="Text17" height="40" width="250" left="25" top="275" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Injeção de Gás"/>
+    <text name="Text18" height="40" width="250" left="25" top="362" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Injeção de CO2"/>
+    <text name="Text19" height="40" width="250" left="25" top="623" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Sucção das Bombas de&#xA;Resfriamento (Área Não Classificada)"/>
+    <text name="Text20" height="40" width="250" left="25" top="536" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Distribuição de Água de&#xA;Resfriamento (Área Não Classificada)"/>
+    <text name="Text21" height="40" width="250" left="25" top="449" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Distribuição de Água de&#xA;Resfriamento (Área Classificada)"/>
+    <text name="Text22" height="40" width="250" left="25" top="710" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Sucção das Bombas de&#xA;Resfriamento (Área Classificada)"/>
+    <text name="Text23" height="40" width="250" left="25" top="797" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Descarga das Bombas de Água Quente"/>
+    <text name="Text24" height="40" width="250" left="932" top="101" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Entrada V-1238001-UAPO"/>
+    <text name="Text25" height="40" width="250" left="932" top="275" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="false" sizeToFit="false" alignment="middleLeft" fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Header de Exportação de Gás"/>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+        </vbaItem>
+    </vbaProject>
+</gfx>

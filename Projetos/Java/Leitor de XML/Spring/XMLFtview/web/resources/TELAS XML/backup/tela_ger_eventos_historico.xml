@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gfx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Gfx-SE10.xsd">
+    <displaySettings displayType="replace" position="specifyPositionInPixels" positionX="0" positionY="150" securityCode="*" backColor="silver" titleBar="false" maximumTagUpdateRate="1" focusHighlightColor="lime" disableFocusHighlight="true" size="specifySizeInPixels" width="1920" height="880" allowMultipleRunningCopies="false" cacheAfterDisplaying="false" sizeToMainWindow="false" showLastAcquiredValue="true" TrackScreenForNavigation="true" TrackName="Histórico de Alarmes" allowResizing="false" whenResized="pan" beepOnPress="false" highlightWhenCursorPassesOver="true" interactiveHighlightColor="#A0A0A4" displayOnScreenKeyboard="false" allowButtonActionOnError="true" fieldNotSelectedTextColor="black" fieldNotSelectedFillColor="white" fieldSelectedTextColor="black" fieldSelectedFillColor="white" fieldInErrorNotSelectedTextColor="black" fieldInErrorNotSelectedFillColor="red" fieldInErrorSelectedTextColor="white" fieldInErrorSelectedFillColor="red" startupCommand="Display tela_ger_rodape /Prodape_tela_ger_alarmes_historico;Display tela_ger_cabecalho_botoes /Ttela_ger_inicial" shutdownCommand="" useGradientStyle="false" endColor="teal" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <activeX name="TextBox4" height="20" width="100" left="1799" top="762" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" classId="{8BD21D10-EC42-11CE-9E0D-00AA006002F3}" keyNavigation="true" focusHighlight="true" pointerHighlight="true" tabIndex="20">
+        <data progId="Forms.TextBox.1" fileName="FM20.DLL" fileVersion="15.0.4567.1000" typeLibrary="{0D452EE1-E08F-101A-852E-02608C4D0BB4}" typeLibVersion="2.0" data="AAIUAAEBAIAAAAAAG0iALFYKAAARAgAAAAIYADUAAAAFAACAwwAAAAACAABBcmlhbAAA&#xA;AA=="/>
+    </activeX>
+    <activeX name="TextBox2" height="20" width="100" left="1677" top="760" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" classId="{8BD21D10-EC42-11CE-9E0D-00AA006002F3}" keyNavigation="true" focusHighlight="true" pointerHighlight="true" tabIndex="19">
+        <data progId="Forms.TextBox.1" fileName="FM20.DLL" fileVersion="15.0.4567.1000" typeLibrary="{0D452EE1-E08F-101A-852E-02608C4D0BB4}" typeLibVersion="2.0" data="AAIUAAEBAIAAAAAAG0iALFYKAAARAgAAAAIYADUAAAAFAACAwwAAAAACAABBcmlhbAAA&#xA;AA=="/>
+    </activeX>
+    <text name="Text1" height="32" width="275" left="18" top="10" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="20" bold="true" italic="false" underline="false" strikethrough="false" caption="Histórico de Eventos"/>
+    <activeX name="FactoryTalkAlarmandEventLogViewer1" height="655" width="1910" left="0" top="50" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" classId="{4D769ACD-8F36-464D-9092-41B290B4CC2C}" keyNavigation="true" focusHighlight="false" pointerHighlight="false" tabIndex="8">
+        <data progId="FTLogViewer.FTLogViewer.1" fileName="FTAELogViewer.ocx" fileVersion="2.90.0.207" typeLibrary="{3DEACC9C-310B-4735-AA79-FA05F41DCF9C}" typeLibVersion="1.0" data="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&#xA;ZQBhAFQAbwBkAG8AcwBFAHYAZQBuAHQAbwBzAAAAAgD//wIA//8CAP//AgD//wIA//8DAPX/&#xA;//8IACAAAABUAGkAbQBlAHMAIABOAGUAdwAgAFIAbwBtAGEAbgAAABEAABEAABEAABMAkAEA&#xA;AAIA//8CAP//AgD//wIAAAAIAL4AAABEAFIASQBWAEUAUgA9AHsAUwBRAEwAIABTAGUAcgB2&#xA;AGUAcgB9ADsAUwBFAFIAVgBFAFIAPQA8AHMAZQByAHYAZQByACAAbgBhAG0AZQA+ADsAVQBJ&#xA;AEQAPQA8AHUAcwBlAHIAIABJAEQAPgA7AFAAVwBEAD0APABwAGEAcwBzAHcAbwByAGQAPgA7&#xA;AEQAQQBUAEEAQgBBAFMARQA9ADwAZABhAHQAYQBiAGEAcwBlACAAbgBhAG0AZQA+AAAACAAQ&#xA;AAAAQQBsAGEAcgBtAGUAcwAAAAIAAAADAFDDAAADAAAAAAABAAAADAAAAAIA//8TAAAAAAAT&#xA;AMDAwAACAAAACAACAAAAAAACAP//AwDw////CAAMAAAAQQByAGkAYQBsAAAAEQAAEQAAEQAA&#xA;AwCQAQAAAQAAAAgAAAATAAAAAAATAMDAwAADAPD///8IAAwAAABBAHIAaQBhAGwAAAARAAAR&#xA;AAARAAATAJABAAABAAAACAAAAAIAAQACAP//EwDAwMAAEwCEhIQAAgD//wIA//8LAP//AgAA&#xA;AAEAAAALAAAAAgAAAAIA//8DAAAAAAATAAAAAAATAMDAwAADAPD///8IAAwAAABBAHIAaQBh&#xA;AGwAAAARAAARAAARAAATAJABAAABAAAACwAAAAIAAAACACEAEwAAAAAAEwCEhIQAAgD//wMA&#xA;8P///wgADAAAAEEAcgBpAGEAbAAAABEAABEAABEAABMAkAEAAAIAAAAKAAAACAAAAAgAIAAA&#xA;AEEAcgBlAGEAQQBnAHUAYQBFAHYAZQBuAHQAbwBzAAAACAAIAQAAQQBsAGEAcgBtACAAQwBs&#xA;AGEAcwBzACAAPAA+ACAAJwBPAHYAZQByAHIAaQBkAGUAJwAgAEEAbgBkACAAQQBsAGEAcgBt&#xA;ACAAQwBsAGEAcwBzACAAPQAgACcARQB2AGUAbgB0AG8AXwBBAGcAdQBhACcAIABBAG4AZAAg&#xA;ACgAQQBsAGEAcgBtACAAUwB0AGEAdABlACAAPQAgADEAIABPAHIAIABBAGwAYQByAG0AIABT&#xA;AHQAYQB0AGUAIAA9ACAAMgApACAATwByACAATQBlAHMAcwBhAGcAZQAgAEwASQBLAEUAIAAn&#xA;ACUASQBuAHQAZQByAHQAcgBhAHYAYQBkACUAJwAgAAAAAgAAAAAAAgAAAAAAAAACAAAAAAAA&#xA;AAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAACAAqAAAAQQByAGUAYQBB&#xA;AHUAdABvAG0AYQBjAGEAbwBFAHYAZQBuAHQAbwBzAAAACAASAQAAQQBsAGEAcgBtACAAQwBs&#xA;AGEAcwBzACAAPAA+ACAAJwBPAHYAZQByAHIAaQBkAGUAJwAgAEEAbgBkACAAQQBsAGEAcgBt&#xA;ACAAQwBsAGEAcwBzACAAPQAgACcARQB2AGUAbgB0AG8AXwBBAHUAdABvAG0AYQBjAGEAbwAn&#xA;ACAAQQBuAGQAIAAoAEEAbABhAHIAbQAgAFMAdABhAHQAZQAgAD0AIAAxACAATwByACAAQQBs&#xA;AGEAcgBtACAAUwB0AGEAdABlACAAPQAgADIAKQAgAE8AcgAgAE0AZQBzAHMAYQBnAGUAIABM&#xA;AEkASwBFACAAJwAlAEkAbgB0AGUAcgB0AHIAYQB2AGEAZAAlACcAIAAAAAIAAAAAAAIAAAAA&#xA;AAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAgAKAAA&#xA;AEEAcgBlAGEARQBsAGUAdAByAGkAYwBhAEUAdgBlAG4AdABvAHMAAAAIABABAABBAGwAYQBy&#xA;AG0AIABDAGwAYQBzAHMAIAA8AD4AIAAnAE8AdgBlAHIAcgBpAGQAZQAnACAAQQBuAGQAIABB&#xA;AGwAYQByAG0AIABDAGwAYQBzAHMAIAA9ACAAJwBFAHYAZQBuAHQAbwBfAEUAbABlAHQAcgBp&#xA;AGMAYQAnACAAQQBuAGQAIAAoAEEAbABhAHIAbQAgAFMAdABhAHQAZQAgAD0AIAAxACAATwBy&#xA;ACAAQQBsAGEAcgBtACAAUwB0AGEAdABlACAAPQAgADIAKQAgAE8AcgAgAE0AZQBzAHMAYQBn&#xA;AGUAIABMAEkASwBFACAAJwAlAEkAbgB0AGUAcgB0AHIAYQB2AGEAZAAlACcAIAAAAAIAAAAA&#xA;AAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAA&#xA;AAgAHgAAAEEAcgBlAGEARwBhAHMARQB2AGUAbgB0AG8AcwAAAAgABgEAAEEAbABhAHIAbQAg&#xA;AEMAbABhAHMAcwAgADwAPgAgACcATwB2AGUAcgByAGkAZABlACcAIABBAG4AZAAgAEEAbABh&#xA;AHIAbQAgAEMAbABhAHMAcwAgAD0AIAAnAEUAdgBlAG4AdABvAF8ARwBhAHMAJwAgAEEAbgBk&#xA;ACAAKABBAGwAYQByAG0AIABTAHQAYQB0AGUAIAA9ACAAMQAgAE8AcgAgAEEAbABhAHIAbQAg&#xA;AFMAdABhAHQAZQAgAD0AIAAyACkAIABPAHIAIABNAGUAcwBzAGEAZwBlACAATABJAEsARQAg&#xA;ACcAJQBJAG4AdABlAHIAdAByAGEAdgBhAGQAJQAnACAAAAACAAAAAAACAAAAAAAAAAIAAAAA&#xA;AAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAIACAAAABBAHIAZQBh&#xA;AE8AbABlAG8ARQB2AGUAbgB0AG8AcwAAAAgACAEAAEEAbABhAHIAbQAgAEMAbABhAHMAcwAg&#xA;ADwAPgAgACcATwB2AGUAcgByAGkAZABlACcAIABBAG4AZAAgAEEAbABhAHIAbQAgAEMAbABh&#xA;AHMAcwAgAD0AIAAnAEUAdgBlAG4AdABvAF8ATwBsAGUAbwAnACAAQQBuAGQAIAAoAEEAbABh&#xA;AHIAbQAgAFMAdABhAHQAZQAgAD0AIAAxACAATwByACAAQQBsAGEAcgBtACAAUwB0AGEAdABl&#xA;ACAAPQAgADIAKQAgAE8AcgAgAE0AZQBzAHMAYQBnAGUAIABMAEkASwBFACAAJwAlAEkAbgB0&#xA;AGUAcgB0AHIAYQB2AGEAZAAlACcAIAAAAAIAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAA&#xA;AAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAgAKgAAAEEAcgBlAGEAUwBlAGcAdQBy&#xA;AGEAbgBjAGEARQB2AGUAbgB0AG8AcwAAAAgAFgEAAEEAbABhAHIAbQAgAEMAbABhAHMAcwAg&#xA;ADwAPgAgACcATwB2AGUAcgByAGkAZABlACcAIABBAG4AZAAgAEEAbABhAHIAbQAgAEMAbABh&#xA;AHMAcwAgAD0AIAAnAEUAdgBlAG4AdABvAF8AUwBlAGcAdQByAGEAbgBjAGEAJwAgAEEAbgBk&#xA;ACAAKABBAGwAYQByAG0AIABTAHQAYQB0AGUAIAAgAD0AIAAxACAATwByACAAQQBsAGEAcgBt&#xA;ACAAUwB0AGEAdABlACAAIAA9ACAAMgApACAATwByACAATQBlAHMAcwBhAGcAZQAgAEwASQBL&#xA;AEUAIAAnACUASQBuAHQAZQByAHQAcgBhAHYAYQBkACUAJwAgAAAAAgAAAAAAAgAAAAAAAAAC&#xA;AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAACAA0AAAAQQBy&#xA;AGUAYQBTAGkAcwB0AGUAbQBhAHMARwBlAHIAYQBpAHMARQB2AGUAbgB0AG8AcwAAAAgAHAEA&#xA;AEEAbABhAHIAbQAgAEMAbABhAHMAcwAgADwAPgAgACcATwB2AGUAcgByAGkAZABlACcAIABB&#xA;AG4AZAAgAEEAbABhAHIAbQAgAEMAbABhAHMAcwAgAD0AIAAnAEUAdgBlAG4AdABvAF8AUwBp&#xA;AHMAdABlAG0AYQBzAEcAZQByAGEAaQBzACcAIABBAG4AZAAgACgAQQBsAGEAcgBtACAAUwB0&#xA;AGEAdABlACAAPQAgADEAIABPAHIAIABBAGwAYQByAG0AIABTAHQAYQB0AGUAIAA9ACAAMgAp&#xA;ACAATwByACAATQBlAHMAcwBhAGcAZQAgAEwASQBLAEUAIAAnACUASQBuAHQAZQByAHQAcgBh&#xA;AHYAYQBkACUAJwAgAAAAAgAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAAC&#xA;AAAAAAAAAAIAAAAAAAAAAgAAAAAACAAiAAAAQQByAGUAYQBUAG8AZABvAHMARQB2AGUAbgB0&#xA;AG8AcwAAAAgADgEAAEEAbABhAHIAbQAgAEMAbABhAHMAcwAgADwAPgAgACcATwB2AGUAcgBy&#xA;AGkAZABlACcAIABBAG4AZAAgAEEAbABhAHIAbQAgAEMAbABhAHMAcwAgAEwASQBLAEUAIAAn&#xA;ACUARQB2AGUAbgB0AG8AWwBfAF0AJQAnACAAQQBuAGQAIAAoAEEAbABhAHIAbQAgAFMAdABh&#xA;AHQAZQAgAD0AIAAxACAATwByACAAQQBsAGEAcgBtACAAUwB0AGEAdABlACAAPQAgADIAKQAg&#xA;AE8AcgAgAE0AZQBzAHMAYQBnAGUAIABMAEkASwBFACAAJwAlAEkAbgB0AGUAcgB0AHIAYQB2&#xA;AGEAZAAlACcAIAAAAAIAAQAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAA&#xA;AAAAAAACAAAAAAAAAAIAAAAAAAIAAAAKAAAACAAAAAgAIAAAAEEAcgBlAGEAQQBnAHUAYQBF&#xA;AHYAZQBuAHQAbwBzAAAACAA4AQAAQQBsAGEAcgBtAEMAbABhAHMAcwAgADwAPgAgACcATwB2&#xA;AGUAcgByAGkAZABlACcAIABBAG4AZAAgAEEAbABhAHIAbQBDAGwAYQBzAHMAIAA9ACAAJwBF&#xA;AHYAZQBuAHQAbwBfAEEAZwB1AGEAJwAgAEEAbgBkACAAKAAgACAAKABBAGMAdABpAHYAZQAg&#xA;AD0AIAAxACAAQQBOAEQAIABBAGMAawBlAGQAIAA9ACAAMAApACAATwByACAAIAAgACgAQQBj&#xA;AHQAaQB2AGUAIAA9ACAAMQAgAEEATgBEACAAQQBjAGsAZQBkACAAPQAgADEAKQApACAATwBy&#xA;ACAATQBlAHMAcwBhAGcAZQAgAEwASQBLAEUAIAAnACUASQBuAHQAZQByAHQAcgBhAHYAYQBk&#xA;ACUAJwAgAAAAAwAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAA&#xA;AAAAAgAAAAAAAAACAAAAAAAIACoAAABBAHIAZQBhAEEAdQB0AG8AbQBhAGMAYQBvAEUAdgBl&#xA;AG4AdABvAHMAAAAIAEIBAABBAGwAYQByAG0AQwBsAGEAcwBzACAAPAA+ACAAJwBPAHYAZQBy&#xA;AHIAaQBkAGUAJwAgAEEAbgBkACAAQQBsAGEAcgBtAEMAbABhAHMAcwAgAD0AIAAnAEUAdgBl&#xA;AG4AdABvAF8AQQB1AHQAbwBtAGEAYwBhAG8AJwAgAEEAbgBkACAAKAAgACAAKABBAGMAdABp&#xA;AHYAZQAgAD0AIAAxACAAQQBOAEQAIABBAGMAawBlAGQAIAA9ACAAMAApACAATwByACAAIAAg&#xA;ACgAQQBjAHQAaQB2AGUAIAA9ACAAMQAgAEEATgBEACAAQQBjAGsAZQBkACAAPQAgADEAKQAp&#xA;ACAATwByACAATQBlAHMAcwBhAGcAZQAgAEwASQBLAEUAIAAnACUASQBuAHQAZQByAHQAcgBh&#xA;AHYAYQBkACUAJwAgAAAAAwAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAA&#xA;AAIAAAAAAAAAAgAAAAAAAAACAAAAAAAIACgAAABBAHIAZQBhAEUAbABlAHQAcgBpAGMAYQBF&#xA;AHYAZQBuAHQAbwBzAAAACABAAQAAQQBsAGEAcgBtAEMAbABhAHMAcwAgADwAPgAgACcATwB2&#xA;AGUAcgByAGkAZABlACcAIABBAG4AZAAgAEEAbABhAHIAbQBDAGwAYQBzAHMAIAA9ACAAJwBF&#xA;AHYAZQBuAHQAbwBfAEUAbABlAHQAcgBpAGMAYQAnACAAQQBuAGQAIAAoACAAIAAoAEEAYwB0&#xA;AGkAdgBlACAAPQAgADEAIABBAE4ARAAgAEEAYwBrAGUAZAAgAD0AIAAwACkAIABPAHIAIAAg&#xA;ACAAKABBAGMAdABpAHYAZQAgAD0AIAAxACAAQQBOAEQAIABBAGMAawBlAGQAIAA9ACAAMQAp&#xA;ACkAIABPAHIAIABNAGUAcwBzAGEAZwBlACAATABJAEsARQAgACcAJQBJAG4AdABlAHIAdABy&#xA;AGEAdgBhAGQAJQAnACAAAAADAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAA&#xA;AAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAgAHgAAAEEAcgBlAGEARwBhAHMARQB2AGUAbgB0&#xA;AG8AcwAAAAgANgEAAEEAbABhAHIAbQBDAGwAYQBzAHMAIAA8AD4AIAAnAE8AdgBlAHIAcgBp&#xA;AGQAZQAnACAAQQBuAGQAIABBAGwAYQByAG0AQwBsAGEAcwBzACAAPQAgACcARQB2AGUAbgB0&#xA;AG8AXwBHAGEAcwAnACAAQQBuAGQAIAAoACAAIAAoAEEAYwB0AGkAdgBlACAAPQAgADEAIABB&#xA;AE4ARAAgAEEAYwBrAGUAZAAgAD0AIAAwACkAIABPAHIAIAAgACAAKABBAGMAdABpAHYAZQAg&#xA;AD0AIAAxACAAQQBOAEQAIABBAGMAawBlAGQAIAA9ACAAMQApACkAIABPAHIAIABNAGUAcwBz&#xA;AGEAZwBlACAATABJAEsARQAgACcAJQBJAG4AdABlAHIAdAByAGEAdgBhAGQAJQAnACAAAAAD&#xA;AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAA&#xA;AAIAAAAAAAgAIAAAAEEAcgBlAGEATwBsAGUAbwBFAHYAZQBuAHQAbwBzAAAACAA4AQAAQQBs&#xA;AGEAcgBtAEMAbABhAHMAcwAgADwAPgAgACcATwB2AGUAcgByAGkAZABlACcAIABBAG4AZAAg&#xA;AEEAbABhAHIAbQBDAGwAYQBzAHMAIAA9ACAAJwBFAHYAZQBuAHQAbwBfAE8AbABlAG8AJwAg&#xA;AEEAbgBkACAAKAAgACAAKABBAGMAdABpAHYAZQAgAD0AIAAxACAAQQBOAEQAIABBAGMAawBl&#xA;AGQAIAA9ACAAMAApACAATwByACAAIAAgACgAQQBjAHQAaQB2AGUAIAA9ACAAMQAgAEEATgBE&#xA;ACAAQQBjAGsAZQBkACAAPQAgADEAKQApACAATwByACAATQBlAHMAcwBhAGcAZQAgAEwASQBL&#xA;AEUAIAAnACUASQBuAHQAZQByAHQAcgBhAHYAYQBkACUAJwAgAAAAAwAAAAAAAAACAAAAAAAA&#xA;AAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAIACoAAABB&#xA;AHIAZQBhAFMAZQBnAHUAcgBhAG4AYwBhAEUAdgBlAG4AdABvAHMAAAAIAEIBAABBAGwAYQBy&#xA;AG0AQwBsAGEAcwBzACAAPAA+ACAAJwBPAHYAZQByAHIAaQBkAGUAJwAgAEEAbgBkACAAQQBs&#xA;AGEAcgBtAEMAbABhAHMAcwAgAD0AIAAnAEUAdgBlAG4AdABvAF8AUwBlAGcAdQByAGEAbgBj&#xA;AGEAJwAgAEEAbgBkACAAKAAgACAAKABBAGMAdABpAHYAZQAgAD0AIAAxACAAQQBOAEQAIABB&#xA;AGMAawBlAGQAIAA9ACAAMAApACAATwByACAAIAAgACgAQQBjAHQAaQB2AGUAIAA9ACAAMQAg&#xA;AEEATgBEACAAQQBjAGsAZQBkACAAPQAgADEAKQApACAATwByACAATQBlAHMAcwBhAGcAZQAg&#xA;AEwASQBLAEUAIAAnACUASQBuAHQAZQByAHQAcgBhAHYAYQBkACUAJwAgAAAAAwAAAAAAAAAC&#xA;AAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAI&#xA;ADQAAABBAHIAZQBhAFMAaQBzAHQAZQBtAGEAcwBHAGUAcgBhAGkAcwBFAHYAZQBuAHQAbwBz&#xA;AAAACABMAQAAQQBsAGEAcgBtAEMAbABhAHMAcwAgADwAPgAgACcATwB2AGUAcgByAGkAZABl&#xA;ACcAIABBAG4AZAAgAEEAbABhAHIAbQBDAGwAYQBzAHMAIAA9ACAAJwBFAHYAZQBuAHQAbwBf&#xA;AFMAaQBzAHQAZQBtAGEAcwBHAGUAcgBhAGkAcwAnACAAQQBuAGQAIAAoACAAIAAoAEEAYwB0&#xA;AGkAdgBlACAAPQAgADEAIABBAE4ARAAgAEEAYwBrAGUAZAAgAD0AIAAwACkAIABPAHIAIAAg&#xA;ACAAKABBAGMAdABpAHYAZQAgAD0AIAAxACAAQQBOAEQAIABBAGMAawBlAGQAIAA9ACAAMQAp&#xA;ACkAIABPAHIAIABNAGUAcwBzAGEAZwBlACAATABJAEsARQAgACcAJQBJAG4AdABlAHIAdABy&#xA;AGEAdgBhAGQAJQAnACAAAAADAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAA&#xA;AAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAgAIgAAAEEAcgBlAGEAVABvAGQAbwBzAEUAdgBl&#xA;AG4AdABvAHMAAAAIAD4BAABBAGwAYQByAG0AQwBsAGEAcwBzACAAPAA+ACAAJwBPAHYAZQBy&#xA;AHIAaQBkAGUAJwAgAEEAbgBkACAAQQBsAGEAcgBtAEMAbABhAHMAcwAgAEwASQBLAEUAIAAn&#xA;ACUARQB2AGUAbgB0AG8AWwBfAF0AJQAnACAAQQBuAGQAIAAoACAAIAAoAEEAYwB0AGkAdgBl&#xA;ACAAPQAgADEAIABBAE4ARAAgAEEAYwBrAGUAZAAgAD0AIAAwACkAIABPAHIAIAAgACAAKABB&#xA;AGMAdABpAHYAZQAgAD0AIAAxACAAQQBOAEQAIABBAGMAawBlAGQAIAA9ACAAMQApACkAIABP&#xA;AHIAIABNAGUAcwBzAGEAZwBlACAATABJAEsARQAgACcAJQBJAG4AdABlAHIAdAByAGEAdgBh&#xA;AGQAJQAnACAAAAADAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAA&#xA;AAAAAAACAAAAAAAAAAIAAAAAAAIAAAAKAAAAEAAAAAgABAAAADEAAAADAAQAAAADAAEAAAAD&#xA;AAEAAAADAOgDAAATAMYIAAATAP///wAEAAAAAAADAAgAAAAEAAAAAAAIAAQAAAAyAAAAAwAE&#xA;AAAAAwABAAAAAwABAAAAAwDoAwAAEwDebQAAEwD///8ABAAAAAAAAwAEAAAABAAAAAAACAAE&#xA;AAAAMwAAAAMABAAAAAMAAQAAAAMAAQAAAAMA6AMAABMA764AABMA////AAQAAAAAAAMAAgAA&#xA;AAQAAAAAAAgABAAAADQAAAADAAQAAAADAAEAAAADAAEAAAADAOgDAAATAACAAAATAP///wAE&#xA;AAAAAAADAAEAAAAEAAAAAAAIAAQAAAA1AAAAAwAEAAAAAwACAAAAAwABAAAAAwDoAwAAEwDG&#xA;CAAAEwD///8ABAAAAAAAAwAIAAAABAAAAAAACAAEAAAANgAAAAMABAAAAAMAAgAAAAMAAQAA&#xA;AAMA6AMAABMA3m0AABMA////AAQAAAAAAAMABAAAAAQAAAAAAAgABAAAADcAAAADAAQAAAAD&#xA;AAIAAAADAAEAAAADAOgDAAATAO+uAAATAP///wAEAAAAAAADAAIAAAAEAAAAAAAIAAQAAAA4&#xA;AAAAAwAEAAAAAwACAAAAAwABAAAAAwDoAwAAEwAAgAAAEwD///8ABAAAAAAAAwABAAAABAAA&#xA;AAAACAAEAAAAOQAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAA&#xA;AAMACAAAAAQAAAAAAAgABgAAADEAMAAAAAMABAAAAAMAAwAAAAMAAQAAAAMA6AMAABMAAIAA&#xA;ABMA////AAQAAAAAAAMABAAAAAQAAAAAAAgABgAAADEAMQAAAAMABAAAAAMAAwAAAAMAAQAA&#xA;AAMA6AMAABMAAIAAABMA////AAQAAAAAAAMAAgAAAAQAAAAAAAgABgAAADEAMgAAAAMABAAA&#xA;AAMAAwAAAAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAAAAMAAQAAAAQAAAAAAAgABgAA&#xA;ADEAMwAAAAMABAAAAAMABAAAAAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAAAAMACAAA&#xA;AAQAAAAAAAgABgAAADEANAAAAAMABAAAAAMABAAAAAMAAQAAAAMA6AMAABMAAIAAABMA////&#xA;AAQAAAAAAAMABAAAAAQAAAAAAAgABgAAADEANQAAAAMABAAAAAMABAAAAAMAAQAAAAMA6AMA&#xA;ABMAAIAAABMA////AAQAAAAAAAMAAgAAAAQAAAAAAAgABgAAADEANgAAAAMABAAAAAMABAAA&#xA;AAMAAQAAAAMA6AMAABMAAIAAABMA////AAQAAAAAAAMAAQAAAAQAAAAAAAIAAAAMAAAABwAA&#xA;AAMAqgAAAAgAGAAAAEYAaQBsAHQAZQByACAATABpAHMAdAAAAAIA//8IABgAAAAoAGMAbwBt&#xA;AGIAbwAgAGIAbwB4ACkAAAAIACAAAABTAGUAbABlAGMAdAAgAGEAIABmAGkAbAB0AGUAcgAA&#xA;AAIAAAADAAAAAAACAGQAAwD/////AwABAQAAAwAWBAAAAwAWBAAAAwDYAAAACAAYAAAARQBk&#xA;AGkAdAAgAEYAaQBsAHQAZQByAAAAAgD//wgAGAAAAEUAZABpAHQAIABGAGkAbAB0AGUAcgAA&#xA;AAgAGAAAAEUAZABpAHQAIABmAGkAbAB0AGUAcgAAAAMAAQAAAAMAAAAAAAMAFwAAAAMAbQEA&#xA;AAMAbgEAAAMAFgQAAAMAFgQAAAMAqwAAAAgAEAAAAFIAZQBmAHIAZQBzAGgAAAACAP//CAAQ&#xA;AAAAUgBlAGYAcgBlAHMAaAAAAAgAJgAAAFIAZQBmAHIAZQBzAGgAIAB0AGgAZQAgAHIAZQBw&#xA;AG8AcgB0AAAAAgACAAMAAAAAAAMAFwAAAAMAAgEAAAMAAwEAAAMAFgQAAAMAFgQAAAMArAAA&#xA;AAgACgAAAFMAdABvAHAAAAACAP//CAAKAAAAUwB0AG8AcAAAAAgATAAAAFMAdABvAHAAIABy&#xA;AGUAYQBkAGkAbgBnACAAZQB2AGUAbgB0AHMAIABmAHIAbwBtACAAdABoAGUAIABkAGEAdABh&#xA;AGIAYQBzAGUAAAACAAMAAwAAAAAAAwAXAAAAAwAEAQAAAwAFAQAAAwAWBAAAAwAWBAAAAwCt&#xA;AAAACAAKAAAARgBpAG4AZAAAAAIA//8IAAoAAABGAGkAbgBkAAAACAAKAAAARgBpAG4AZAAA&#xA;AAIABAADAAAAAAADABcAAAADAAYBAAADAAcBAAADABYEAAADABYEAAADAK4AAAAIABoAAABE&#xA;AGUAdABhAGkAbABzACAAUABhAG4AZQAAAAIA//8IABoAAABEAGUAdABhAGkAbABzACAAUABh&#xA;AG4AZQAAAAgALgAAAFMAaABvAHcALwBIAGkAZABlACAARABlAHQAYQBpAGwAcwAgAFAAYQBu&#xA;AGUAAAACAAUAAwAAAAAAAwAXAAAAAwAIAQAAAwAJAQAAAwAWBAAAAwAWBAAAAwCvAAAACAAM&#xA;AAAAUAByAGkAbgB0AAAAAgD//wgADAAAAFAAcgBpAG4AdAAAAAgADAAAAFAAcgBpAG4AdAAA&#xA;AAIABgADAAAAAAADABcAAAADAAoBAAADAAsBAAADABYEAAADABYEAAACAAAADwAAAAMAAAAD&#xA;AL4AAAADAEoBAAADAGQAAAADABYEAAADABYEAAAIABAAAABFAHYAZQBuAHQAcwA6AAAAAwAM&#xA;AQAACAA0AAAATgB1AG0AYgBlAHIAIABvAGYAIAByAGUAYwBvAHIAZABzACAAaQBuACAAbABp&#xA;AHMAdAAAAAMADQEAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAACAAAAAAAA&#xA;AAIAAAAAAAMAwQAAAAMATQEAAAMAyAAAAAMAFgQAAAMAFgQAAAgAEAAAAEYAaQBsAHQAZQBy&#xA;ADoAAAADAA4BAAAIAD4AAABUAGgAZQAgAGUAdgBlAG4AdAAgAGwAaQBzAHQAIABpAHMAIABu&#xA;AG8AdAAgAGYAaQBsAHQAZQByAGUAZAAAAAMADwEAAAgAGgAAAE4AbwB0ACAARgBpAGwAdABl&#xA;AHIAZQBkAAAAAwASAQAACAB6AAAAQQAgAGMAdQBzAHQAbwBtACAAcgB1AG4AdABpAG0AZQAt&#xA;AGQAZQBmAGkAbgBlAGQAIABmAGkAbAB0AGUAcgAgAGkAcwAgAGEAcABwAGwAaQBlAGQAIAB0&#xA;AG8AIAB0AGgAZQAgAGUAdgBlAG4AdAAgAGwAaQBzAHQAAAADABABAAAIACAAAABGAGkAbAB0&#xA;AGUAcgBlAGQAIABiAHkAOgAgACUAcwAAAAMAEQEAAAMAkgIAAAMAkwIAAAMAkAEAAAMAFgQA&#xA;AAMAFgQAAAgAOgAAAFIAZQBhAGQAaQBuAGcAIABlAHYAZQBuAHQAcwAgAGYAcgBvAG0AIABk&#xA;AGEAdABhAGIAYQBzAGUAAAADABMBAAAIACwAAABEAGEAdABhAGIAYQBzAGUAIABxAHUAZQBy&#xA;AHkAIABzAHQAYQB0AHUAcwAAAAMAFAEAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAgAA&#xA;AAAAAAACAAAAAAAAAAIAAAAAAAUAAAA="/>
+    </activeX>
+    <panel name="Panel1" height="170" width="728" left="1188" top="706" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" patternStyle="none" backColor="silver" patternColor="white" blink="false" description="" borderColor="silver" borderStyle="inset" borderWidth="1" borderUsesBackColor="true" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight"/>
+    <button name="Button5" height="35" width="121" left="1657" top="711" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="9">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Data de Início"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="Button1" height="35" width="121" left="1790" top="711" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="10">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Data Final"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="Button2" height="35" width="121" left="1720" top="793" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="11">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Aplicar Filtro"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="Button3" height="35" width="121" left="1720" top="836" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="12">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Limpar Filtro"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <activeX name="Calendar1" height="160" width="460" left="1191" top="711" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" classId="{8E27C92B-1264-101C-8A2F-040224009C02}" keyNavigation="true" focusHighlight="true" pointerHighlight="true" tabIndex="13">
+        <data progId="MSCAL.Calendar.7" fileName="MSCAL.OCX" fileVersion="11.0.5510.0" typeLibrary="{8E27C92E-1264-101C-8A2F-040224009C02}" typeLibVersion="7.131473" data="AAAIAIsvAACJEAAA3gcIAAcADwAAgAAAAAAAAKAAEAAAgAAAoAAAAAcAAAAAAAEAAAABAAAA&#xA;AQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&#xA;AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAC8AqwH&#xA;AQAFQXJpYWwBAAAAkAFEQgEABUFyaWFsAQAAALwCwNQBAAVBcmlhbA=="/>
+    </activeX>
+    <button name="BtLimpaFiltros" height="35" width="125" left="1061" top="840" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="14">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Limpar&#xA;Filtros"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaTodos" height="35" width="125" left="151" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="1">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Todos"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaGas" height="35" width="125" left="411" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="2">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Gás"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaSeguranca" height="35" width="125" left="1061" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="3">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Segurança"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaOleo" height="35" width="125" left="281" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="5">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Óleo"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaSistemasGerais" height="35" width="125" left="671" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="6">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Sistemas Gerais"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaAutomacao" height="35" width="125" left="931" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="7">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Automação"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <button name="BtAreaEletrica" height="35" width="125" left="801" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="4">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Elétrica"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <text name="Text6" height="16" width="97" left="5" top="804" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Filtro por Área:"/>
+    <button name="Button4" height="40" width="40" left="143" top="726" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" style="noborder" captureCursor="false" highlightOnFocus="false" tabIndex="15">
+        <command pressAction="Invoke Me.FactoryTalkAlarmandEventLogViewer1.ShowFindDialog" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="useImageReference" imageName="icon_lupa" scaled="false"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <text name="Text13" height="16" width="119" left="5" top="740" visible="true" wallpaper="false" toolTipText="" exposeToVba="notExposed" isReferenceObject="false" backStyle="transparent" backColor="white" foreColor="black" wordWrap="true" sizeToFit="true" alignment="middleCenter" fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Busca de Alarmes:"/>
+    <button name="BtAreaAgua" height="35" width="125" left="541" top="795" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" isReferenceObject="false" style="beveled" bevelWidth="1" captureCursor="false" highlightOnFocus="false" tabIndex="16">
+        <command pressAction="" repeatAction="" releaseAction="" repeatRate="0.25"/>
+        <up patternColor="black" patternStyle="none" backColor="silver" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="true" italic="false" underline="false" strikethrough="false" caption="Água"/>
+            <imageSettings imageReference="noImage"/>
+        </up>
+        <down downSameAsUp="true" patternColor="black" patternStyle="none" backColor="#D4D0C8" backStyle="solid" foreColor="black" endColor="white" gradientStop="50" gradientDirection="gradientDirectionHorizontal" gradientShadingStyle="gradientHorizontalFromRight">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption=""/>
+            <imageSettings imageReference="noImage"/>
+        </down>
+        <ability showDisabledState="false" expression="" enabledWhenExpressionIsTrue="true" disabledImageType="useGrayscale"/>
+        <confirm confirmAction="false" buttonSetting="okCancel" titleBar="true" titleBarText="Confirmation" windowPosition="Centered of screen">
+            <caption fontFamily="Arial" fontSize="10" bold="false" italic="false" underline="false" strikethrough="false" caption="Are you sure you want to perform this action?"/>
+            <imageSettings imageReference="noImage"/>
+        </confirm>
+    </button>
+    <activeX name="TextBox1" height="30" width="122" left="1789" top="757" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" classId="{8BD21D10-EC42-11CE-9E0D-00AA006002F3}" keyNavigation="true" focusHighlight="true" pointerHighlight="true" tabIndex="17">
+        <data progId="Forms.TextBox.1" fileName="FM20.DLL" fileVersion="15.0.4567.1000" typeLibrary="{0D452EE1-E08F-101A-852E-02608C4D0BB4}" typeLibVersion="2.0" data="AAIUAAEBAIAAAAAAG0iALJwMAAAaAwAAAAIYADUAAAAFAACAwwAAAAACAABBcmlhbAAd&#xA;WA=="/>
+    </activeX>
+    <activeX name="TextBox3" height="30" width="122" left="1655" top="757" visible="true" wallpaper="false" toolTipText="" exposeToVba="vbaControl" classId="{8BD21D10-EC42-11CE-9E0D-00AA006002F3}" keyNavigation="true" focusHighlight="true" pointerHighlight="true" tabIndex="18">
+        <data progId="Forms.TextBox.1" fileName="FM20.DLL" fileVersion="15.0.4567.1000" typeLibrary="{0D452EE1-E08F-101A-852E-02608C4D0BB4}" typeLibVersion="2.0" data="AAIUAAEBAIAAAAAAG0iALJwMAAAaAwAAAAIYADUAAAAFAACAwwAAAAACAABBcmlhbAAd&#xA;WA=="/>
+    </activeX>
+    <vbaProject>
+        <vbaItem>
+            <!--Item Name:ThisDisplay, Item Type:HostProjectItem-->
+            <encryptedData hash="8d11e2ea90dfed5a96a34bbe51e8b9ff">
+                <!--The following VBA code is encoded.Please do not edit or import will fail.-->
+                <![CDATA[J05BTUU9VGhpc0Rpc3BsYXksVFlQRT0zDQpWRVJTSU9OIDEuMCBDTEFTUw0KQkVHSU4NCiAgTXVs
+dGlVc2UgPSAtMSAgJ1RydWUNCkVORA0KQXR0cmlidXRlIFZCX05hbWUgPSAiVGhpc0Rpc3BsYXki
+DQpBdHRyaWJ1dGUgVkJfR2xvYmFsTmFtZVNwYWNlID0gRmFsc2UNCkF0dHJpYnV0ZSBWQl9DcmVh
+dGFibGUgPSBGYWxzZQ0KQXR0cmlidXRlIFZCX1ByZWRlY2xhcmVkSWQgPSBUcnVlDQpBdHRyaWJ1
+dGUgVkJfRXhwb3NlZCA9IFRydWUNCg==]]>
+            </encryptedData>
+            <vbaCode>
+                <![CDATA[Dim TagArea As Integer
+Private Sub Display_AnimationStart()
+    TagArea = 0
+    Calendar1.Value = Format(Date$, "MM/dd/yyyy")
+    ExecuteCommand ("Invoke tela_ger_eventos_historico.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaTodosEventos)")
+End Sub
+Private Sub Button1_Released()
+TextBox1.Value = "'" & Calendar1.Value & "'"
+TextBox2.Value = "'" & Format(Calendar1.Value, "MM/dd/yyyy") & " 23:59:59.999'"
+End Sub
+Private Sub Button5_Released()
+TextBox3.Value = "'" & Calendar1.Value & "'"
+TextBox4.Value = "'" & Format(Calendar1.Value, "MM/dd/yyyy") & " 00:00:00.000'"
+End Sub
+
+'Lógica para botões dos filtros de Área
+'**************************************
+
+Private Sub BtAreaTodos_Released()
+
+    TagArea = 1
+    BtAreaTodos.BackColor = RGB(160, 160, 164)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+
+    Select Case TagArea
+        Case 1
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaTodosEventos)")
+    End Select
+    
+End Sub
+Private Sub BtAreaOleo_Released()
+
+    TagArea = 2
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(160, 160, 164)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    Select Case TagArea
+        Case 2
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaOleoEventos)")
+    End Select
+    
+End Sub
+Private Sub BtAreaGas_Released()
+
+    TagArea = 3
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(160, 160, 164)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    Select Case TagArea
+        Case 3
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaGasEventos)")
+    End Select
+    
+End Sub
+Private Sub BtAreaSeguranca_Released()
+
+    TagArea = 4
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(160, 160, 164)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    Select Case TagArea
+        Case 4
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaSegurancaEventos)")
+    End Select
+    
+End Sub
+Private Sub BtAreaEletrica_Released()
+
+    TagArea = 5
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(160, 160, 164)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    Select Case TagArea
+        Case 5
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaEletricaEventos)")
+    End Select
+    
+End Sub
+Private Sub BtAreaSistemasGerais_Released()
+
+    TagArea = 6
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(160, 160, 164)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    Select Case TagArea
+        Case 6
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaSistemasGeraisEventos)")
+    End Select
+
+End Sub
+Private Sub BtAreaAutomacao_Released()
+
+    TagArea = 7
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(160, 160, 164)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    Select Case TagArea
+        Case 7
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaAutomacaoEventos)")
+    End Select
+    
+End Sub
+Private Sub BtAreaAgua_Released()
+
+    TagArea = 8
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(160, 160, 164)
+    
+    Select Case TagArea
+        Case 8
+            ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaAguaEventos)")
+    End Select
+    
+End Sub
+Private Sub BtLimpaFiltros_Released()
+    BtLimpaFiltros.BackColor = RGB(192, 192, 192)
+    BtAreaTodos.BackColor = RGB(192, 192, 192)
+    BtAreaGas.BackColor = RGB(192, 192, 192)
+    BtAreaSeguranca.BackColor = RGB(192, 192, 192)
+    BtAreaEletrica.BackColor = RGB(192, 192, 192)
+    BtAreaOleo.BackColor = RGB(192, 192, 192)
+    BtAreaSistemasGerais.BackColor = RGB(192, 192, 192)
+    BtAreaAutomacao.BackColor = RGB(192, 192, 192)
+    BtAreaAgua.BackColor = RGB(192, 192, 192)
+    
+    TagArea = 0
+    
+    ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaTodosEventos)")
+    
+    End Sub
+Private Sub Button2_Released()
+On Error GoTo ErrHandler
+FactoryTalkAlarmandEventLogViewer1.WhereClause = "EventTimeStamp BETWEEN " & TextBox4.Value & " AND " & TextBox2.Value
+
+Exit Sub
+ErrHandler:
+End Sub
+Private Sub Button3_Released()
+TextBox1.Value = ""
+TextBox1.Value = ""
+ExecuteCommand ("Invoke Me.FactoryTalkAlarmandEventLogViewer1.FilterName(AreaTodosEventos)")
+End Sub
+]]>
+            </vbaCode>
+        </vbaItem>
+    </vbaProject>
+</gfx>
