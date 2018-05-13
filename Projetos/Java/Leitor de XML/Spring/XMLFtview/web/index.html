@@ -1,34 +1,75 @@
 <!DOCTYPE html>
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Página inicial da aplicação
 -->
 <html>
     <head>
-        <title>HTML Inicial</title>
+        <title>Adam-P74 - Leitor de XML</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <br>
-        Clicando no botão Submeter, uma página JSP será chamada.
-        <br>Ao ser aberta, esta página irá trazer uma caixa de escolha de arquivos.
-        <br>Nesta caixa de diálogo só é possível escolher pastas.
-        <br>Deve-se ser selecionada uma pasata onde há arquivos XML 
-        para sofrerem o <em>parse</em>.
-        <br>Todos os arquivos irão para a memória, pois o parser utilizado será o DOM.
-        <br>Desta forma será possêvel se navegar pela árvore de Nodes.
-        <div>
-            <form action="chamaControle" method="get">
-                <input type="submit" value="Todos os XML's"/>
-            </form>
-            <br>
-            <form action="sp" method="get">
-                <input type="text" name="termoPesquisa"/><br>
-                <input type="submit" value="Pesquisar Termo"/>
-            </form>
 
+        <!--        <style>
+                    body {
+                        background-color: #606219;
+                    }
+                </style>-->
+
+    </head>
+    <body >
+
+
+        <br>
+        <br>
+        <div id="div1">
+            <br><hr>
+            <i> Erros a resolver:</i>
+            <ul>    
+                <li>    1) <em> RESOLVIDO </em>Retorno de lista com tamanho 0;</li>
+                <li>    2) Usuário deve saber se o aplicativo está rodando</li>
+                <li>    3) <em> RESOLVIDO </em>Filechooser não abre após a primeira vez</li>
+                <li>    4) <em> RESOLVIDO </em>Mostrar número de termos encontrados. Este número já está disponível na 
+                    classe Parser e pode ser conseguido com o getCounter (static Method)</li>
+                <li>    5) <em> RESOLVIDO </em> Caminho do FileChooser não entende espaço na pasta TELAS XML
+                <li>    6) <em> RESOLVIDO </em> Migrar os Servlets para JSP
+                <li>    7) <em> RESOLVIDO </em> Definir local para o arquivo Temp</li>  
+                <li>    9) Migrar o código do Servlet e das Classes ControleDOM e DiretorioXML para usar as Tags</li>
+                <li>   10) Estudar e verificar a possibilidade de implementar o SAX
+                <li>   11) Testar os Servlets e JSP's anteriores. Alguns métodos foram modificados.</li>
+                <li>   12) Logar o tempo inicial e final da execução</li>
+                <li>   13) <em> RESOLVIDO </em> Contagem de resultados errada</li>
+                <li>   14) Os istens contam corretamente, mas o buffer não faz o flush na sessão correta</li>
+            </ul>
         </div>
+
+        <div>
+
+            <br><br>
+            Teste de JSP. Início da migração de Servlet.
+            <form action="jspIni" method="post">
+                <input type="text" name="termoPesquisa"/><br><br>
+                <input type="submit" value="Pesquisar em JSP"/>
+            </form>
+        </div><br><br>
+
+        Desenvolvido o back-end destinado ao JSP, utilizando-se as EL, JSTL, Taglibs,
+        Taghandlers e SimpleTags. Falta pensar em transformar as informações de texto
+        em objetos reutilizáveis para linkar com as progressão das pesquisas.
+
+        <div>
+
+            <br><br>
+            Pronto para receber front-end
+            <form action="jspEL" method="post">
+                <input type="text" name="termoPesquisaEL"/><br><br>
+                <input type="submit" value="Pesquisar em JSP com EL"/>
+            </form>
+        </div><br><br>
+        <input type='file' />;
+        <script>
+            var x = Math.floor(Math.random() * 60626);
+            console.log(x);
+            document.getElementById("div1").style.color = "#" + x;
+
+        </script>
     </body>
 </html>

@@ -1,36 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!-- ____________________________INIT PARAMS________________________________ -->
+    <context-param>
+        <param-name>diretorio</param-name>
+        <param-value>/Users/Adam/Desktop/TELAS XML/</param-value>
+    </context-param>
     <servlet-mapping>
-        <servlet-name>ServletPesquisa</servlet-name>
-        <url-pattern>/sp</url-pattern>
+        <servlet-name>testeJS</servlet-name>
+        <url-pattern>/js</url-pattern>
     </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <!-- ____________________________INDEX _____________________________________ -->
     <welcome-file-list>
         <welcome-file>
             index.html
         </welcome-file>
     </welcome-file-list>
-    <display-name>NomeDoServlet</display-name>
-    <!-- Definição do Servlet que vai controlar as chamadas do webclient -->
+    <!-- _________________________MAPPING ORIGEM________________________________ -->
     <servlet>
-        <description/>
-        <!-- Nome que será mostrado no log -->
-        <display-name>NomeDoServletInterno</display-name>
-        <!-- Alias do Servlet -->
-        <servlet-name>ServletControl</servlet-name>
-        <!-- Classe real a ser invocada -->
-        <servlet-class>br.com.adam.xmlftview.controller.ServletControl</servlet-class>
+        <servlet-name>testeJS</servlet-name>
+        <jsp-file>/WEB-INF/jsp/testeJS.jsp</jsp-file>
     </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPesquisa</servlet-name>
+        <url-pattern>/pesquisa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jspIni</servlet-name>
+        <url-pattern>/jspIni</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jspExpressionLanguage</servlet-name>
+        <url-pattern>/jspEL</url-pattern>
+    </servlet-mapping>
+    <!-- _________________________MAPPING DESTINO________________________________ -->
     <servlet>
+        <display-name>Pesquisa</display-name>
         <servlet-name>ServletPesquisa</servlet-name>
         <servlet-class>br.com.adam.xmlftview.controller.ServletPesquisa</servlet-class>
     </servlet>
-    <servlet-mapping>
-        <!-- Alias do Servlet e como ele deve ser chamado pelo webclient -->
-        <servlet-name>ServletControl</servlet-name>
-        <!-- No arquivo META-INF/context.xml existe o início do URL
-        No caso é: <Context path="/XMLFtview"/>. Então para acessar os serviços da 
-        classe o usuário deve digitar todo o endereço do do path mais o acessor do Servlet:
-        url-servidor:porta/XMLFtview/control-->
-        <url-pattern>/chamaControle</url-pattern>
-    </servlet-mapping>
+    <servlet>
+        <servlet-name>jspIni</servlet-name>
+        <jsp-file>/WEB-INF/jsp/jspIni.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>jspExpressionLanguage</servlet-name>
+        <jsp-file>/WEB-INF/jsp/jspEL.jsp</jsp-file>
+    </servlet>
 </web-app>

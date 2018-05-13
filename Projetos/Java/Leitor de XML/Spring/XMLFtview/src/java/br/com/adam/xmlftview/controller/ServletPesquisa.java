@@ -5,15 +5,22 @@
  */
 package br.com.adam.xmlftview.controller;
 
-import br.com.adam.xmlftview.modelo.Leitor;
+import br.com.adam.xmlftview.modelo.DiretorioXML;
 import br.com.adam.xmlftview.modelo.Parser;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.StringTokenizer;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -21,6 +28,7 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class ServletPesquisa extends HttpServlet {
 
+    private static int arquivos = 0;
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
      * methods.
@@ -30,72 +38,15 @@ public class ServletPesquisa extends HttpServlet {
      * @throws ServletException if a servlet-specific error occurs
      * @throws IOException if an I/O error occurs
      */
-    protected void processRequest(HttpServletRequest request, HttpServletResponse response)
+    static PrintWriter out;
+
+    protected void processRequest(final HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Pesquisa Termo</title>");
-            out.println("<style type=\"text/css\">");
-            out.println("td,th{border: 1px solid black;}");
-            out.println("</style>");
-            out.println("</head>");
-            out.println("<body>");
+        HttpSession session = request.getSession();
+        arquivos = 0;
+        System.out.println("Session ID: " + session.getId());
 
-            //Inicia uma tabela para receber a lista de arquivos encontrados.
-            out.println("<table>");
-            //Inicia uma linha. Esta linha será a de cabeçalho
-            out.println("<tr>");
-            //Este é o cabeçalho da coluna (há duas colunas)
-            out.println("<th>xxxx</th>");
-            out.println("<th>xxxx</th>");
-            out.println("<th>xxxx</th>");
-            out.println("<th>xxxx</th>");
-            //Fim da linha cabeçalho
-            out.println("</tr>");
-
-            //Instancia um objeto leitor. Este objeto traz a lista de arquivos encontrados.
-            Leitor leitor = new Leitor();
-            int i = 0;
-
-            for (File f : leitor.getListaArquivosXML()) {
-                if (f.getName().contains(".xml")) {
-                    i++;
-                    //Inicia uma linha
-                    out.println("<tr>");
-                    out.println("<td>");
-                    out.println(i);
-                    out.println("</td>");
-                    //Inicia uma célula
-                    out.println("<td>");
-                    //Exibe o nome do arquivo na célula
-                    out.println(f.getName().replace(".xml", ""));
-                    out.println("</td>");
-                    //Preenche provisoriamente a segunda coluna
-                    out.println("<td>");
-                    out.println(f.length() / 1024 + "kB");
-                    out.println("</td>");
-                    out.println("<td>");
-                    Parser p = new Parser(f);
-                    p.setPesquisa(request.getParameter("termoPesquisa"));
-                    out.println(p.getRoot().getNodeName());
-                    out.println("</td>");
-                    out.println("</tr>");
-
-                }
-            }
-            out.println("</td>");
-            out.println("</table>");
-            out.println("\n-----------------------------------------------------"
-                    + "---------------------------------------------------------"
-                    + "---------------------------------------------------------");
-            out.println("</body>");
-            out.println("</html>");
-
-        } catch (Exception e) {
-        }
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -110,6 +61,7 @@ public class ServletPesquisa extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        System.out.println("ServletPesquisa recebendo GET " + request);
         processRequest(request, response);
     }
 
@@ -122,9 +74,56 @@ public class ServletPesquisa extends HttpServlet {
      * @throws IOException if an I/O error occurs
      */
     @Override
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    protected void doPost(final HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+
+        System.out.println("Recebendo Post: " + request.getServletPath());
+
+        out = response.getWriter();
+        out.println("<!DOCTYPE html>");
+        out.println("<html>");
+        out.println("<head>");
+        out.println("<title>Teste de Servlet</title>");
+        out.println("<style type=\"text/css\">");
+        out.println("td,th{border: 1px solid black;}");
+        out.println("</style>");
+        out.println("</head>");
+        out.println("<body>");
+
+        ////Leitor.setDiretorioRaiz(getServletContext().getInitParameter("diretorio"));
+        //Instancia um objeto leitor. Este objeto traz a lista de arquivos encontrados.
+        DiretorioXML leitor = new DiretorioXML();
+        final int numeroArquivos = leitor.getListaArquivosXML().size();
+
+        //Conteúdo da tabela
+        for (final File f : leitor.getListaArquivosXML()) {
+            Runnable thread = new Runnable() {
+                @Override
+                public void run() {
+                    arquivos++;
+                    //Para cada arquivo encontrado é instanciado um objeto Parse
+                    Parser p = new Parser(f, request.getParameter("termoPesquisa"));
+                    System.out.println(100 * arquivos / numeroArquivos);
+                    //out.print(100 * arquivos / numeroArquivos);
+                    out.flush();
+                }
+            };
+            thread.run();
+        }
+        /**
+         * Inicia a leitura do arquivo output.txt
+         */
+        this.tokenizer();
+
+        //Impresso após todo o conteúdo do tokenizer
+        out.println("FIM");
+        out.println("<hr>");
+        out.println("</body>");
+        out.println("</html>");
+
+        this.init();
+
     }
 
     /**
@@ -136,5 +135,62 @@ public class ServletPesquisa extends HttpServlet {
     public String getServletInfo() {
         return "Short description";
     }// </editor-fold>
+
+    /**
+     * Este método instancia um objeto BufferedReader que receberá o arquivo
+     * temporário com os resultados da busca. Este arquivo é utiizado como
+     * despejo de memória do DOM. Dentro deste método o arquivo de texto é lido
+     * linha a linha. Tokenizer é analisar cada String em busca de tokens
+     * conhecidos. Cada termo encontrado na busca tem um caracter
+     * <b>"|"</b> inserido para marcar o fim daquela busca, e cada caracter "?"
+     * indica uma quebra de linha no HTML de saída.
+     */
+    private void tokenizer() {
+
+        BufferedReader br;
+        int contaItens = 0;
+        try {
+            Parser parser = new Parser();
+            br = new BufferedReader(new FileReader(Parser.arquivoDeDespejo));
+            String strB;
+            try {
+                //Lê cada linha até a última, qunado readline retorna null
+                while ((strB = br.readLine()) != null) {
+                    if (!strB.isEmpty()) {
+
+                        //Separador de novas linhas (documento). Cada vez que encontra 
+                        //a "|" instancia-se um novo pedaço de String para se analisar.
+                        StringTokenizer strT = new StringTokenizer(strB, "|");
+
+                        //Analisa todos os pedaços tokenizados por "|"
+                        while (strT.hasMoreElements()) {
+
+                            String _s0 = (String) strT.nextElement();
+
+                            if (_s0.contains("?!")) {
+                                contaItens++;
+                                out.println("[" + contaItens + "]");
+                            }
+                            //Se encontrar na String um "?!", criará uma nova linha no HTML
+                            out.println(_s0.replace("?!", "<br>"));
+                            out.println("<br>");
+                            out.flush();
+                        }
+
+                        out.println("Número de termos encontrados: " + new Parser().getCounter() + "<br>");
+                        out.println();
+                        out.println("<br>");
+                    }
+                }
+                br.close();
+            } catch (IOException ex) {
+                Logger.getLogger(ServletPesquisa.class.getName()).log(Level.SEVERE, null, ex);
+            }
+
+            System.out.println("Fim de leitura do arquivo TEMP");
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(ServletPesquisa.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 
 }
