@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!-- ____________________________INIT PARAMS________________________________ -->
+    <context-param>
+        <param-name>diretorio</param-name>
+        <param-value>/Users/Adam/Desktop/TELAS XML/</param-value>
+    </context-param>
+    <servlet-mapping>
+        <servlet-name>testeJS</servlet-name>
+        <url-pattern>/js</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <!-- ____________________________INDEX _____________________________________ -->
+    <welcome-file-list>
+        <welcome-file>
+            index.html
+        </welcome-file>
+    </welcome-file-list>
+    <!-- _________________________MAPPING ORIGEM________________________________ -->
+    <servlet>
+        <servlet-name>testeJS</servlet-name>
+        <jsp-file>/WEB-INF/jsp/testeJS.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPesquisa</servlet-name>
+        <url-pattern>/pesquisa</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jspIni</servlet-name>
+        <url-pattern>/jspIni</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>jspExpressionLanguage</servlet-name>
+        <url-pattern>/jspEL</url-pattern>
+    </servlet-mapping>
+    <!-- _________________________MAPPING DESTINO________________________________ -->
+    <servlet>
+        <display-name>Pesquisa</display-name>
+        <servlet-name>ServletPesquisa</servlet-name>
+        <servlet-class>br.com.adam.xmlftview.controller.ServletPesquisa</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>jspIni</servlet-name>
+        <jsp-file>/WEB-INF/jsp/jspIni.jsp</jsp-file>
+    </servlet>
+    <servlet>
+        <servlet-name>jspExpressionLanguage</servlet-name>
+        <jsp-file>/WEB-INF/jsp/jspEL.jsp</jsp-file>
+    </servlet>
+</web-app>
